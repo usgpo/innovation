@@ -45,7 +45,8 @@ permalink: /resources/
     <div id="a3" class="usa-accordion-content">
       <p>Legislative Data and Transparency Conference</p>
     <ul>
-  <li>First Panel, Introductory Remarks (2015) <a href="http://xml.house.gov/resources/LDTC15_Introduction_FirstPanel.pdf">PDF</a></li>
+<li><a href="https://www.youtube.com/watch?v=Bv8vlaIQ6-o">Conference Video (2017)</a></li>  
+<li>First Panel, Introductory Remarks (2015) <a href="http://xml.house.gov/resources/LDTC15_Introduction_FirstPanel.pdf">PDF</a></li>
   <li>Legislative Process Overview (2013) <a href="http://xml.house.gov/resources/LegislativeProcessOverview.pdf">PDF</a></li>
         </ul>
       <p>World e-Parliament Conference</p>
