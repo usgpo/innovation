@@ -1,0 +1,38 @@
+title: Legislative Branch Innovation Hub
+email: 
+description: >
+  The Innovation Hub seeks to inform, educate, share, and communicate the activities of the Legislative branch toward data standardization and increased transparency through improved use of digital tools. 
+
+plugins: 
+- jekyll-remote-theme 
+
+
+remote_theme: 18f/uswds-jekyll@38f6d3ceac7a04fa6d53ebcbaace81b909ea5801
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+baseurl: /innovation
+
+collections:
+  events:
+    output: true
+    permalink: /:collection/:path/
+  pages:
+    output: true
+    permalink: /:path/
+
+styles:
+  - /assets/css/main.css
+
+kramdown:
+  hard_wrap: true
+
+exclude:
+  - assets/*.md
+  - Gemfile
+  - Gemfile.lock

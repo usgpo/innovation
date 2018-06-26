@@ -1,0 +1,16 @@
+type: extended
+
+primary:
+  links:
+    - text: About the Hub
+      href: /about_the_hub/
+    - text: Leadership Support
+      href: /leadership_support/
+    - text: Data Standardization
+      href: /data_standardization/
+    - text: Events
+      href: /events/
+    - text: Resources
+      href: /resources/
+
+    

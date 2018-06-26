@@ -1,0 +1,54 @@
+---
+---
+
+$font-path:   '../uswds/fonts';
+$image-path:  '../uswds/img';
+
+$color-primary: #112e51;
+
+$color-primary-alt: #8ba6ca;
+$color-primary-alt-dark: darken($color-primary-alt, 10%);
+$color-primary-alt-darkest: darken($color-primary-alt, 20%);
+
+$color-secondary: $color-primary-alt;
+$color-secondary-dark: $color-primary-alt-dark;
+$color-secondary-darkest: $color-primary-alt-darkest;
+
+
+
+
+
+@import 'uswds/all';
+
+// Hero -------------- //
+
+.usa-hero-callout {
+  .usa-button {
+    background-color: $color-secondary;
+    color: $color-base;
+    display: block;
+    margin-top: 2em;
+    
+    &:hover {
+      background-color: $color-secondary-dark;
+      color: $color-base;
+    }
+  }
+}
+
+@include media($small-screen) {
+  .usa-hero-callout {
+    max-width: 31rem;
+  }
+}
+
+// Footer -------------- //
+
+.usa-footer-logo {
+  display: none;
+}
+
+.usa-footer-contact-links {
+  text-align: left;
+}
+
