@@ -46,7 +46,11 @@ permalink: /resources/
       <p>Legislative Data and Transparency Conference</p>
     <ul>
 <li><a href="https://www.youtube.com/watch?v=Bv8vlaIQ6-o">Conference Video (2017)</a></li>  
+<li><a href="https://youtu.be/dkC_HsFiq2Q">Conference Video (2016)</a></li>
+<li><a href="https://youtu.be/OAWKWMqLPJ0">Conference Video (2015)</a></li>
 <li>First Panel, Introductory Remarks (2015) <a href="http://xml.house.gov/resources/LDTC15_Introduction_FirstPanel.pdf">PDF</a></li>
+<li><a href="https://youtu.be/MVqNNlluPr0">Conference Video (2014)</a></li>
+<li><a href="https://youtu.be/H1moMDvVhAM">Conference Video (2013)</a></li>
   <li>Legislative Process Overview (2013) <a href="http://xml.house.gov/resources/LegislativeProcessOverview.pdf">PDF</a></li>
         </ul>
       <p>World e-Parliament Conference</p>

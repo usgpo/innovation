@@ -15,7 +15,7 @@ hero:
 
 tagline: Welcome innovators!
 intro: |
-  The Innovation Hub seeks to inform, educate, share, and communicate the activities of the Legislative branch toward data standardization and increased transparency through improved use of digital tools. 
+  The Innovation Hub seeks to highlight Legislative branch activities that use technology to cultivate collaboration, foster data standardization, and increase transparency. 
 
   *Innovate. Communicate. Legislate.*
 ---
