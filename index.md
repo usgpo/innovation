@@ -30,7 +30,7 @@ intro: |
     {{ page.intro | markdownify }}
   </div>
   <div class="usa-width-one-third">
-    <h3>Events</h3>
+    <h3>Upcoming Events</h3>
       {% assign _today = site.time | date: '%Y-%m-%d' %}
       {% assign _events = site.events | where_exp: 'event', 'event.event_date >= _today' %}
       {% if _events.size > 0 %}
