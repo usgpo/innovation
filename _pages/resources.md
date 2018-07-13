@@ -45,7 +45,7 @@ permalink: /resources/
     <div id="a3" class="usa-accordion-content">
       <p>Legislative Data and Transparency Conference</p>
     <ul>
-<li><a href="https://www.youtube.com/watch?v=DcTP4OgIJdo">Conference Video - Afternoon Panels (2018)</a></li> 
+<li><a href="https://www.youtube.com/watch?v=DcTP4OgIJdo">Conference Video (2018)</a></li> 
 <li><a href="https://www.youtube.com/watch?v=Bv8vlaIQ6-o">Conference Video (2017)</a></li>  
 <li><a href="https://youtu.be/dkC_HsFiq2Q">Conference Video (2016)</a></li>
 <li><a href="https://youtu.be/OAWKWMqLPJ0">Conference Video (2015)</a></li>
