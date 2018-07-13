@@ -14,7 +14,7 @@ permalink: /resources/
     </button>
     <div id="a1" class="usa-accordion-content">
              <ul><li>How Our Laws Are Made (H. Doc. 110-49) <a href="https://www.govinfo.gov/content/pkg/CDOC-110hdoc49/pdf/CDOC-110hdoc49.pdf">PDF</a> | <a href="https://www.congress.gov/resources/display/content/How+Our+Laws+Are+Made+-+Learn+About+the+Legislative+Process">HTML</a></li>
-               <li>Lifecycle of a Legislative Provision and Legislative Workflow <a href="{{ site.baseurl }}/resources/LifecycleofaLegisProvision.pdf">PDF</a></li>
+               <li>Lifecycle of a Legislative Provision and Legislative Workflow <a href="{{ site.baseurl }}/resources/lifecycle-legislative-provision-released-01.png">PNG</a></li>
        <li>Drafting Legislation with XML (written in the 1990s) <a href="http://xml.house.gov/drafting.htm">HTML</a></li>    
         </ul>
     </div>
