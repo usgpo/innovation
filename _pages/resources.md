@@ -79,12 +79,13 @@ permalink: /resources/
     </button>
     <div id="a4" class="usa-accordion-content">
   <ul>   
-       <li><a href="https://www.govinfo.gov">govinfo.gov</a></li>
+      <li><a href="https://www.govinfo.gov">govinfo.gov</a></li>
       <li><a href="http://uscode.house.gov">uscode.house.gov</a></li>
       <li><a href="https://docs.house.gov">docs.house.gov</a></li>
       <li><a href="http://clerk.house.gov">clerk.house.gov</a></li>
       <li><a href="http://xml.house.gov">xml.house.gov</a></li>
       <li><a href="https://www.congress.gov">congress.gov</a></li>
+      <li><a href="https://crsreports.congress.gov/">crsreports.congress.gov</a></li>
       <li><a href="https://www.senate.gov">senate.gov</a></li>
       </ul>
     </div>
