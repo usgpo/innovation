@@ -99,7 +99,9 @@ permalink: /resources/
     <div id="a5" class="usa-accordion-content">
         <p>Government Publishing Office</p>
       <ul>   
-       <li><a href="https://www.govinfo.gov/bulkdata">XML and JSON Endpoints</a></li>   
+       <li><a href="https://www.govinfo.gov/bulkdata">XML and JSON Endpoints</a></li>
+       <li><a href="https://www.govinfo.gov/bulkdata/BILLS">Congressional Bills</a></li> 
+       <li><a href="https://www.govinfo.gov/bulkdata/BILLS/uslm">Congressional Bills - Enrolled Only (Beta USLM XML)</a></li>  
        <li><a href="https://www.govinfo.gov/bulkdata/BILLSTATUS">Bill Status</a></li>   
        <li><a href="https://www.govinfo.gov/bulkdata/BILLSUM">Bill Summaries</a></li> 
        <li><a href="https://www.govinfo.gov/bulkdata/CFR">Code of Federal Regulations (Annual Edition)</a></li> 
@@ -108,8 +110,10 @@ permalink: /resources/
         <li><a href="https://www.govinfo.gov/bulkdata/GOVMAN">United States Government Manual</a></li>  
         <li><a href="https://www.govinfo.gov/bulkdata/HMAN">House Rules and Manual</a></li>  
         <li><a href="https://www.govinfo.gov/bulkdata/PAI">Privacy Act Issuances</a></li>  
+        <li><a href="https://www.govinfo.gov/bulkdata/PLAW">Public and Private Laws (Beta USLM XML)</a></li> 
         <li><a href="https://www.govinfo.gov/bulkdata/PPP">Public Papers of the Presidents</a></li>  
-         </ul>
+        <li><a href="https://www.govinfo.gov/bulkdata/STATUTE">Statutes at Large (Beta USLM XML)</a></li>  
+        </ul>
         <p>House of Representatives</p>
         <ul>
             <li><a href="http://clerk.house.gov/xml/lists/MemberData.xml">Member Data</a></li>
