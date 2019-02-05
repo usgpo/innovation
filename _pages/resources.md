@@ -43,7 +43,12 @@ permalink: /resources/
     Conferences and Presentations
     </button>
     <div id="a3" class="usa-accordion-content">
-      <p>Legislative Data and Transparency Conference</p>
+        <p>Bulk Data Task Force Videos</p>
+        <ul>
+            <li><a href="https://vimeo.com/311682809/fc3d1c2a45">November 2018</a></li>
+            <li><a href="https://vimeo.com/311683547/eb0eab832b">February 2018</a></li>    
+        </ul>
+     <p>Legislative Data and Transparency Conference</p>
     <ul>
 <li><a href="https://www.youtube.com/watch?v=9up3Lnpy1O0">Conference Video (2018)</a></li> 
 <li><a href="https://www.youtube.com/watch?v=Bv8vlaIQ6-o">Conference Video (2017)</a></li>  
