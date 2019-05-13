@@ -188,3 +188,15 @@ Developer Resources
        <li>Congressional Hackathons <a href="http://congressionaldata.org/recap-of-the-third-congressional-hackathon/">2017</a> | <a href="http://congressionaldata.org/second-congressional-hackathon-a-great-success/">2015</a> | <a href="https://sunlightfoundation.com/2011/12/08/in-hackwetrust-the-house-of-representatives-opens-its-doors-to-transparency-through-technology/">2011</a></li>
   </ul>           
 </div>
+    <li>
+    <button class="usa-accordion-button"
+      aria-expanded="false"
+      aria-controls="a7">
+ Select Committee on the Modernization of Congress
+    </button>
+    <div id="a7" class="usa-accordion-content">
+  <ul>   
+      <li>Opening up the Process: Recommendations for Making Legislative Information More Transparent (May 10, 2019) <a href="https://www.youtube.com/watch?v=-qLMtYemXyE">Video</a> | <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=109468">Meeting Details</a></li>     
+    </ul>
+    </div>
+  </li>
