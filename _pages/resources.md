@@ -40,7 +40,7 @@ permalink: /resources/
     <button class="usa-accordion-button"
       aria-expanded="false"
       aria-controls="a3">
-    Conferences and Presentations
+    Conferences, Presentations, and Meetings
     </button>
     <div id="a3" class="usa-accordion-content">
         <p>Bulk Data Task Force Videos</p>
@@ -59,6 +59,14 @@ permalink: /resources/
 <li><a href="https://youtu.be/H1moMDvVhAM">Conference Video (2013)</a></li>
   <li>Legislative Process Overview (2013) <a href="http://xml.house.gov/resources/LegislativeProcessOverview.pdf">PDF</a></li>
         </ul>
+ <p>Select Committee on the Modernization of Congress</p>
+        <ul>
+<li>Opening up the Process: Recommendations for Making Legislative Information More Transparent (May 10, 2019) <a href="https://www.youtube.com/watch?v=-qLMtYemXyE">Video</a> | <a href="https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=109468">Meeting Details</a></li>              
+      </ul>
+      <p> Congressional Transparency Caucus of the U.S. House of Representatives</p>
+        <ul>
+      <li> Tools to Track Legislative Information (June 7, 2019) <a href="https://www.youtube.com/watch?v=0mIzjT8e0yE&feature=youtu.be">Video</a> | <a href="https://transparencycaucus.info/2019/06/08/transparency-caucus-features-tools-to-track-legislative-information/">Summary</a></li>     
+     </ul>
       <p>World e-Parliament Conference</p>
   <ul>
 <li><a href="http://wepc2014.org/">2014</a> | <a href="https://wepc2014.files.wordpress.com/2014/05/reeves.pdf">PDF 1</a> | <a href="https://wepc2014.files.wordpress.com/2014/05/gullickson.pdf">PDF 2</a></li>
