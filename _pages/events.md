@@ -26,7 +26,7 @@ permalink: /events/
 {% assign _events = site.events | where_exp: 'event', 'event.event_date < _today' %}
 {% if _events.size > 0 %}
 <ul>
-  {% for event in _events limit:3 %}
+  {% for event in _events limit:5 %}
     <li><a href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a><br>
     <em>{{ event.event_date | date: "%m/%d/%Y" }}</em></li>
   {% endfor %}
