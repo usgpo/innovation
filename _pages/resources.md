@@ -27,7 +27,7 @@ permalink: /resources/
     </button>
     <div id="a2" class="usa-accordion-content">
              <ul>   
-       <li>United States Legislative Technology Timeline <a href="http://xml.house.gov/resources/TechTimeline.htm">HTML</a></li>       
+       <li>United States Legislative Technology Timeline <a href="{{ site.baseurl }}/resources/2019-Tech-Timeline-Booklet.pdf">PDF</a> | <a href="http://xml.house.gov/resources/TechTimeline.htm">HTML</a></li>       
       </ul>
     </div>
   </li>
