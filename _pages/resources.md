@@ -13,9 +13,12 @@ permalink: /resources/
    Legislative Process
     </button>
     <div id="a1" class="usa-accordion-content">
-             <ul><li>How Our Laws Are Made (H. Doc. 110-49) <a href="https://www.govinfo.gov/content/pkg/CDOC-110hdoc49/pdf/CDOC-110hdoc49.pdf">PDF</a> | <a href="https://www.congress.gov/resources/display/content/How+Our+Laws+Are+Made+-+Learn+About+the+Legislative+Process">HTML</a></li>
-               <li>Lifecycle of a Legislative Provision and Legislative Workflow <a href="{{ site.baseurl }}/resources/lifecycle-legislative-provision-released-01.pdf">PDF</a></li>
-       <li>Drafting Legislation with XML (written in the 1990s) <a href="http://xml.house.gov/drafting.htm">HTML</a></li>    
+        <ul>
+             <li>How Our Laws Are Made (H. Doc. 110-49) <a href="https://www.govinfo.gov/content/pkg/CDOC-110hdoc49/pdf/CDOC-110hdoc49.pdf">PDF</a> | <a href="https://www.congress.gov/resources/display/content/How+Our+Laws+Are+Made+-+Learn+About+the+Legislative+Process">HTML</a></li>
+             <li>Lifecycle of a Legislative Provision <a href="{{ site.baseurl }}/resources/lifecycle-legislative-provision-released-01.pdf">PDF</a></li>
+             <li>Legislative Workflow <a href="{{ site.baseurl }}/resources/2019-legislative-workflow.pdf">PDF</a></li>
+             <li>Legislative Status Steps <a href="{{ site.baseurl }}/resources/2019-legislative-status-steps.pdf">PDF</a></li>
+             <li>Drafting Legislation with XML (written in the 1990s) <a href="http://xml.house.gov/drafting.htm">HTML</a></li>    
         </ul>
     </div>
   </li>
@@ -50,6 +53,7 @@ permalink: /resources/
         </ul>
      <p>Legislative Data and Transparency Conference</p>
     <ul>
+<li><a href="https://www.youtube.com/watch?v=hTZ0MPGPY74">Conference Video (2019)</a></li> 
 <li><a href="https://www.youtube.com/watch?v=9up3Lnpy1O0">Conference Video (2018)</a></li> 
 <li><a href="https://www.youtube.com/watch?v=Bv8vlaIQ6-o">Conference Video (2017)</a></li>  
 <li><a href="https://youtu.be/dkC_HsFiq2Q">Conference Video (2016)</a></li>
