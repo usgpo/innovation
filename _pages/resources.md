@@ -73,6 +73,7 @@ permalink: /resources/
      </ul>
       <p>World e-Parliament Conference</p>
   <ul>
+      <li><a href="https://www.ipu.org/event/virtual-world-e-parliament-conference">2021</a> | <a href="https://usgpo.github.io/innovation/resources/SlideDeck_UnitedStatesHouse_ComparativePrints-WorldeParliament2021-June-17-Released.pdf">PDF</a></li>      
 <li><a href="http://wepc2014.org/">2014</a> | <a href="https://wepc2014.files.wordpress.com/2014/05/reeves.pdf">PDF 1</a> | <a href="https://wepc2014.files.wordpress.com/2014/05/gullickson.pdf">PDF 2</a></li>
           <li><a href="http://www.ictparliament.org/WePC2012/">2012</a> | <a href="http://xml.house.gov/2012/WePC2012-Presentation.zip">ZIP</a></li>
     <li><a href="http://www.ictparliament.org/worldeparliamentconference2008/">2008</a> | <a href="http://xml.house.gov/World_EParliamentConference_LegislationInXML_USHouse_USA.pdf">PDF</a></li>
