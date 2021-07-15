@@ -35,5 +35,5 @@ permalink: /events/
 <ul>
   <il>There are no previous events to show at this time.</il>
 </ul>
-{% endif %}
+{% endif %} 
 
