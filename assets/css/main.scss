@@ -15,10 +15,14 @@ $color-secondary-dark: $color-primary-alt-dark;
 $color-secondary-darkest: $color-primary-alt-darkest;
 
 
-
-
-
 @import 'uswds/all';
+
+// Header -------------- //
+
+.usa-nav-primary {
+  display: inline-block;
+}
+
 
 // Hero -------------- //
 
