@@ -50,6 +50,27 @@ permalink: /reports/
 * Quarterly Report 9 - December 30, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR9-Committee-Votes.pdf)  
 * Quarterly Report 10 - April 17, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR10-Committee-Votes.pdf)  
 
+  
+### Unique IDs for Reports Filed by Registered Lobbyists  
+* Initial Report - Required by Section 505 of House Resolution 756 of the 116th Congress - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Initial-Unique-ID.pdf)  
+* Quarterly Report 1 - October 15, 2020 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR1-Unique-ID.pdf)  
+* Quarterly Report 2 - January 15, 2021 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR2-Unique-ID.pdf)  
+* Quarterly Report 3 - April 15, 2021 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR3-Unique-ID.pdf)  
+* Quarterly Report 4 - July 15, 2021 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR4-Unique-ID.pdf)  
+* Quarterly Report 5 - October 15, 2021 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR5-Unique-ID.pdf)  
+* Quarterly Report 6 - January 15, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR6-Unique-ID.pdf)  
+* Quarterly Report 7 - April 15, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR7-Unique-ID.pdf)  
+* Quarterly Report 8 - July 15, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR8-Unique-ID.pdf)  
+* Quarterly Report 9 - October 17, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR9-Unique-ID.pdf)  
+* Quarterly Report 11 - April 17, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR11-Unique-ID.pdf)  
+  
+
+### Database on Expiration Dates for Authorized Federal Programs  
+* Initial Report - Required by Section 503 of House Resolution 756 of the 116th Congress - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Initial-Program-Authorization.pdf)  
+* Annual Report 2021 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-2021-Program-Authorization.pdf)  
+* Annual Report 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-2022-Program-Authorization.pdf)  
+* Annual Report 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-2023-Program-Authorization.pdf)  
+
 
 
 
