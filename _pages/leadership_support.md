@@ -9,7 +9,7 @@ permalink: /leadership_support/
 <p>The Bulk Data Task Force, now called the Congressional Data Task Force, is a partnership of representatives from Legislative branch organizations such as the Government Publishing Office, House of Representatives, Senate, and the Library of Congress working in a cooperative manner to coordinate and accomplish openness and transparency goals. Civil society organizations frequently meet with and provide feedback to the Task Force.</p>  
 
 
-## Name Change
+### Name Change
 <p>In June, 2022 the name of the Bulk Data Task Force was changed to the Congressioal Data Task Force.</p>  
 
 * Exchange of letters - [PDF](https://usgpo.github.io/innovation/resources/reports/Exchange-of-Letters-CHA-and-Clerk-Name-Change-DataTaskForce-June2022.pdf)    
