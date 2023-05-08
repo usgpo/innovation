@@ -10,7 +10,7 @@ permalink: /leadership_support/
 
 
 ### Name Change
-<p>In June, 2022 the name of the Bulk Data Task Force was changed to the Congressioal Data Task Force.</p>  
+<p>In June 2022, the name of the Bulk Data Task Force was changed to the Congressional Data Task Force.</p>  
 
 * Exchange of letters - [PDF](https://usgpo.github.io/innovation/resources/reports/Exchange-of-Letters-CHA-and-Clerk-Name-Change-DataTaskForce-June2022.pdf)    
 * Recommendation by the Select Committee on the Modernization of Congress from page 20 of their September 24, 2020 report - [PDF](https://www.govinfo.gov/content/pkg/CPRT-116HPRT41922/pdf/CPRT-116HPRT41922.pdf)  
