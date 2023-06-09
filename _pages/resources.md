@@ -30,7 +30,7 @@ permalink: /resources/
     </button>
     <div id="a2" class="usa-accordion-content">
              <ul>   
-       <li>United States Legislative Technology Timeline (June 2023) <a href="https://github.com/usgpo/innovation/blob/master/resources/tech-timeline-2023.md">Markdown</a></li>  
+       <li>United States Legislative Technology Timeline (June 2023) <a href="{{ site.baseurl }}/resources/2023-tech-timeline-booklet-v02.pdf">PDF</a> |  <a href="https://github.com/usgpo/innovation/blob/master/resources/tech-timeline-2023.md">Markdown</a></li>  
        <li>United States Legislative Technology Timeline (Previous Version) <a href="{{ site.baseurl }}/resources/2019-Tech-Timeline-Booklet.pdf">PDF</a> | <a href="http://xml.house.gov/resources/TechTimeline.htm">HTML</a></li>       
       </ul>
     </div>

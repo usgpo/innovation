@@ -38,7 +38,7 @@
 
 **Comparative Print Suite in development**: The Office of the Clerk extended access to the Comparative Print Suite to a pilot group of more than 60 users, including staff on all House Committees. The enterprise-wide solution enables House staff to produce comparative prints showing the differences between versions of legislation, how proposed legislation will amend existing law, and how an amendment may change proposed legislation.
 
-**Electronic submission of Committee records continues**: The 117th Congress made permanent a change to the House Rules adopted in the 116th Congress upon the recommendation of the Select Committee on the Modernization of Congress. Committees can electronically submit reported measures, reports, and related files using digital signatures. More than 90 percent of reports were submitted electronically in 2021, increasing efficiency and enabling Committee staff tocollaborate remotely.
+**Electronic submission of Committee records continues**: The 117th Congress made permanent a change to the House Rules adopted in the 116th Congress upon the recommendation of the Select Committee on the Modernization of Congress. Committees can electronically submit reported measures, reports, and related files using digital signatures. More than 90 percent of reports were submitted electronically in 2021, increasing efficiency and enabling Committee staff to collaborate remotely.
 
 **eHopper use soars**: The eHopper, a secure email solution, became the primary means for Members and staff to submit bills and cosponsorships, with nearly 93 percent of introduced bills submitted electronically. The Office of the Clerk began development of a more agile system as the eHopper was expected to become a permanent addition to House practice.
 
@@ -232,12 +232,12 @@
 
 ## 1997
 
-**Establishment of exchange standards**: During the 105th Congress, the Office of the Clerk began establishing a document exchange standard, as well as the transformation, creation, and exchange of House documents using Extensible Markup Language (XML). This included an effort to customize an XML editor for the creation of bills and resolutions. The initiative is rooted in a 1996 directive from the chair of the Committee on House Oversight (later known as the Committee on House Administration) and the Senate Committee on Rules and Administration to the Clerk of the House and the Secretary of the Senate, respectively, to work together toward establishing common data standards for the exchange of legislative information (2 U.S.C. § 181).<sup>i</sup>
+**Establishment of exchange standards**: During the 105th Congress, the Office of the Clerk began establishing a document exchange standard, as well as the transformation, creation, and exchange of House documents using Extensible Markup Language (XML). This included an effort to customize an XML editor for the creation of bills and resolutions. The initiative is rooted in a 1996 directive from the chair of the Committee on House Oversight (later known as the Committee on House Administration) and the Senate Committee on Rules and Administration to the Clerk of the House and the Secretary of the Senate, respectively, to work together toward establishing common data standards for the exchange of legislative information (2 U.S.C. § 181).<sup>1</sup>
 
 
 ## 1996
 
-**House Members go online**: By the summer, 223 lawmakers had websites. More than 3,500 miles of copper cable and 312 miles of fiber-optic wire had been installed in Capitol Hill offices to connect them to the internet. During the 104th Congress, the House appropriated funds to provide each Member and Committee a new computer capable of connecting to the internet.<sup>ii</sup>
+**House Members go online**: By the summer, 223 lawmakers had websites. More than 3,500 miles of copper cable and 312 miles of fiber-optic wire had been installed in Capitol Hill offices to connect them to the internet. During the 104th Congress, the House appropriated funds to provide each Member and Committee a new computer capable of connecting to the internet.<sup>2</sup>
 
 
 ## 1995
@@ -260,12 +260,12 @@
 
 **Electronic information access enhanced**: On June 8, Congress passed the GPO Electronic Information Access Enhancement Act (Public Law 103-40), which directed GPO to make legislative and other official documents available to the public in digital form, leading to the launch of GPO Access in 1994.
 
-**First Member website**: With assistance from MIT, Senator Edward Kennedy of Massachusetts is credited with being the first Member of Congress with a website.<sup>iii</sup>
+**First Member website**: With assistance from MIT, Senator Edward Kennedy of Massachusetts is credited with being the first Member of Congress with a website.<sup>3</sup>
 
 
 ## 1987
 
-**Electronic Voting System wiring updated**: The Office of the Clerk replaced aging wiring in the Electronic Voting System's (EVS's) main display boards.
+**Electronic Voting System wiring updated**: The Office of the Clerk replaced aging wiring in the main display boards of the Electronic Voting System (EVS).
 
 ## 1983
 
@@ -287,7 +287,7 @@
 
 ## 1973
 
-**First electronic vote in the House with Electronic Voting System**: During the 93rd Congress, the first [electronic vote](https://history.house.gov/Exhibitions-and-Publications/Electronic-Technology/Telephone/) in the House took place on January 23. The vote was a 15-minute Roll Call Vote, which before the Electronic Voting System (EVS) took 30 to 45 minutes on average.
+**First electronic vote in the House with Electronic Voting System**: During the 93rd Congress, the first [electronic vote](https://history.house.gov/Exhibitions-and-Publications/Electronic-Technology/Electronic-Voting/) in the House took place on January 23. The vote was a 15-minute Roll Call Vote, which before the Electronic Voting System (EVS) took 30 to 45 minutes on average.
 
 **House Bill Status System established**: On February 26, the House Bill Status Systems began operation. In 1975, the Committee on House Oversight printed the document "The Bill Status System for the United States House of Representatives." According to the Committee print, the Bill Status System "was implemented to fulfill a need for a centralized source of legislative status information." In later years, the Legislative Information Management System (LIMS) was developed to serve this same purpose.
 
@@ -369,16 +369,16 @@
 
 **First Clerk of the House elected**: On April 1, the House of Representatives convened with its first quorum. After electing Speaker Frederick Augustus Conrad Muhlenberg of Pennsylvania, the next order of business was the election of the Clerk, John Beckley, a lawyer from Virginia. The first five Clerks of the House also served as Librarian of Congress, which became a separate position in 1815. The Clerk's duties are similar to those of the Secretary of the Continental Congress, which were established in March 1785.
 
-**House opens to the public**: Although the U.S. Constitution does not mandate open sessions, the House opened its doors to the public starting in April, during its first meetings in Federal Hall in New York City. Since that time, the House has maintained galleries so Chamber proceedings can be viewed by the public.<sup>iv</sup>
+**House opens to the public**: Although the U.S. Constitution does not mandate open sessions, the House opened its doors to the public starting in April, during its first meetings in Federal Hall in New York City. Since that time, the House has maintained galleries so Chamber proceedings can be viewed by the public.<sup>4</sup>
 
 
-<sup>i</sup><sub>See also Public Law 104-197.</sub>
+<sup>1</sup><sub>See also Public Law 104-197.</sub>
 
-<sup>ii</sup><sub>"Capitol Hill Takes to Cyberspace, Though in Fits, Starts and Stumbles," _New York Times_, July 10, 1996.</sub>
+<sup>2</sup><sub>"Capitol Hill Takes to Cyberspace, Though in Fits, Starts and Stumbles," _New York Times_, July 10, 1996.</sub>
 
-<sup>iii</sup><sub>"Calling Sen. Kennedy via the Computer," _Boston Globe_, September 15, 1993. Chris Casey, _The Hill on the Net: Congress Enters the Information Age_ (Boston: AP Professional, 1996).</sub>
+<sup>3</sup><sub>"Calling Sen. Kennedy via the Computer," _Boston Globe_, September 15, 1993. Chris Casey, _The Hill on the Net: Congress Enters the Information Age_ (Boston: AP Professional, 1996).</sub>
 
-<sup>iv</sup><sub>_House Journal_, 1st Cong., 1st sess. (4 April 1789).</sub>
+<sup>4</sup><sub>_House Journal_, 1st Cong., 1st sess. (4 April 1789).</sub>
 
 ### About the Timeline
 
@@ -387,4 +387,3 @@ Staff in the Office of the Clerk's Legislative Computer Systems and Office of Co
 Visit the [GPO](https://www.gpo.gov/who-we-are/our-agency/history) and [History, Art and Archives](https://history.house.gov/Exhibitions-and-Publications/Electronic-Technology/House-Technology/) websites for more information.
 
 Updated June 2023  
-
