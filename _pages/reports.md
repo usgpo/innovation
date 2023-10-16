@@ -20,8 +20,9 @@ permalink: /reports/
 * Quarterly Report 8 - July 15, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR8-Standardized-Formats.pdf)  
 * Quarterly Report 9 - October 17, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR9-Standardized-Formats.pdf)  
 * Quarterly Report 10 - April 17, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR10-Standardized-Formats.pdf)  
+* Quarterly Report 11 - October 13, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR11-Standardized-Formats.pdf)  
+       
 
-     
 ### Comparative Print Suite  
 * Initial Report - Required by Section 502 of House Resolution 756 of the 116th Congress - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Initial-Comparative-Print-Project.pdf)  
 * Quarterly Report 1 - October 15, 2020 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR1-Comparative-Print-Project.pdf)  
@@ -35,7 +36,8 @@ permalink: /reports/
 * Quarterly Report 9 - October 17, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR9-Comparative-Print-Project.pdf)  
 * Quarterly Report 10 - December 30, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR10-Comparative-Print-Project.pdf)  
 * Quarterly Report 11 - April 17, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR11-Comparative-Print-Project.pdf)  
-  
+* Quarterly Report 12 - October 13, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR12-Comparative-Print-Project.pdf)  
+    
   
 ### Committee Votes and Tools  
 * Initial Report - Required by Section 504 of House Resolution 756 of the 116th Congress - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Initial-Committee-Votes.pdf)  
@@ -48,8 +50,9 @@ permalink: /reports/
 * Quarterly Report 7 - July 15, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR7-Committee-Votes.pdf)  
 * Quarterly Report 8 - October 17, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR8-Committee-Votes.pdf)  
 * Quarterly Report 9 - December 30, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR9-Committee-Votes.pdf)  
-* Quarterly Report 10 - April 17, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR10-Committee-Votes.pdf)  
-
+* Quarterly Report 10 - April 17, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR10-Committee-Votes.pdf)
+* Quarterly Report 11 - October 13, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR11-Committee-Votes.pdf)  
+  
   
 ### Unique IDs for Reports Filed by Registered Lobbyists  
 * Initial Report - Required by Section 505 of House Resolution 756 of the 116th Congress - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Initial-Unique-ID.pdf)  
@@ -63,6 +66,7 @@ permalink: /reports/
 * Quarterly Report 8 - July 15, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR8-Unique-ID.pdf)  
 * Quarterly Report 9 - October 17, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR9-Unique-ID.pdf)  
 * Quarterly Report 10 - April 17, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR10-Unique-ID.pdf)  
+* Quarterly Report 11 - October 13, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR11-Unique-ID.pdf)  
   
 
 ### Database on Expiration Dates for Authorized Federal Programs  
