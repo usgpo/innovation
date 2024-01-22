@@ -67,6 +67,7 @@ permalink: /reports/
 * Quarterly Report 9 - October 17, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR9-Unique-ID.pdf)  
 * Quarterly Report 10 - April 17, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR10-Unique-ID.pdf)  
 * Quarterly Report 11 - October 13, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR11-Unique-ID.pdf)  
+* Quarterly Report 12 - January 12, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR12-Unique-ID.pdf)  
   
 
 ### Database on Expiration Dates for Authorized Federal Programs  
@@ -74,7 +75,7 @@ permalink: /reports/
 * Annual Report 2021 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Annual-2021-Program-Authorization.pdf)  
 * Annual Report 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Annual-2022-Program-Authorization.pdf)  
 * Annual Report 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Annual-2023-Program-Authorization.pdf)  
-
+* Annual Report 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Annual-2024-Program-Authorization.pdf)  
 
 
 
