@@ -21,6 +21,7 @@ permalink: /reports/
 * Quarterly Report 9 - October 17, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR9-Standardized-Formats.pdf)  
 * Quarterly Report 10 - April 17, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR10-Standardized-Formats.pdf)  
 * Quarterly Report 11 - October 13, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR11-Standardized-Formats.pdf)  
+* Quarterly Report 12 - April 15, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR12-Standardized-Formats.pdf)  
        
 
 ### Comparative Print Suite  
@@ -37,6 +38,7 @@ permalink: /reports/
 * Quarterly Report 10 - December 30, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR10-Comparative-Print-Project.pdf)  
 * Quarterly Report 11 - April 17, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR11-Comparative-Print-Project.pdf)  
 * Quarterly Report 12 - October 13, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR12-Comparative-Print-Project.pdf)  
+* Quarterly Report 13 - April 15, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR13-Comparative-Print-Project.pdf)   
     
   
 ### Committee Votes and Tools  
@@ -52,6 +54,7 @@ permalink: /reports/
 * Quarterly Report 9 - December 30, 2022 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR9-Committee-Votes.pdf)  
 * Quarterly Report 10 - April 17, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR10-Committee-Votes.pdf)
 * Quarterly Report 11 - October 13, 2023 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR11-Committee-Votes.pdf)  
+* Quarterly Report 12 - April 15, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR12-Committee-Votes.pdf)   
   
   
 ### Unique IDs for Reports Filed by Registered Lobbyists  
