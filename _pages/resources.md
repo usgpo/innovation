@@ -47,7 +47,12 @@ permalink: /resources/
     Conferences, Presentations, and Meetings
     </button>
     <div id="a3" class="usa-accordion-content">
-        <p>Bulk Data Task Force Videos</p>
+	<p>Congressional Hackathons</p>
+       <ul>
+            <li><a href="https://www.house.gov/Hackathon">2011 to Present</a></li>       
+        </ul>
+
+<p>Historical Bulk Data Task Force Videos - See Events for Additional Videos</p>
         <ul>
             <li><a href="https://vimeo.com/311682809/fc3d1c2a45">November 2018</a></li>
             <li><a href="https://vimeo.com/311683547/eb0eab832b">February 2018</a></li>    
@@ -113,7 +118,7 @@ permalink: /resources/
     <button class="usa-accordion-button"
       aria-expanded="false"
       aria-controls="a5">
-  XML Bulk Data
+  Legislative Data
     </button>
     <div id="a5" class="usa-accordion-content">
         <p>Government Publishing Office</p>
@@ -133,7 +138,11 @@ permalink: /resources/
         <li><a href="https://www.govinfo.gov/bulkdata/PPP">Public Papers of the Presidents</a></li>  
         <li><a href="https://www.govinfo.gov/bulkdata/STATUTE">Statutes at Large (Beta USLM XML)</a></li>  
         </ul>
-        <p>House of Representatives</p>
+	<p>Library of Congress</p>
+	<ul>
+	   <li><a href="https://api.congress.gov/">Congress.gov API</a></li>
+	</ul>
+	        <p>House of Representatives</p>
         <ul>
             <li><a href="http://clerk.house.gov/xml/lists/MemberData.xml">Member Data</a></li>
              <li><a href="http://clerk.house.gov/floorsummary/floor-download.aspx">Floor Proceedings</a></li>
