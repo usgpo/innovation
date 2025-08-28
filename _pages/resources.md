@@ -118,12 +118,12 @@ permalink: /resources/
     <button class="usa-accordion-button"
       aria-expanded="false"
       aria-controls="a5">
-  Legislative Data
+  Data Resources
     </button>
     <div id="a5" class="usa-accordion-content">
         <p>Government Publishing Office</p>
       <ul>   
-       <li><a href="https://www.govinfo.gov/bulkdata">XML and JSON Endpoints</a></li>
+       <li><a href="https://www.govinfo.gov/bulkdata">Bulk Data Repository with XML and JSON Endpoints</a></li>
        <li><a href="https://www.govinfo.gov/bulkdata/BILLS">Congressional Bills</a></li> 
        <li><a href="https://www.govinfo.gov/bulkdata/BILLS/uslm">Congressional Bills - Enrolled Only (Beta USLM XML)</a></li>  
        <li><a href="https://www.govinfo.gov/bulkdata/BILLSTATUS">Bill Status</a></li>   
@@ -136,8 +136,9 @@ permalink: /resources/
         <li><a href="https://www.govinfo.gov/bulkdata/PAI">Privacy Act Issuances</a></li>  
         <li><a href="https://www.govinfo.gov/bulkdata/PLAW">Public and Private Laws (Beta USLM XML)</a></li> 
         <li><a href="https://www.govinfo.gov/bulkdata/PPP">Public Papers of the Presidents</a></li>  
-        <li><a href="https://www.govinfo.gov/bulkdata/STATUTE">Statutes at Large (Beta USLM XML)</a></li>  
-        </ul>
+    <li><a href="https://www.govinfo.gov/bulkdata/COMPS">Statute Compilations (Beta USLM XML)</a></li>       
+   <li><a href="https://www.govinfo.gov/bulkdata/STATUTE">Statutes at Large (Beta USLM XML)</a></li>  
+       </ul>
 	<p>Library of Congress</p>
 	<ul>
 	   <li><a href="https://api.congress.gov/">Congress.gov API</a></li>
