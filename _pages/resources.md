@@ -104,13 +104,20 @@ permalink: /resources/
     <div id="a4" class="usa-accordion-content">
   <ul>   
       <li><a href="https://www.govinfo.gov">govinfo.gov</a></li>
-      <li><a href="http://uscode.house.gov">uscode.house.gov</a></li>
       <li><a href="https://docs.house.gov">docs.house.gov</a></li>
-      <li><a href="http://clerk.house.gov">clerk.house.gov</a></li>
-      <li><a href="http://xml.house.gov">xml.house.gov</a></li>
+      <li><a href="https://clerk.house.gov">clerk.house.gov</a></li>
+      <li><a href="https://uscode.house.gov">uscode.house.gov</a></li>
+      <li><a href="https://history.house.gov">history.house.gov</a></li>
+      <li><a href="https://xml.house.gov">xml.house.gov</a></li>
       <li><a href="https://www.congress.gov">congress.gov</a></li>
       <li><a href="https://crsreports.congress.gov/">crsreports.congress.gov</a></li>
+      <li><a href="https://bioguide.congress.gov">bioguide.congress.gov</a></li>
+      <li><a href="https://www.cbo.gov">cbo.gov</a></li>
+      <li><a href="https://www.gao.gov">gao.gov</a></li>
+      <li><a href="https://www.aoc.gov">aoc.gov</a></li>
+      <li><a href="https://visitthecapitol.gov">visitthecapitol.gov</a></li>
       <li><a href="https://www.senate.gov">senate.gov</a></li>
+      <li>See Data Resources and Developer Resources for Additional</li>
       </ul>
     </div>
   </li>
@@ -145,7 +152,8 @@ permalink: /resources/
 	</ul>
 	        <p>House of Representatives</p>
         <ul>
-            <li><a href="http://clerk.house.gov/xml/lists/MemberData.xml">Member Data</a></li>
+            <li><a href="http://clerk.house.gov/xml/lists/MemberData.xml">Member Data</a> -  Office of the Clerk</li>
+            <li><a href="member-info.house.gov/members.xml">Additional Member Data</a> - updated after Clerk Member Data is released and contains additional information</li>
              <li><a href="http://clerk.house.gov/floorsummary/floor-download.aspx">Floor Proceedings</a></li>
             <li><a href="http://clerk.house.gov/legislative/legvotes.aspx">Roll Call Votes</a></li>    
             <li><a href="http://docs.house.gov/floor">Bills to be Considered on the House Floor</a></li>    
@@ -196,10 +204,15 @@ Developer Resources
       <ul>   
        <li><a href="https://www.govinfo.gov/developers">Developer Hub</a></li>       
        <li><a href="https://github.com/usgpo">GitHub Repositories</a></li>
+       <li><a href="https://api.govinfo.gov">GovInfo API</a></li>
        <li><a href="https://www.govinfo.gov/link-docs">Link Service</a></li>   
        <li><a href="https://www.govinfo.gov/feeds">RSS</a></li>   
        <li><a href="https://github.com/usgpo/sitemap">Sitemaps</a></li>   
-       <li><a href="https://api.govinfo.gov">API</a></li>   
+     </ul>
+   <p>Library of Congress</p>
+      <ul>   
+       <li><a href="https://api.congress.gov">Congress.gov API</a></li>   
+       <li><a href="https://github.com/LibraryOfCongress/api.congress.gov">Congress.gov API GitHub Repository</a></li>
       </ul>
         <p>Civil Society</p>
       <ul>   
