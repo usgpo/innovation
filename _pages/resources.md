@@ -104,6 +104,7 @@ permalink: /resources/
     <div id="a4" class="usa-accordion-content">
   <ul>   
       <li><a href="https://www.govinfo.gov">govinfo.gov</a></li>
+      <li><a href="https://www.gpo.gov">gpo.gov</a></li>
       <li><a href="https://docs.house.gov">docs.house.gov</a></li>
       <li><a href="https://clerk.house.gov">clerk.house.gov</a></li>
       <li><a href="https://uscode.house.gov">uscode.house.gov</a></li>
@@ -112,6 +113,7 @@ permalink: /resources/
       <li><a href="https://www.congress.gov">congress.gov</a></li>
       <li><a href="https://crsreports.congress.gov/">crsreports.congress.gov</a></li>
       <li><a href="https://bioguide.congress.gov">bioguide.congress.gov</a></li>
+      <li><a href="https://www.loc.gov">loc.gov</a></li>
       <li><a href="https://www.cbo.gov">cbo.gov</a></li>
       <li><a href="https://www.gao.gov">gao.gov</a></li>
       <li><a href="https://www.aoc.gov">aoc.gov</a></li>
@@ -130,6 +132,7 @@ permalink: /resources/
     <div id="a5" class="usa-accordion-content">
         <p>Government Publishing Office</p>
       <ul>   
+       <li><a href="https://api.govinfo.gov">GovInfo API</a></li>
        <li><a href="https://www.govinfo.gov/bulkdata">Bulk Data Repository with XML and JSON Endpoints</a></li>
        <li><a href="https://www.govinfo.gov/bulkdata/BILLS">Congressional Bills</a></li> 
        <li><a href="https://www.govinfo.gov/bulkdata/BILLS/uslm">Congressional Bills - Enrolled Only (Beta USLM XML)</a></li>  
@@ -152,12 +155,12 @@ permalink: /resources/
 	</ul>
 	        <p>House of Representatives</p>
         <ul>
-            <li><a href="http://clerk.house.gov/xml/lists/MemberData.xml">Member Data</a> -  Office of the Clerk</li>
-            <li><a href="member-info.house.gov/members.xml">Additional Member Data</a> - updated after Clerk Member Data is released and contains additional information</li>
-             <li><a href="http://clerk.house.gov/floorsummary/floor-download.aspx">Floor Proceedings</a></li>
-            <li><a href="http://clerk.house.gov/legislative/legvotes.aspx">Roll Call Votes</a></li>    
-            <li><a href="http://docs.house.gov/floor">Bills to be Considered on the House Floor</a></li>    
-            <li><a href="http://docs.house.gov/committee">Committee Activities</a></li>    
+            <li><a href="https://clerk.house.gov/xml/lists/MemberData.xml">Member Data</a> -  Office of the Clerk</li>
+            <li><a href="https://member-info.house.gov/members.xml">Additional Member Data</a> - updated after Clerk Member Data is released and contains additional information</li>
+             <li><a href="https://clerk.house.gov/floorsummary/floor-download.aspx">Floor Proceedings</a></li>
+            <li><a href="https://clerk.house.gov/legislative/legvotes.aspx">Roll Call Votes</a></li>    
+            <li><a href="https://docs.house.gov/floor">Bills to be Considered on the House Floor</a></li>    
+            <li><a href="https://docs.house.gov/committee">Committee Activities</a></li>    
         </ul>
         <p>Senate</p>
         <ul>
@@ -186,7 +189,7 @@ permalink: /resources/
 <li><a href="https://www.senate.gov/legislative/LIS/nominations/NomWithdrawn.xml"> Withdrawn</a></li>  
 <li><a href="https://www.senate.gov/legislative/LIS/nominations/NomFailedOrReturned.xml">Failed or returned to President</a></li>
 </ul>
-<li><a href="http://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_111_2.xml">Roll Call Vote Lists (Sample: 111th Cong., 2nd Sess.) </a></li>  
+<li><a href="https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_111_2.xml">Roll Call Vote Lists (Sample: 111th Cong., 2nd Sess.) </a></li>  
 <li><a href="https://www.senate.gov/legislative/LIS/roll_call_votes/vote1112/vote_111_2_00001.xml">Roll Call Votes (Sample: 111th Cong., 2nd Sess., Roll Call Vote No. 1)</a></li>  
         </ul>
             
