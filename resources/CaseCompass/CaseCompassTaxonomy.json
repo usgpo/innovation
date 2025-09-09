@@ -1,0 +1,4064 @@
+[
+  {
+    "label_id": "AMNRPC1",
+    "name": "Amtrak National Railroad Passenger Corporation",
+    "tier": 1,
+    "description": "The National Railroad Passenger Corporation, better known as Amtrak, is a federally chartered corporation that operates intercity passenger rail services across the United States. It was created by Congress in 1970 to take over passenger rail operations from private railroads and is managed as a for-profit company, though the US government is its controlling shareholder and provides substantial funding."
+  },
+  {
+    "label_id": "AOUSC1",
+    "name": "Administrative Office of the U.S. Courts",
+    "tier": 1,
+    "description": "The Administrative Office of the U.S. Courts (AO) is the central support entity for the federal judicial branch, managing the nonjudicial, administrative business of the United States Courts. It provides a broad range of services, including managing court budgets, collecting statistics, providing legal and technological support, and acting as a liaison between the judiciary and other government branches."
+  },
+  {
+    "label_id": "CFPB1",
+    "name": "Consumer Finanical Protection Bureau (CFPB)",
+    "tier": 1,
+    "description": "The Consumer Financial Protection Bureau is an independent agency of the United States government responsible for consumer protection in the financial sector.",
+    "children": [
+      {
+        "label_id": "CFPB2SUB1",
+        "name": "CFPB subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "BANK3",
+            "name": "Banks",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "CRED4",
+                "name": "Credit cards",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "CFPB3SUB2",
+            "name": "CFPB subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "CFPBWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "CRED3",
+            "name": "Credit bureaus",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "SCOR4",
+                "name": "Credit scores",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "MORT3",
+            "name": "Mortages",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "LOAN4",
+                "name": "Home loan services",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "DHS1",
+    "name": "Department of Homeland Security (DHS)",
+    "tier": 1,
+    "description": "The U.S. Department of Homeland Security (DHS) is a Cabinet-level department established in 2002 to secure the nation from threats and protect the American people. It's the federal executive department responsible for public security, roughly comparable to interior or home ministries in other countries.",
+    "children": [
+      {
+        "label_id": "CBP2",
+        "name": "Customs and Border Protection (CBP)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "ADM3",
+            "name": "Admissibility Issues",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DENY4",
+                "name": "Denied Entry",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ESTA4",
+                "name": "ESTA",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EXRM4",
+                "name": "Expedited Removals",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "HTVI4",
+                "name": "H-2A Visa Issues",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "INSP4",
+                "name": "Secondary Inspections",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "LPRS4",
+                "name": "Lawful Permanent Resident Status",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "DHSCBP23",
+            "name": "DHS subcategory 4",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "CMPL4",
+                "name": "Complaints against CBP officers",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "TTP3",
+            "name": "Trusted Traveler Program",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "GLBL4",
+                "name": "Global Entry",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NEXUS4",
+                "name": "NEXUS",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SENTRI4",
+                "name": "SENTRI",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "DHS2SUB1",
+        "name": "DHS subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DHS3SUB3",
+            "name": "DHS subcategory 3",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DHSWHB4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "FEMA",
+        "name": "FEMA",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DHS3SUB2",
+            "name": "DHS subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "FEMA4",
+                "name": "Disaster relief",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "ICE2",
+        "name": "US Immigration and Customs Enforcement (ICE) ",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "ENF3",
+            "name": "Enforcement",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DETD4",
+                "name": "Detained",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "INTST4",
+                "name": "International students",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NDTD4",
+                "name": "Non-detained",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PRLE4",
+                "name": "Humanitarian Parole",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "REMV4",
+                "name": "Removals",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VOLN4",
+                "name": "Voluntary departure",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "USCG2",
+        "name": "US Coast Guard (USCG)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "CGEN3",
+            "name": "Enlistment",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "ENLA4",
+                "name": "Enlistment Assistance",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ENWA4",
+                "name": "Enlistment Waivers",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "PNRC3",
+            "name": "Personnel Records",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "PRAC4",
+                "name": "Personnel Actions",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "RECQ4",
+                "name": "Records Requests",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "RETR4",
+                "name": "Retirement",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VACLM4",
+                "name": "VA Claims",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "USCIS2",
+        "name": "US Citizenship and Immigration Services (USCIS)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "ASY3",
+            "name": "Asylum",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "AINT4",
+                "name": "Interview capacity",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ANDT4",
+                "name": "Non-detained",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "APRC4",
+                "name": "Processing Delay",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AXBC4",
+                "name": "Extended background check",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AXSC4",
+                "name": "Extended security screening",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "EAD3",
+            "name": "EAD (Employment Authorization Document) ",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DNDM4",
+                "name": "Document non-delivery mail issues",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EINT4",
+                "name": "Interview capacity",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EPRC4",
+                "name": "Processing Delay",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EXBC4",
+                "name": "Extended background check",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EXSC4",
+                "name": "Extended security screening",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "GRN3",
+            "name": "Green cards ",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "GINT4",
+                "name": "Interview capacity",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "GNDM4",
+                "name": "Document non-delivery mail issues",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "GPRC4",
+                "name": "Processing Delay",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "GXBC4",
+                "name": "Extended background check",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "GXSC4",
+                "name": "Extended security screening",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "DOC1",
+    "name": "Department of Commerce (DOC)",
+    "tier": 1,
+    "description": "The Department of Commerce (DOC) is an executive department of the United States government responsible for promoting economic growth and job creation. Its broad mandate encompasses areas such as trade, technology, entrepreneurship, economic development, environmental stewardship, and statistical research and analysis."
+  },
+  {
+    "label_id": "DOD1",
+    "name": "Department of Defense (DOD)",
+    "tier": 1,
+    "description": "The Department of Defense (DOD) is a cabinet-level executive department of the U.S. federal government responsible for providing the military forces needed to deter war and protect national security. It oversees and directs the Army, Navy, Air Force, Marine Corps, and Space Force, and is headquartered in the Pentagon.",
+    "children": [
+      {
+        "label_id": "ARMY2",
+        "name": "Army",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOD3SUB4",
+            "name": "DOD subcategory 4",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "ARBAH4",
+                "name": "On-base Housing",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ARBCMR4",
+                "name": "Records Correction",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ARBRIG4",
+                "name": "Disciplinary Action",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ARMED4",
+                "name": "Medical Care",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ARMEPS4",
+                "name": "Military Entrance Processing (MEPS) ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ARORD4",
+                "name": "Orders",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AROUT4",
+                "name": "Outprocessing",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ARREL4",
+                "name": "Relocation",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ARSEC4",
+                "name": "Security Clearance",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "DOD3SUB5",
+            "name": "DOD subcategory 5",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "ARAWD4",
+                "name": "Medals/Awards ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ARCN4",
+                "name": "Conscientious objector ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AREFP4",
+                "name": "Exceptional Family Program",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ARJAG4",
+                "name": "JAG (Judge Advocate General)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ARPRO4",
+                "name": "Promotions",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ARSPS4",
+                "name": "Spousal issues",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ARSU4",
+                "name": "Suicide",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "USMA4",
+                "name": "West Point (USMA)?Service Academy Nomination ",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "USACE3",
+            "name": "Army Corps of Engineers (US ACE)",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DISTR4",
+                "name": "Disaster response",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PERMT4",
+                "name": "Permitting approval",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SHORE4",
+                "name": "Shoreline risk management",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "DCSA2",
+        "name": "Defense Counterintelligence and Security Agency (DCSA)",
+        "tier": 2,
+        "description": ""
+      },
+      {
+        "label_id": "DFAS2",
+        "name": "Defense Finance and Accounting Service (DFAS) ",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOD3SUB8",
+            "name": "DOD subcategory 8",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "CLEAR4",
+                "name": "Security Clearance",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "LES4",
+                "name": "Leave and Earnings Statements (LES)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MPAY3",
+                "name": "Military Pay",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "RPAY4",
+                "name": "Retirement Pay",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SBP4",
+                "name": "Survivor Benefit Plan (SBP) ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SDP4",
+                "name": "Savings Deposit Program (SDP)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "WWP4",
+                "name": "Wounded Warrior Pay",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "DOD2SUB1",
+        "name": "DOD subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOD3SUB10",
+            "name": "DOD subcategory 10",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DODWHSB4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "NAVY2",
+        "name": "Navy ",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOD3SUB3",
+            "name": "DOD subcategory 3",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "NVAWD4",
+                "name": "Medals/Awards ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVBAH4",
+                "name": "On-base Housing",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVBRIG4",
+                "name": "Disciplinary Action",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVCBCMR4",
+                "name": "Records Correction",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVCN4",
+                "name": "Conscientious objector ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVEFP4",
+                "name": "Exceptional Family Program",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVJAG4",
+                "name": "JAG (Judge Advocate General)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVMED4",
+                "name": "Medical Care",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVMEPS4",
+                "name": "Military Entrance Processing (MEPS) ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVORD4",
+                "name": "Orders",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVOUT4",
+                "name": "Outprocessing",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVPRO4",
+                "name": "Promotions",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVREL4",
+                "name": "Relocation",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVSEC4",
+                "name": "Security Clearance",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVSPS4",
+                "name": "Spousal issues",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NVSU4",
+                "name": "Suicide",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "USNA4",
+                "name": "Naval Academy (USNA) Service Academy Nomination",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "TRICARE2",
+        "name": "TRICARE",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOD3SUB9",
+            "name": "DOD subcategory 9",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "TRIMED4",
+                "name": "Medical Coverage",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "TRIPRX4",
+                "name": "Prescription Coverage",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "USAF2",
+        "name": "United States Air Force (USAF)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOD3SUB2",
+            "name": "DOD subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "AFAWD4",
+                "name": "Medals/Awards ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFBAH4",
+                "name": "On-base Housing",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFBCMR4",
+                "name": "Records Correction",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFBRIG4",
+                "name": "Disciplinary Action",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFCN4",
+                "name": "Conscientious objector ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFEFP4",
+                "name": "Exceptional Family Program",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFJAG4",
+                "name": "JAG (Judge Advocate General)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFMED4",
+                "name": "Medical Care",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFMEPS4",
+                "name": "Military Entrance Processing (MEPS) ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFORD4",
+                "name": "Orders",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFOUT4",
+                "name": "Outprocessing",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFPRO4",
+                "name": "Promotions",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFREL4",
+                "name": "Relocation",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFSEC4",
+                "name": "Security Clearance",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFSPS4",
+                "name": "Spousal issues",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AFSU4",
+                "name": "Suicide",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "USAFA4",
+                "name": "Air Force Academy (USAFA)?Service Academy Nomination ",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "USMC2",
+        "name": "Marine Corps ",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOD3SUB6",
+            "name": "DOD subcategory 6",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DODUSMMA4",
+                "name": "Merchant Marine Academy (USMMA)?Service Academy Nomination",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCAWD4",
+                "name": "Medals/Awards ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCBAH4",
+                "name": "On-base Housing",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCBCMR4",
+                "name": "Records Correction",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCBRIG4",
+                "name": "Disciplinary Action",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCCN4",
+                "name": "Conscientious objector ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCEFP4",
+                "name": "Exceptional Family Program",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCJAG4",
+                "name": "JAG (Judge Advocate General)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCMED4",
+                "name": "Medical Care",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCMEPS4",
+                "name": "Military Entrance Processing (MEPS) ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCORD4",
+                "name": "Orders",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCOUT4",
+                "name": "Outprocessing",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCPRO4",
+                "name": "Promotions",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCREL4",
+                "name": "Relocation",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCSEC4",
+                "name": "Security Clearance",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCSPS4",
+                "name": "Spousal issues",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MCSU4",
+                "name": "Suicide",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "USSF2",
+        "name": "Space Force",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOD3SUB7",
+            "name": "DOD subcategory 7",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "SFBAH4",
+                "name": "On-base Housing",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SFBCMR4",
+                "name": "Records Correction",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SFBRIG4",
+                "name": "Disciplinary Action",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SFMED4",
+                "name": "Medical Care",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SFMEPS4",
+                "name": "Military Entrance Processing (MEPS) ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SFORD4",
+                "name": "Orders",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SFOUT4",
+                "name": "Outprocessing",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SFREL4",
+                "name": "Relocation",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SFSEC4",
+                "name": "Security Clearance",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "DOE1",
+    "name": "Department of Energy (DOE)",
+    "tier": 1,
+    "description": "The Department of Energy (DOE) is an executive department of the United States government responsible for advancing the nation's energy security, prosperity, and environmental well-being through transformative science and technology solutions. It oversees national energy policy, manages the U.S. nuclear infrastructure, and is a major supporter of scientific research in the physical sciences."
+  },
+  {
+    "label_id": "DOED1",
+    "name": "Department of Education",
+    "tier": 1,
+    "description": "The U.S. Department of Education is a cabinet-level agency that promotes student achievement and global competitiveness by fostering educational excellence and ensuring equal access to education. It achieves this by administering federal financial aid, overseeing education research and data collection, focusing national attention on key education issues, and enforcing civil rights statutes to prevent discrimination in education.",
+    "children": [
+      {
+        "label_id": "DOED2SUB1",
+        "name": "DOED subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOED3SUB3",
+            "name": "DOED subcategory 3",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DOEDWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "FSA2",
+        "name": "Federal Student Aid (FSA)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "PSLF3",
+            "name": "Public Service Loan Forgiveness (PSLF)",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "EDDOC4",
+                "name": "PSLF documentation",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EDELG4",
+                "name": "Employee eligibility ",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "DOI1",
+    "name": "Department of the Interior (DOI)",
+    "tier": 1,
+    "description": "The Department of the Interior (DOI) is a cabinet-level U.S. executive department responsible for managing and conserving most federal lands, natural resources, and cultural heritage. It also administers programs related to Native Americans, Alaska Natives, Native Hawaiians, and U.S. island territories.",
+    "children": [
+      {
+        "label_id": "BOFLM2",
+        "name": "Bureau of Land Management",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOI3SUB5",
+            "name": "DOI subcategory 5",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "TRBLD4",
+                "name": "Tribal disputes",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "DOI2SUB1",
+        "name": "DOI subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOI3SUB6",
+            "name": "DOI subcategory 6",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DOIWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "NPS2",
+        "name": "National Park Service (NPS)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOI3SUB4",
+            "name": "DOI subcategory 4",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "NPRKC4",
+                "name": "National Park conditions",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "USFWS2",
+        "name": "U.S. Fish and Wildlife Service",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOI3SUB3",
+            "name": "DOI subcategory 3",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "PBOPN4",
+                "name": "Programmatic Biological Opinion (needed for certain permits)",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "DOJ1",
+    "name": "Department of Justice (DOJ)",
+    "tier": 1,
+    "description": "The Department of Justice (DOJ) is a federal executive department in the U.S. government responsible for enforcing federal laws, ensuring public safety, and defending the interests of the United States according to the law.",
+    "children": [
+      {
+        "label_id": "ATF2",
+        "name": "Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOJ3SUB3",
+            "name": "DOJ subcategory 3",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "MARAF4",
+                "name": "Make and Register a Firearm",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "TPTRF4",
+                "name": "Tax Paid Transfer and Registration of Firearm",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "BOP2",
+        "name": "Bureau of Prisons (BOP)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOJ3SUB6",
+            "name": "DOJ subcategory 6",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "IDFAS4",
+                "name": "ICE detention facilities",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PRSNHC4",
+                "name": "Prison health care",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "TRNSFRS4",
+                "name": "Transfers",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "TWPRSN4",
+                "name": "Treatment within prison",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "DOJ2SUB1",
+        "name": "DOJ subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOJ3SUB7",
+            "name": "DOJ subcategory 7",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DOJWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "FBI2",
+        "name": "Federal Bureau of Investigation (FBI)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOJ3SUB2",
+            "name": "DOJ subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DBCHK4",
+                "name": "Delayed background check",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PHCRM4",
+                "name": "Potential hate crime",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "DOL1",
+    "name": "Department of Labor (DOL)",
+    "tier": 1,
+    "description": "The Department of Labor (DOL) is a U.S. government agency that administers federal labor laws to guarantee workers' rights to fair, safe, and healthy working conditions, including minimum wage, overtime pay, protection against employment discrimination, and unemployment insurance. ",
+    "children": [
+      {
+        "label_id": "DOL2SUB1",
+        "name": "DOL subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOL3SUB2",
+            "name": "DOL subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DOLWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "DOS1",
+    "name": "Department of State (DoS)",
+    "tier": 1,
+    "description": "The Department of State, also known as the State Department, is the executive department of the U.S. federal government responsible for the country's foreign policy and international relations. It advises the President on international affairs, manages diplomatic missions, negotiates treaties, and protects U.S. citizens abroad.",
+    "children": [
+      {
+        "label_id": "BCA2",
+        "name": "Bureau of Consular Affairs",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "ACS3",
+            "name": "American Citizens Services",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "ADPT4",
+                "name": "Adoption (these are also visas)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "BRTH4",
+                "name": "Birth",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "CHD4",
+                "name": "Child custody dispute",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "DETH4",
+                "name": "Death",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "DOSLOAN4",
+                "name": "Loans",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EVAC4",
+                "name": "Evacuations",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "FBEN4",
+                "name": "Federal benefits",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NOTY4",
+                "name": "Notaries",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PPTO4",
+                "name": "Passports overseas",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SPCL4",
+                "name": "Special consular services",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VOTO4",
+                "name": "Voting overseas",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "NIV3",
+            "name": "Nonimmigrant Visas",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "NEMP4",
+                "name": "Employment",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NOTH4",
+                "name": "Other",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "STD4",
+                "name": "Student",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "TRSM4",
+                "name": "Tourism",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "NVC3",
+            "name": "Immigrant Visas (National Visa Center)",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DIVR4",
+                "name": "Diversity visas",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EMPS4",
+                "name": "Employer-sponsored",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "FAM4",
+                "name": "Family Petition",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "IOTH4",
+                "name": "Other",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PVIS4",
+                "name": "P2 visas",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SIV4",
+                "name": "Special Immigrant Visas",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "OCI3",
+            "name": "Office of Children's Issues",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "IPCA4",
+                "name": "International Parental Child Abduction (IPCA)",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "DOS2SUB1",
+        "name": "DOS subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOS3SUB3",
+            "name": "DOS subcategory 3",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DOSWHB4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "ONCA2",
+        "name": "Office of Authentications",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOS3SUB2",
+            "name": "DOS subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DOSAPO4",
+                "name": "Apostille",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "PRM2",
+        "name": "Bureau of Population, Refugee and Migration",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "USRAP3",
+            "name": "US Refugee Admissions Program",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "WLCM4",
+                "name": "Welcome Corps",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "PSC2",
+        "name": "Passport Service Center",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "NPIC3",
+            "name": "National Passport Information Center (NPIC) / Redional Passport Agencies",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "AGNC4",
+                "name": "Agency Appointment ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "CPPT4",
+                "name": "Child passport",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EPPT4",
+                "name": "Emergency Passport",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NPPT4",
+                "name": "New Passport",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PPTH4",
+                "name": "Passport Hold",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PPTR4",
+                "name": "Passport Renewal",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PPTX4",
+                "name": "Passport Expedite",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PSGM4",
+                "name": "Passport gender marker",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "DOT1",
+    "name": "Department of Transportation (DOT)",
+    "tier": 1,
+    "description": "The Department of Transportation (DOT) is a federal executive department responsible for overseeing the national transportation system and infrastructure in the United States. It sets safety regulations for all major modes of transportation, including highways, railways, air travel, and maritime transport, and administers funding for various transportation projects.",
+    "children": [
+      {
+        "label_id": "DOT2SUB1",
+        "name": "DOT subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOT3SUB5",
+            "name": "DOT subcategory 5",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DOTWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "FAA2",
+        "name": "Federal Aviation Administration (FAA)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOT3SUB2",
+            "name": "DOT subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "AIRCRC4",
+                "name": "Air Carrier Certification",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EMPLISS4",
+                "name": "Employee issues",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EMPLWV4",
+                "name": "Employment waivers",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "FLTISS4",
+                "name": "Flight issues",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MWVMCL4",
+                "name": "Medical waivers/medical clearance",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "FMCSA2",
+        "name": "Federal Motor Carrier Safety Administration (FMCSA) ",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "LCNSISS3",
+            "name": "License issues",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "CDL4",
+                "name": " CDL",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "HMSP4",
+                "name": "Hazardous Materials Safety Permits",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "IRP4",
+                "name": "International Registration Plan (IRP)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MEDWMCL4",
+                "name": "Medical waivers/medical clearance",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "OPRTAU4",
+                "name": "Operating Authority ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "USDONUM4",
+                "name": "USDOT number",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "MARAD2",
+        "name": "Maritime Administration (MARAD)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOT3SUB3",
+            "name": "DOT subcategory 3",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "MERMRN4",
+                "name": "DOT3SUB4",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "USMMA4",
+                "name": "US Merchant Marine Academy (USMMA)",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "NHTSA2",
+        "name": "National Highway Traffic Safety Administration",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOT3SUB4",
+            "name": "DOT subcategory 4",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "MTRVR4",
+                "name": "Motor Vehicles Recalls",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "DOTR1",
+    "name": "Department of the Treasury",
+    "tier": 1,
+    "description": "",
+    "children": [
+      {
+        "label_id": "BFS2",
+        "name": "Bureau of the Fiscal Service (BFS)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOTR3SUB3",
+            "name": "DOTR subcategory 3",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "STTL4",
+                "name": "Settlements of tax cases ",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "DOTR2SUB1",
+        "name": "DOTR subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOTR3SUB5",
+            "name": "DOTR subcategory 5",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DOTRWHSBLR4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MTGLNDR4",
+                "name": "Mortgage lenders",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "DOTR3SUB6",
+            "name": "DOTR subcategory 6",
+            "tier": 3,
+            "description": ""
+          }
+        ]
+      },
+      {
+        "label_id": "DOTR2SUB2",
+        "name": "DOTR subcategory 2",
+        "tier": 2,
+        "description": ""
+      },
+      {
+        "label_id": "IRS2",
+        "name": "Internal Revenue Service (IRS)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "CID2",
+            "name": "Criminal Investigation Division",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "AUDIT4",
+                "name": "Audits",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "EXM2",
+            "name": "Exams",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "INNS4",
+                "name": "Innocent Spouse",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "IOA2",
+            "name": "Independent Office of Appeals",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "CRIM4",
+                "name": "Criminal Liability",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "TAS3",
+            "name": "Taxpayer Advocate Service (TAS)",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "AMND4",
+                "name": "Amended return",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "CNTR4",
+                "name": "1099 Issue",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "COLL4",
+                "name": "Collections",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "DECD4",
+                "name": "Deceased estates",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "DTRF4",
+                "name": "Delayed tax refund",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EIN4",
+                "name": "Employee Identification Number (EIN) Assignment ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EIPOTH4",
+                "name": "Other",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EITC4",
+                "name": "Earned Income Tax Credit (EITC)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ERC4",
+                "name": "Employee Retention Credit  (ERC)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "IDTM4",
+                "name": "Identity theft measures",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "INFL4",
+                "name": "International Filing",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NONP4",
+                "name": "Nonprofit / general organizational tax status ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "OAA4",
+                "name": "Online Account Access",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PAYM4",
+                "name": "Payment plan",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PEN4",
+                "name": "Penalties",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "REF4",
+                "name": "Refund",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "RPP4",
+                "name": "Return Preparer Problem",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "OCC2",
+        "name": "Office of the Comptroller of the Currency (OCC)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "DOTR3SUB4",
+            "name": "DOTR subcategory 4",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "FRDTHFT4",
+                "name": "Fraud/theft",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MSPCHK4",
+                "name": "Misplaced checks",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "EEOC1",
+    "name": "Equal Employment Opportunity Commission (EEOC)",
+    "tier": 1,
+    "description": "The Equal Employment Opportunity Commission (EEOC) is an independent federal agency dedicated to enforcing laws that prevent discrimination in the workplace. It investigates charges of discrimination based on factors such as race, color, religion, sex (including pregnancy, transgender status, and sexual orientation), national origin, age, disability, or genetic information. The EEOC also works to prevent discrimination through education, outreach, and technical assistance programs aimed at informing both employees and employers of their rights and responsibilities."
+  },
+  {
+    "label_id": "EIB1",
+    "name": "Export Import Bank of the United States (EIB)",
+    "tier": 1,
+    "description": "The Export-Import Bank of the United States (EXIM) is the official export credit agency of the United States. EXIM's mission is to support American job creation, prosperity, and security through exporting by providing financing tools to U.S. companies, especially small businesses, when private lenders are unable or unwilling to do so."
+  },
+  {
+    "label_id": "EPA1",
+    "name": "Environment Protection Agency (EPA)",
+    "tier": 1,
+    "description": "The Environmental Protection Agency (EPA) is an independent agency of the United States federal government responsible for protecting human health and the environment. It establishes and enforces environmental regulations based on laws passed by Congress, conducts research, and provides grants to support environmental programs and projects."
+  },
+  {
+    "label_id": "FCC1",
+    "name": "Federal Communications Commission (FCC)",
+    "tier": 1,
+    "description": "FCC oversees the LifeLine program, and looking at our FCC casework, that seems to be historically what we would go to FCC with for an actual inquiry, outside of referring people to their website. The Federal Communications Commission (FCC) is an independent U.S. government agency that regulates interstate and international communications through cable, radio, television, satellite, and wire. Its primary goal is to promote connectivity and ensure a robust and competitive market for communication services, including fostering innovation and protecting consumers."
+  },
+  {
+    "label_id": "FDIC1",
+    "name": "Federal Deposit Insurance Corporation (FDIC)",
+    "tier": 1,
+    "description": "The Federal Deposit Insurance Corporation (FDIC) is an independent agency established in 1933 to maintain stability and public confidence in the U.S. financial system. It insures deposits in banks and savings associations, protecting depositors against the loss of their funds in the event of a bank failure."
+  },
+  {
+    "label_id": "FEDHFA1",
+    "name": "Federal Housing Finance Agency",
+    "tier": 1,
+    "description": "The Federal Housing Finance Agency (FHFA) is an independent regulatory agency established in 2008 to oversee the government-sponsored enterprises (GSEs) Fannie Mae, Freddie Mac, and the Federal Home Loan Banks. It works to ensure the safety, soundness, and mission fulfillment of these entities, which are crucial for the stability and liquidity of the U.S. housing finance market."
+  },
+  {
+    "label_id": "FEDRC1",
+    "name": "Federal Reserve Commission",
+    "tier": 1,
+    "description": ""
+  },
+  {
+    "label_id": "FEDRTIB1",
+    "name": "Federal Retirement Thrift Investment Board (TSP)",
+    "tier": 1,
+    "description": "The Federal Retirement Thrift Investment Board (FRTIB) is an independent agency of the United States government responsible for administering the Thrift Savings Plan (TSP). The TSP is a retirement savings and investment plan for federal employees and members of the uniformed services, offering benefits similar to private sector 401(k) plans"
+  },
+  {
+    "label_id": "FERC1",
+    "name": "Federal Energy Regulatory Commission (FERC)",
+    "tier": 1,
+    "description": "The Federal Energy Regulatory Commission (FERC) is an independent agency of the United States government responsible for regulating the interstate transmission and wholesale sale of electricity, natural gas, and oil. It also regulates hydropower projects and approves the siting of interstate natural gas pipelines and liquefied natural gas (LNG) terminals."
+  },
+  {
+    "label_id": "FTC1",
+    "name": "Federal Trade Commission (FTC)",
+    "tier": 1,
+    "description": "The Federal Trade Commission (FTC) is an independent agency of the United States government responsible for protecting consumers and promoting fair competition. It works to prevent fraudulent, deceptive, and unfair business practices and enforces antitrust laws to ensure a competitive marketplace."
+  },
+  {
+    "label_id": "GOVAO1",
+    "name": "Government Accountability Office (GAO)",
+    "tier": 1,
+    "description": "The Government Accountability Office (GAO) is an independent, nonpartisan agency within the legislative branch that primarily serves as a \"congressional watchdog,\" examining how the federal government spends taxpayer dollars. Its mission is to support Congress in meeting its constitutional responsibilities and to help improve the performance and ensure the accountability of the federal government for the benefit of the American people."
+  },
+  {
+    "label_id": "GSA1",
+    "name": "General Services Administration (GSA)",
+    "tier": 1,
+    "description": "The General Services Administration (GSA) is an independent agency of the United States government established in 1949 to help manage and support the basic functioning of federal agencies. It provides centralized procurement for the federal government, managing a nationwide real estate portfolio, overseeing billions in annual contracts, and offering various products, services, and facilities to federal agencies."
+  },
+  {
+    "label_id": "HHS1",
+    "name": "Department of Health and Human Services (HHS) ",
+    "tier": 1,
+    "description": "The Department of Health and Human Services (HHS) is a U.S. federal agency focused on protecting the health and well-being of all Americans, providing essential human services, and advancing medical and social science. HHS administers national health programs like Medicare and Medicaid, conducts health and biomedical research, and ensures the safety of food and drugs. ",
+    "children": [
+      {
+        "label_id": "ACF2",
+        "name": "Administration of Children and Families",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "ORR3",
+            "name": "Office of Refugee Resettlement (ORR)",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DTNS4",
+                "name": "Detainees",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "RFUGS4",
+                "name": "Refugees",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "CMS2",
+        "name": "Centers for Medicare & Medicaid Services (CMS)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "EMTLA3",
+            "name": "EMTLA (Emergency Medical Treatment and Labor Act)",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "PDDS4",
+                "name": "Patient dumping/denied service",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "FFM3",
+            "name": "Health Insurance Marketplace ",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "FFMAPL4",
+                "name": "Coverage appeal ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "FFMELG4",
+                "name": "Eligibility",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "FFMPAY4",
+                "name": "Billing/Payment Inquiry",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "MDA3",
+            "name": "Medicare Part A ",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "MDAPAY4",
+                "name": "Billing/Payment Inquiry",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDAPL4",
+                "name": "Coverage appeal ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDAQUAL4",
+                "name": "Provider concerns",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDELG4",
+                "name": "Eligibility",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDLEP4",
+                "name": "Late Enrollment Penalty (LEP) ",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "MDB3",
+            "name": "Medicare Part B ",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "MDBAPL4",
+                "name": "Coverage appeal ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDBCLM4",
+                "name": "Claim processing",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDBDME4",
+                "name": "Durable Medical Equipment (DME) ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDBPRV4",
+                "name": "Provider concerns",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "MDC3",
+            "name": "Medicare Advantage (Part C) ",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "MDCAPL4",
+                "name": "Coverage appeal ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDCELG4",
+                "name": "Eligibility",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDCPAY4",
+                "name": "Billing/Payment Inquiry",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDCPRV4",
+                "name": "Provider concerns",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "MDD3",
+            "name": "Medicare Part D (prescription drug coverage)",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "MDDAPL4",
+                "name": "Coverage appeal ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDDELG4",
+                "name": "Eligibility",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDDLEP4",
+                "name": "Late Enrollment Penalty (LEP) ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDDPAY4",
+                "name": "Billing/Payment Inquiry",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDDXH4",
+                "name": "Extra Help program ",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "NOSP3",
+            "name": "No Surprises Act",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "AEOB4",
+                "name": "Advanced Explanation of Benefits (AEOB)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "GFEST4",
+                "name": "Good Faith Estimate ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "HPTR4",
+                "name": "Hospital price transparency",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NTWRKAA4",
+                "name": "Network adequacy / accuracy",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "HHS2SUB1",
+        "name": "HHS subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "HHS3SUB5",
+            "name": "HHS subcategory 5",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "HHSWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "HUD1",
+    "name": "Housing and Urban Development (HUD)",
+    "tier": 1,
+    "description": "The Department of Housing and Urban Development (HUD) administers programs that provide housing and community development assistance. Caseworkers usually work HUD through local housing authorities.",
+    "children": [
+      {
+        "label_id": "HUD2SUB1",
+        "name": "HUD subcategory 1",
+        "tier": 2,
+        "description": ""
+      },
+      {
+        "label_id": "OFFPM2",
+        "name": "Office of Field Policy and Management",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "SCET3",
+            "name": "Section 8",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "SCAV4",
+                "name": "Availability/housing selection",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SCCN4",
+                "name": "Living conditions",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SCELG4",
+                "name": "Eligibility",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SCEV4",
+                "name": "Eviction cases",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SCLD4",
+                "name": "Landlord complaints",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SCVL4",
+                "name": "Voucher waiting list ",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "OFLDPM2",
+        "name": "Office of Field Policy and Management",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "HOUS3",
+            "name": "Private housing",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "EVIC4",
+                "name": "Eviction cases",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "HAHS4",
+                "name": "Availability/housing selection",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "HECM4",
+                "name": "Reserve mortgages ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "HLLC4",
+                "name": "Landlord complaints",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "HUES4",
+                "name": "Estate settlement",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "LIVC4",
+                "name": "Living conditions",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "HUD3SUB2",
+            "name": "HUD subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "HUDWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "LOC1",
+    "name": "Library of Congress (LOC)",
+    "tier": 1,
+    "description": "The Library of Congress (LOC) is the largest library in the world and serves as the research library for the United States Congress. It also functions as the de facto national library of the United States, providing access to a vast collection of resources and administering copyright law through the U.S. Copyright Office."
+  },
+  {
+    "label_id": "LSC1",
+    "name": "Legal Services Corporation (LSC)",
+    "tier": 1,
+    "description": "The Legal Services Corporation (LSC) is an independent, non-profit organization established by Congress in 1974 to provide financial support for civil legal aid to low-income Americans. It is the largest national funder of civil legal aid in the United States, distributing grants to 130 independent nonprofit legal aid organizations across all states and territories to ensure equal access to justice, regardless of economic circumstances."
+  },
+  {
+    "label_id": "NARA1",
+    "name": "National Archives and Records Administration (NARA)",
+    "tier": 1,
+    "description": "The National Archives and Records Administration (NARA) is the U.S. government agency tasked with preserving and making accessible the nation's enduring records. ",
+    "children": [
+      {
+        "label_id": "NARA2SUB1",
+        "name": "NARA subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "NARA3SUB2",
+            "name": "NARA subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "NARAWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "NTSB1",
+    "name": "National Transportation Safety Board (NTSB)",
+    "tier": 1,
+    "description": "The National Transportation Safety Board (NTSB) is an independent federal agency tasked with investigating civil transportation accidents in the United States. Its mission is to determine the probable cause of accidents and issue safety recommendations to prevent similar occurrences in the future across various modes of transportation, including aviation, highway, marine, railroad, and pipeline incidents."
+  },
+  {
+    "label_id": "OCWR1",
+    "name": "Office of Congressional Workplace Rights",
+    "tier": 1,
+    "description": "The Office of Congressional Workplace Rights (OCWR) is an independent agency within the legislative branch tasked with promoting workplace rights, safety, health, and accessibility in Congress and other legislative branch offices. Established by the Congressional Accountability Act (CAA) of 1995, it administers the Act through programs of dispute resolution, education, and enforcement, applying various labor and employment laws to these workplaces."
+  },
+  {
+    "label_id": "OPM1",
+    "name": "Office of Personnel Management (OPM)",
+    "tier": 1,
+    "description": "The United States Office of Personnel Management is an independent agency of the United States government that manages the United States federal civil service.",
+    "children": [
+      {
+        "label_id": "OPM2SUB1",
+        "name": "OPM subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "OPM3SUB2",
+            "name": "OPM subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "OPMWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "OPMEB3",
+            "name": "Employee benefits",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "CSRS4",
+                "name": "CSRS to FERS transition",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "DISB4",
+                "name": "Disability",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "FERS4",
+                "name": "FERS",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "HBEN4",
+                "name": "Election of health benefits",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "LIFE4",
+                "name": "Life insurance",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "LTC4",
+                "name": "Long term care",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SRVA4",
+                "name": "Survivor annuity",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "PCECRP1",
+    "name": "Peace Corps",
+    "tier": 1,
+    "description": "The Peace Corps is an independent agency of the United States government that promotes world peace and friendship by sending American volunteers abroad to assist with development efforts. Volunteers work in areas such as education, health, agriculture, and community economic development, serving for two years to help meet the needs of interested countries and foster cross-cultural understanding."
+  },
+  {
+    "label_id": "RRB1",
+    "name": "Railroad Retirement Board (RRB)",
+    "tier": 1,
+    "description": "The Railroad Retirement Board (RRB) is an independent federal agency in the executive branch of the U.S. government established in the 1930s. It administers retirement, survivor, unemployment, and sickness benefits for the nation's railroad workers and their families, similar to the Social Security system but with different rules and benefit structures.",
+    "children": [
+      {
+        "label_id": "RRB2",
+        "name": "RRB subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "REBI3",
+            "name": "Railroad employee benefits issues",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DISBLTY4",
+                "name": "Disability",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ILLNS4",
+                "name": "Illness",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "RTRMNT4",
+                "name": "Retirement",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SBNFT4",
+                "name": "Survivor benefits",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "UNEMPL4",
+                "name": "Unemployment",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "RRB2SUB1",
+        "name": "RRB subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "RRB3SUB2",
+            "name": "RRB subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "RRBWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "SBA1",
+    "name": "Small Business Administration (SBA)",
+    "tier": 1,
+    "description": "The Small Business Administration (SBA) is a U.S. government agency established in 1953 to help Americans start, build, and grow businesses. It provides resources such as access to capital through loan guarantees, entrepreneurial development programs, government contracting opportunities, and disaster assistance.",
+    "children": [
+      {
+        "label_id": "SBA2SUB1",
+        "name": "SBA subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "SBA3SUB2",
+            "name": "SBA subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DISTAST4",
+                "name": "Disaster assistance",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EIDLL4",
+                "name": "EIDL loans",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "OSBSLN4",
+                "name": "Other small business loans",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PPPLN4",
+                "name": "PPP loans",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SBAWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SMLBG4",
+                "name": "Small business grants",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "SEC1",
+    "name": "Securities and Exchange Commission (SEC)",
+    "tier": 1,
+    "description": "The Securities and Exchange Commission (SEC) is an independent federal agency tasked with protecting investors, maintaining fair and efficient markets, and facilitating capital formation. It achieves this mission by enforcing federal securities laws and regulating various aspects of the securities industry, including exchanges, brokers, and investment advisors."
+  },
+  {
+    "label_id": "SSA1",
+    "name": "Social Security Administration (SSA)",
+    "tier": 1,
+    "description": "The Social Security Administration (SSA) is an independent U.S. government agency that administers Social Security, a program that provides retirement, disability, and survivor benefits. The SSA is also responsible for assigning Social Security numbers and managing the program's finances and trust funds",
+    "children": [
+      {
+        "label_id": "SSA2",
+        "name": "SSA subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "SSI3",
+            "name": "Supplemental Security Income (SSI) ",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "RECREQ4",
+                "name": "Records Request",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "REPP4",
+                "name": "Representative Payee",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSIASVF4",
+                "name": "Asset verification",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSICDR4",
+                "name": "Continuing Disability Review (CDR) ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSIDDS4",
+                "name": "Disability Determination Service (DDS)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSIRTRO4",
+                "name": "Retroactive Benefits ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSIWIV4",
+                "name": "Wage/income verification",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "SSA2SUB1",
+        "name": "SSA subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "OASI3",
+            "name": "Old Age and Survivors Insurance (OASI) (retirement benefits) ",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "COLA4",
+                "name": "Cost of Living Adjustment (COLA) ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "IRMMA4",
+                "name": "Income Related Monthly Adjustment Amounts (IRMMA)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "LSDP4",
+                "name": "Lump Sum Death Payment",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MDEN4",
+                "name": "Medicare Enrollment ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "REPPA4",
+                "name": "Representative Payee",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "RTRB4",
+                "name": "Retroactive Benefits ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SURB4",
+                "name": "Survivor Benefit ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "WEP4",
+                "name": "Windfall Elimination Provision (WEP)/Government Pension Offset (GPO) ",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "SSA3",
+            "name": "SSA subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "SSAWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "SSAMCR3",
+            "name": "Medicare",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "BILL4",
+                "name": "Billing/Payment Inquiry",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ELIG4",
+                "name": "Eligibility",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "EQUI4",
+                "name": "Equitable relief ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "IRMAA4",
+                "name": "IRMAA",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "LEP4",
+                "name": "Late Enrollment Penalty (LEP) ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MEDCRDR4",
+                "name": "Medicare card replacement",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "XTRAHLIS4",
+                "name": "Extra Help Program/LIS",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "SSAPLS3",
+            "name": "Appeals ",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "ADMLJ4",
+                "name": "Administrative Law Judge",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "APPLC4",
+                "name": "Appeals Council ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "CRTAPL4",
+                "name": "Court of Appeals",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "OVRPMT4",
+                "name": "Overpayment ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "RFR4",
+                "name": "Request for Reconsideration",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "WAIV4",
+                "name": "Waiver request",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "SSDI3",
+            "name": "Social Security Disability Insurance (SSDI) ",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "REPPAY4",
+                "name": "Representative Payee",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSDIASVF4",
+                "name": "Asset verification",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSDICDR4",
+                "name": "Continuing Disability Review (CDR) ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSDIDDS4",
+                "name": "Disability Determination Service (DDS)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSDIMWP4",
+                "name": "Mandatory waiting period",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSDIRREQ4",
+                "name": "Records Request",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSDIRTRO4",
+                "name": "Retroactive Benefits ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSDIWIV4",
+                "name": "Wage/income verification",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "SSN3",
+            "name": "Social Security Number (SSN) ",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "NSSN4",
+                "name": "Needs SSN",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSCR4",
+                "name": "Social Security card replacement",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSN4",
+                "name": "SSN",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SSNDUP4",
+                "name": "SSN duplication",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "USADF1",
+    "name": "United States African Development Foundation",
+    "tier": 1,
+    "description": "The United States African Development Foundation (USADF) is an independent U.S. government agency established to support African-led development. It provides seed capital and technical support to African grassroots organizations, entrepreneurs, and small and medium-sized enterprises to foster economic growth and create pathways to prosperity for marginalized populations and underserved communities."
+  },
+  {
+    "label_id": "USAID1",
+    "name": "United States Agency for International Development (USAID)",
+    "tier": 1,
+    "description": "The United States Agency for International Development (USAID) is the primary U.S. government agency responsible for administering civilian foreign aid and development assistance. It works to advance U.S. foreign policy goals by partnering with countries to promote economic growth, reduce poverty, improve global health, and provide humanitarian assistance."
+  },
+  {
+    "label_id": "USDA1",
+    "name": "Department of Agriculture (USDA)",
+    "tier": 1,
+    "description": "The U.S. Department of Agriculture (USDA) is a federal agency focused on food, agriculture, natural resources, and related issues. It provides leadership, conducts risk assessments, and offers financial opportunities and disaster resources. ",
+    "children": [
+      {
+        "label_id": "APHIS2",
+        "name": "Animal Plant Health Inspection Service (APHIS)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "USDA3SUB4",
+            "name": "USDA subcategory 4",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "PHCRT4",
+                "name": "Pet health certificates",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "NFC2",
+        "name": "National Finance Center (NFC)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "USDA3SUB7",
+            "name": "USDA subcategory 7",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "DPRS4",
+                "name": "DPRS",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "RHSVC2",
+        "name": "Rural Housing Service (RHS)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "USDA3SUB6",
+            "name": "USDA subcategory 6",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "HLRARHP4",
+                "name": "Home loans, Rental Assistance, Rental Housing Programs ",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "RRDLP2",
+        "name": "Rural Development (RD)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "USDA3SUB5",
+            "name": "USDA subcategory 5",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "RDLPG4",
+                "name": "Rural development grants",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "RDLPL4",
+                "name": "Rural development loans",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "USDA2SUB1",
+        "name": "USDA subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "USDA3SUB8",
+            "name": "USDA subcategory 8",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "USDAWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "USPS1",
+    "name": "United States Postal Service (USPS)",
+    "tier": 1,
+    "description": "",
+    "children": [
+      {
+        "label_id": "USPS2SUB1",
+        "name": "USPS subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "USPS3SUB2",
+            "name": "USPS subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "USPSWHBL4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label_id": "VA1",
+    "name": "Department of Veterans Affairs (VA)",
+    "tier": 1,
+    "description": "The Department of Veterans Affairs (VA) is a U.S. federal executive department responsible for providing a wide range of benefits, services, and support to veterans of the U.S. armed forces and their families. It operates the largest integrated healthcare system in the United States and also administers various other benefits like disability compensation, education assistance, home loan guarantees, and burial benefits. ",
+    "children": [
+      {
+        "label_id": "BVA2",
+        "name": "Board of Veterans Appeals (BVA)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "VA3SUB8",
+            "name": "VA subcategory 8",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "BRDAPL4",
+                "name": "Board Appeals ",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "NCA2",
+        "name": "National Cemetery Administration",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "VA3SUB9",
+            "name": "VA subcategory 9",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "BALWN4",
+                "name": "Burial Allowance",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "BELG4",
+                "name": "Burial Eligibility",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "BFLG4",
+                "name": "Burial Flags",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MEMRLZ4",
+                "name": "Memorialization",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PMCRT4",
+                "name": "Presidential Memorial Certificates",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SBVNC4",
+                "name": "Schedule Burial in VA National Cemetery",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "OALC2",
+        "name": "Office of Acquisition, Logistics, and Construction (OALC)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "VA3SUB7",
+            "name": "VA subcategory 7",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "CPCBL4",
+                "name": "Construction projects/contract billing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "OGC2",
+        "name": "Office of General Counsel (OGC)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "VA3SUB5",
+            "name": "VA subcategory 5",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "PARF4",
+                "name": "Privacy Act Release Form (PARF)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "TCSTS4",
+                "name": "Tort claim status",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VSOA4",
+                "name": "VSO accredidation",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "PSAC2",
+        "name": "Personnel Security Adjudication Center (PSAC)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "VA3SUB6",
+            "name": "VA subcategory 6",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "SECCL4",
+                "name": "Security Clearance",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "VA2SUB1",
+        "name": "VA subcategory 1",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "VA3SUB10",
+            "name": "VA subcategory 10",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "BRWHB4",
+                "name": "Whistleblowing",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "VBA2",
+        "name": "Veterans Benefits Administration (VBA)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "GIBB3",
+            "name": "GI bill benefits",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "GIBE4",
+                "name": "GI bill education benefits",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VAHL4",
+                "name": "VA-backed home loans",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VETTEC4",
+                "name": "VET TEC",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "RMC3",
+            "name": "VA Records Management Center (RMC)",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "CPYSTR4",
+                "name": "Copy of service treatment records",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "VA3SUB3",
+            "name": "VA subcategory 3",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "AATT4",
+                "name": "Aid & Attendance ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "AOC4",
+                "name": "Agent Orange Claims ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "CLC4",
+                "name": "Camp Lejeune Claims ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "CMPP4",
+                "name": "Compensation & Pension ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "CONCR4",
+                "name": "Concurrent receipt",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "DEPL4",
+                "name": "Deployment benefits ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "DEPN4",
+                "name": "Dependent benefits",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "DIC4",
+                "name": "Death Indemnity Compensation",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "DIR4",
+                "name": "Delayed initial rating",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "FIDUC4",
+                "name": "Fiduciary ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "HLR4",
+                "name": "Higher-Level Reviews",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "LGCY4",
+                "name": "Legacy Appeals",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "NTRP4",
+                "name": "Not receiving pay",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "OVPM4",
+                "name": "Overpayment ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PAC4",
+                "name": "PACT Act Claims ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PRES4",
+                "name": "Presumptive conditions",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "SURP4",
+                "name": "Survivor pension",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "UPGR4",
+                "name": "Discharge upgrade — VA benefits",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VABD4",
+                "name": "VA Benefit Debt",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VALIFE4",
+                "name": "Life Insurance ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VBAP4",
+                "name": "Appeals",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VRNE4",
+                "name": "Veteran Readiness & Employment (VR&E) ",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "VA3SUB4",
+            "name": "VA subcategory 4",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "AUTOG4",
+                "name": "Auto Grants",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "HOMEG4",
+                "name": "Home Grants",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label_id": "VHA2",
+        "name": "Veterans Health Administration (VHA)",
+        "tier": 2,
+        "description": "",
+        "children": [
+          {
+            "label_id": "COMC3",
+            "name": "Community Care ",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "CHAMPVA",
+                "name": "CHAMPVA",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "COMC4",
+                "name": "Community Care",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "COMP4",
+                "name": "Community providers",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "CRCV4",
+                "name": "Care Coverage",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "DBF4",
+                "name": "Disruptive behavior flags",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "FMP4",
+                "name": "Foreign medical program (FMP)",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "HCE4",
+                "name": "Health Care Eligibility",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "HVC4",
+                "name": "Homeless Veteran Care",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MHS4",
+                "name": "Mental Health Services",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PTSD4",
+                "name": "PTSD",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "RURL4",
+                "name": "Rural care",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VAEMP4",
+                "name": "VA Employee/Employment Issues",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VATPR4",
+                "name": "VA Travel Pay Reimbursement",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "XPTR4",
+                "name": "Experimental treatments",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "VA3SUB2",
+            "name": "VA subcategory 2",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "EHRM4",
+                "name": "Electronic health records ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "ERV4",
+                "name": "Emergency Room Visits ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "HSP4",
+                "name": "Hospice ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "MHEV4",
+                "name": "My HealthEVet ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "PRX4",
+                "name": "Prescriptions ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "TRNS4",
+                "name": "Transportation ",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "URGC4",
+                "name": "Urgent Care",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VALTC4",
+                "name": "Long-term care",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VAX4",
+                "name": "Vaccinations",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          },
+          {
+            "label_id": "VAMC3",
+            "name": "VA Medical Center",
+            "tier": 3,
+            "description": "",
+            "children": [
+              {
+                "label_id": "CARE4",
+                "name": "Caregiver Support Program",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "CBOC4",
+                "name": "CBOCs",
+                "tier": 4,
+                "description": ""
+              },
+              {
+                "label_id": "VETC4",
+                "name": "Vet centers",
+                "tier": 4,
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
