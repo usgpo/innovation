@@ -166,7 +166,7 @@ permalink: /resources/
         <p>Senate</p>
         <ul>
             <li><a href="https://www.senate.gov/general/XML.htm">XML Sources on Senate.gov</a></li>
-            <li><a href="https://www.senate.gov/reference/active_bill_type/115.xml">Active Legislation</a></li>
+            <li><a href="https://www.senate.gov/legislative/2025_schedule.xml">Tentative Floor Schedule</a></li>
              <li><a href="https://www.senate.gov/general/committee_schedules/hearings.xml">Committee Hearings and Meeting Schedule</a></li>
             <li><a href="https://www.senate.gov/general/committee_membership/committee_memberships_SSAP.xml"> Committee Membership</a></li>    
 <li><a href="https://www.senate.gov/general/contact_information/senators_cfm.xml">Current Senators Contact List</a></li>    
