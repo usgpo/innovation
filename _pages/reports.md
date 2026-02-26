@@ -8,7 +8,7 @@ permalink: /reports/
 ## Reports
 
 
-### Standardized Formats for Legislative Documents, USLM  
+### Standardized Formats for Legislative Documents, [USLM](https://github.com/usgpo/uslm)  
 * Initial Report - Required by Section 501 of House Resolution 756 of the 116th Congress - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Initial-Standardized-Formats.pdf)  
 * Quarterly Report 1 - October 15, 2020 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR1-Standardized-Formats.pdf)  
 * Quarterly Report 2 - January 15, 2021 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR2-Standardized-Formats.pdf)  
