@@ -1,14 +1,14 @@
-name: Add/Edit Data Source
-description: Submit a new data source or edit an existing one in the Legislative Branch Data Map
-title: "[Data Source]: "
-labels: ["data-source", "triage"]
+name: Add/Edit Dataset
+description: Submit a new dataset or edit an existing one in the Legislative Branch Data Map
+title: "[Dataset]: "
+labels: ["dataset", "triage"]
 body:
   - type: markdown
     attributes:
       value: |
         ## Legislative Branch Data Map Submission
 
-        Thank you for contributing to the Legislative Branch Data Map! Please fill out the information below to add a new data source or suggest edits to an existing one.
+        Thank you for contributing to the Legislative Branch Data Map! Please fill out the information below to add a new dataset or suggest edits to an existing one.
 
         This information will be added to `assets/data/legislative-branch-data-map.json` in DCAT format.
 
@@ -16,10 +16,10 @@ body:
     id: submission-type
     attributes:
       label: Submission Type
-      description: Are you adding a new data source or editing an existing one?
+      description: Are you adding a new dataset or editing an existing one?
       options:
-        - Add new data source
-        - Edit existing data source
+        - Add new dataset
+        - Edit existing dataset
       default: 0
     validations:
       required: true
@@ -36,8 +36,8 @@ body:
   - type: input
     id: title
     attributes:
-      label: Data Source Title
-      description: Official name of the data source
+      label: Dataset Title
+      description: Official name of the dataset
       placeholder: "e.g., Congress.gov API"
     validations:
       required: true
@@ -46,7 +46,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: Brief description of the data source and what it's best used for
+      description: Brief description of the dataset and what it's best used for
       placeholder: "e.g., API of most datasets on Congress.gov. Best for: Legislation & tracking."
     validations:
       required: true
@@ -55,7 +55,7 @@ body:
     id: publisher-name
     attributes:
       label: Publisher Name
-      description: Name of the organization that maintains this data source
+      description: Name of the organization that maintains this dataset
       placeholder: "e.g., Library of Congress"
     validations:
       required: true
@@ -73,7 +73,7 @@ body:
     id: landing-page
     attributes:
       label: Landing Page URL
-      description: Primary URL where users can access this data source
+      description: Primary URL where users can access this dataset
       placeholder: "e.g., https://api.congress.gov"
     validations:
       required: true
@@ -82,7 +82,7 @@ body:
     id: keywords
     attributes:
       label: Keywords
-      description: Comma-separated keywords that describe this data source
+      description: Comma-separated keywords that describe this dataset
       placeholder: "e.g., Legislation, API, Bills"
     validations:
       required: true
@@ -91,7 +91,7 @@ body:
     id: theme
     attributes:
       label: Primary Theme
-      description: Select the primary category for this data source
+      description: Select the primary category for this dataset
       options:
         - "official---legislative-branch / main-websites"
         - "official---legislative-branch / members"
@@ -112,7 +112,7 @@ body:
     id: frequency
     attributes:
       label: Update Frequency
-      description: How often is this data source updated?
+      description: How often is this dataset updated?
       options:
         - continuous
         - daily
@@ -145,7 +145,7 @@ body:
     id: contact-name
     attributes:
       label: Contact Name (optional)
-      description: Contact name for this data source
+      description: Contact name for this dataset
       placeholder: "e.g., Legislative Branch Innovation Hub"
       value: "Legislative Branch Innovation Hub"
     validations:
@@ -155,7 +155,7 @@ body:
     id: contact-email
     attributes:
       label: Contact Email (optional)
-      description: Contact email for this data source
+      description: Contact email for this dataset
       placeholder: "e.g., innovation@usgpo.gov"
       value: "innovation@usgpo.gov"
     validations:
@@ -165,7 +165,7 @@ body:
     id: comment
     attributes:
       label: Additional Comments (optional)
-      description: Any additional information about this data source
+      description: Any additional information about this dataset
       placeholder: "e.g., Bulk & API access available"
     validations:
       required: false
@@ -175,7 +175,7 @@ body:
     attributes:
       label: Additional Context
       description: |
-        Please provide any additional context about why this data source should be added or what changes should be made.
+        Please provide any additional context about why this dataset should be added or what changes should be made.
         Include links to documentation, announcements, or other relevant information.
     validations:
       required: false
@@ -186,9 +186,9 @@ body:
       label: Verification
       description: Please confirm the following
       options:
-        - label: I have verified that this data source is accurate and accessible
+        - label: I have verified that this dataset is accurate and accessible
           required: true
-        - label: I have checked that this data source is not already in the map (for new submissions)
+        - label: I have checked that this dataset is not already in the map (for new submissions)
           required: false
         - label: The URLs provided are working and point to the correct resources
           required: true
