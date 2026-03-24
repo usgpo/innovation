@@ -156,8 +156,8 @@ body:
     attributes:
       label: Contact Email (optional)
       description: Contact email for this dataset
-      placeholder: "e.g., innovation@usgpo.gov"
-      value: "innovation@usgpo.gov"
+      placeholder: "enter contact email"
+      value: "enter contact email"
     validations:
       required: false
 
