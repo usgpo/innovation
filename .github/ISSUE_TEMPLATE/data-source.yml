@@ -1,0 +1,194 @@
+name: Add/Edit Data Source
+description: Submit a new data source or edit an existing one in the Legislative Branch Data Map
+title: "[Data Source]: "
+labels: ["data-source", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Legislative Branch Data Map Submission
+
+        Thank you for contributing to the Legislative Branch Data Map! Please fill out the information below to add a new data source or suggest edits to an existing one.
+
+        This information will be added to `assets/data/legislative-branch-data-map.json` in DCAT format.
+
+  - type: dropdown
+    id: submission-type
+    attributes:
+      label: Submission Type
+      description: Are you adding a new data source or editing an existing one?
+      options:
+        - Add new data source
+        - Edit existing data source
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: existing-id
+    attributes:
+      label: Existing Dataset ID (if editing)
+      description: If editing, provide the dataset number (e.g., "42" from datasets/42)
+      placeholder: "42"
+    validations:
+      required: false
+
+  - type: input
+    id: title
+    attributes:
+      label: Data Source Title
+      description: Official name of the data source
+      placeholder: "e.g., Congress.gov API"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of the data source and what it's best used for
+      placeholder: "e.g., API of most datasets on Congress.gov. Best for: Legislation & tracking."
+    validations:
+      required: true
+
+  - type: input
+    id: publisher-name
+    attributes:
+      label: Publisher Name
+      description: Name of the organization that maintains this data source
+      placeholder: "e.g., Library of Congress"
+    validations:
+      required: true
+
+  - type: input
+    id: publisher-url
+    attributes:
+      label: Publisher URL
+      description: Official website of the publisher organization
+      placeholder: "e.g., https://loc.gov"
+    validations:
+      required: true
+
+  - type: input
+    id: landing-page
+    attributes:
+      label: Landing Page URL
+      description: Primary URL where users can access this data source
+      placeholder: "e.g., https://api.congress.gov"
+    validations:
+      required: true
+
+  - type: input
+    id: keywords
+    attributes:
+      label: Keywords
+      description: Comma-separated keywords that describe this data source
+      placeholder: "e.g., Legislation, API, Bills"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Primary Theme
+      description: Select the primary category for this data source
+      options:
+        - "official---legislative-branch / main-websites"
+        - "official---legislative-branch / members"
+        - "official---legislative-branch / committees"
+        - "official---legislative-branch / events"
+        - "official---legislative-branch / legislative"
+        - "official---legislative-branch / other-legislative"
+        - "official---legislative-branch / senate-nominations"
+        - "official---legislative-branch / non-public---internal"
+        - "official---executive-&-agencies / other"
+        - "unofficial---civil-society / legislative"
+        - "unofficial---civil-society / other"
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Update Frequency
+      description: How often is this data source updated?
+      options:
+        - continuous
+        - daily
+        - weekly
+        - monthly
+        - quarterly
+        - annual
+        - biennial
+        - irregular
+        - completelyIrregular
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: distributions
+    attributes:
+      label: Data Formats and Access URLs
+      description: |
+        List the formats available and their URLs. One per line in the format: URL | Format
+        Common formats: application/json, application/xml, text/html, text/csv, application/pdf
+      placeholder: |
+        https://api.congress.gov | application/json
+        https://api.congress.gov | application/xml
+      value: " | "
+    validations:
+      required: true
+
+  - type: input
+    id: contact-name
+    attributes:
+      label: Contact Name (optional)
+      description: Contact name for this data source
+      placeholder: "e.g., Legislative Branch Innovation Hub"
+      value: "Legislative Branch Innovation Hub"
+    validations:
+      required: false
+
+  - type: input
+    id: contact-email
+    attributes:
+      label: Contact Email (optional)
+      description: Contact email for this data source
+      placeholder: "e.g., innovation@usgpo.gov"
+      value: "innovation@usgpo.gov"
+    validations:
+      required: false
+
+  - type: textarea
+    id: comment
+    attributes:
+      label: Additional Comments (optional)
+      description: Any additional information about this data source
+      placeholder: "e.g., Bulk & API access available"
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: |
+        Please provide any additional context about why this data source should be added or what changes should be made.
+        Include links to documentation, announcements, or other relevant information.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      description: Please confirm the following
+      options:
+        - label: I have verified that this data source is accurate and accessible
+          required: true
+        - label: I have checked that this data source is not already in the map (for new submissions)
+          required: false
+        - label: The URLs provided are working and point to the correct resources
+          required: true
