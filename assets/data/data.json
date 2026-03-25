@@ -1,0 +1,1079 @@
+{
+  "@context": "https://www.w3.org/ns/dcat.jsonld",
+  "@type": "dcat:Catalog",
+  "dcterms:title": "Legislative Branch Data Map",
+  "dcterms:description": "A comprehensive catalog of legislative branch data sources including official websites, APIs, data feeds, and resources from the House, Senate, Library of Congress, Government Publishing Office, and other legislative branch entities.",
+  "dcterms:publisher": {
+    "@type": "foaf:Organization",
+    "foaf:name": "Congressional Data Task Force"
+  },
+  "dcat:dataset": [
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/1",
+      "dcterms:title": "Bill Status XML Bulk Data ",
+      "dcterms:description": "Bill status information compiled from the Congress.gov API.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://www.govinfo.gov/bulkdata/BILLSTATUS"
+      },
+      "dcat:keyword": [
+        "bill status",
+        "XML Bulk Data",
+        "ZIP",
+        "Bill Status",
+        "BILLSTATUS",
+        "GovInfo"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Daily"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata/BILLSTATUS"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata/BILLSTATUS"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/zip"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/2",
+      "dcterms:title": "Bill Summary XML Bulk Data ",
+      "dcterms:description": "Bill summary information compiled from the Congress.gov API. The Congressional Research Service (CRS) within the Library of Congress is statutorily mandated under 2 U.S.C. 166 (d) to write and publish a nonpartisan, authoritative bill summary for each legislative measure introduced by Congress.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://www.govinfo.gov/bulkdata/BILLSUM"
+      },
+      "dcat:keyword": [
+        "bill summaries",
+        "XML Bulk Data",
+        "ZIP",
+        "Bill Summary",
+        "BILLSUM",
+        "GovInfo"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Daily"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata/BILLSUM"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata/BILLSUM"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/zip"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/3",
+      "dcterms:title": "Bill Text XML Bulk Data ",
+      "dcterms:description": "Congressional bills are legislative proposals from the House of Representatives and Senate within the United States Congress.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://www.govinfo.gov/bulkdata/BILLS"
+      },
+      "dcat:keyword": [
+        "bill texts",
+        "XML Bulk Data",
+        "ZIP",
+        "Congressional Bills",
+        "BILLS",
+        "GovInfo"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Daily"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata/BILLS"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata/BILLS"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/zip"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/4",
+      "dcterms:title": "Catalog of U.S. Government Publications",
+      "dcterms:description": "Finding tool for Federal publications that includes descriptive information for historical and current publications as well as direct links to the full document, when available.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://catalog.gpo.gov"
+      },
+      "dcat:keyword": [
+        "catalog",
+        "bibliographic records",
+        "federal publications"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Daily"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://catalog.gpo.gov"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/text/html"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/5",
+      "dcterms:title": "GovInfo API",
+      "dcterms:description": "The GovInfo API provides services to access GovInfo content and metadata files. The API was built and documented using the Open API Specification and Swagger UI. More information is available on the GovInfo Developer Hub and on GPO's GovInfo API GitHub repository.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://api.govinfo.gov/docs/"
+      },
+      "dcat:keyword": [
+        "API",
+        "documentation",
+        "GovInfo"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Daily"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://api.govinfo.gov/docs/"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/text/html"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/6",
+      "dcterms:title": "GovInfo XML Bulk Data Repository",
+      "dcterms:description": "Download XML files individually or in bulk as ZIP files for select GovInfo collections. This includes but is not limited to Congressional bill, bill status information, bill summaries, Statute Compilations, public and private laws, the Statutes at Large, the Government Manual, Privacy Act Issuances, the Code of Federal Regulations, and the Federal Register.\n\nNotes: The XML bulk data repository is useful for downloading an entire dataset.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://www.govinfo.gov/bulkdata"
+      },
+      "dcat:keyword": [
+        "GovInfo",
+        "Laws",
+        "Legislation",
+        "Regulations",
+        "XML Bulk Data",
+        "collections",
+        "research",
+        "USLM",
+        "XML"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Daily"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/text/html"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata/json"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/json"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata/xml"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/7",
+      "dcterms:title": "House Rules and Manual XML Bulk Data",
+      "dcterms:description": "The House Rules and Manual, published by the House Parliamentarian's Office, is formally entitled Constitution, Jefferson's Manual, and Rules of the House of Representatives and contains the fundamental source material for parliamentary procedure used in the House of Representatives.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://www.govinfo.gov/bulkdata/HMAN"
+      },
+      "dcat:keyword": [
+        "XML Bulk Data",
+        "House Rules and Manual",
+        "HMAN",
+        "GovInfo"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Biennial"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata/HMAN"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/8",
+      "dcterms:title": "Public and Private Laws XML Bulk Data",
+      "dcterms:description": "Public and private laws are also known as slip laws. A slip law is an official publication of the law and is competent evidence admissible in all state and Federal courts and tribunals of the United States. After the President signs a bill into law, it is delivered to the Office of the Federal Register (OFR), National Archives and Records Administration (NARA) where it is prepared for publication as a slip law.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://www.govinfo.gov/bulkdata/PLAW"
+      },
+      "dcat:keyword": [
+        "Public Laws",
+        "Slip Laws",
+        "Private Laws",
+        "USLM",
+        "XML Bulk Data",
+        "ZIP",
+        "Public and Private Laws",
+        "PLAW",
+        "GovInfo"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Irregular"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata/PLAW"
+          },
+          "dcterms:format": {
+            "@id": "https://github.com/usgpo/uslm"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata/PLAW"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/zip"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/9",
+      "dcterms:title": "Statute Compilations XML Bulk Data ",
+      "dcterms:description": "The Office of the Legislative Counsel of the U.S. House of Representatives maintains a corpus of Statute Compilations of public laws that either do not appear in the U.S. Code or that have been classified to a title of the U.S. Code that has not been enacted into positive law. Each Statute Compilation incorporates the amendments made to the underlying statute since it was originally enacted. When legislation cites or amends a statutory provision that is not part of a positive law title of the U.S. Code, the citation or amendment must be to the underlying statute, not to the U.S. Code. Statute Compilations are a useful drafting aid in these circumstances; however, they are not official documents and should not be cited as evidence of the law. The official version of Federal law is found in the United States Statutes at Large and in the U.S. Code, the legal effect of which is established in sections 112 and 204, respectively, of title 1, United States Code.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://www.govinfo.gov/bulkdata/COMPS"
+      },
+      "dcat:keyword": [
+        "comps",
+        "USLM",
+        "XML Bulk Data",
+        "ZIP",
+        "Statute Compilations",
+        "COMPS",
+        "GovInfo"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Weekly"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata/COMPS"
+          },
+          "dcterms:format": {
+            "@id": "https://github.com/usgpo/uslm"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata/COMPS"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/zip"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/10",
+      "dcterms:title": "Statutes at Large XML Bulk Data ",
+      "dcterms:description": "The United States Statutes at Large, typically referred to as the Statutes at Large, is the permanent collection of all laws and resolutions enacted during each session of Congress. The Statutes at Large is prepared and published by the Office of the Federal Register (OFR), National Archives and Records Administration (NARA). Under the provisions of 1 U.S.C. 112, the printed edition of the Statutes at Large is legal evidence of the laws, concurrent resolutions, proclamations by the President, and proposed and ratified amendments to the Constitution.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://www.govinfo.gov/bulkdata/STATUTE"
+      },
+      "dcat:keyword": [
+        "Statutes",
+        "USLM",
+        "XML Bulk Data",
+        "Statutes at Large",
+        "STATUTES",
+        "GovInfo"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Irregular"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.govinfo.gov/bulkdata/STATUTE"
+          },
+          "dcterms:format": {
+            "@id": "https://github.com/usgpo/uslm"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/11",
+      "dcterms:title": "USLM GitHub Repository",
+      "dcterms:description": "USLM GitHub repository includes schemas, css, sample files, and user guides for the legislative XML standard.\n\nNotes: United States Legislative Markup schemas.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://github.com/usgpo/uslm"
+      },
+      "dcat:keyword": [
+        "uslm",
+        "schema",
+        "XML",
+        "GitHub",
+        "standards"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Irregular"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://github.com/usgpo/uslm"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/12",
+      "dcterms:title": "Congress.gov API",
+      "dcterms:description": "The Congress.gov Application Programming Interface (API) provides a method for Congress and the public to view, retrieve, and re-use machine-readable data from collections available on Congress.gov.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Library of Congress",
+        "@id": "https://loc.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "Library of Congress (GitHub)",
+        "vcard:hasURL": "https://github.com/LibraryOfCongress/api.congress.gov/issues"
+      },
+      "dcat:landingPage": {
+        "@id": "https://api.congress.gov"
+      },
+      "dcat:keyword": [
+        "legislation",
+        "committees",
+        "nominations",
+        "policy",
+        "IDs",
+        "oversight"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Continuous"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://api.congress.gov"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://api.congress.gov"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/json"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/13",
+      "dcterms:title": "Bioguide",
+      "dcterms:description": "Biographies of every member of Congress (past and present) with finding aides for additional research and a photograph or portfrait of the member. This website URL provides unique identifiers for every member of Congress\n\nNotes: Maintained by LOC & historians. A useful resource for non-copyrighted images of members and unique IDs to identify them",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://house.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "Clerkweb Tech Support",
+        "vcard:hasEmail": "mailto:techsupport.clerkweb@mail.house.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://bioguide.congress.gov"
+      },
+      "dcat:keyword": [
+        "members",
+        "IDs"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Irregular"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://bioguide.congress.gov"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://bioguide.congress.gov"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/json"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/14",
+      "dcterms:title": "House Clerk Member Data XML",
+      "dcterms:description": "Official XML listing of House members, unique identifiers (BioGuideID), party, district, address, phone number, committee assignments, committee code, subcommittee code\n\nNotes: Published by House Clerk, particularly useful for committee and subcommittee assignments",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://house.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "Clerkweb Tech Support",
+        "vcard:hasEmail": "mailto:techsupport.clerkweb@mail.house.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://clerk.house.gov/xml/lists/MemberData.xml"
+      },
+      "dcat:keyword": [
+        "members",
+        "IDs",
+        "committees",
+        "microsite"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Monthly"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://clerk.house.gov/xml/lists/MemberData.xml"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/15",
+      "dcterms:title": "House Committee Repository",
+      "dcterms:description": "A central repository for all House committee proceedings that contains legislative text, testimony, and associated documents.\n\nNotes: The central source for official committee proceeding information, uploaded by each committee and managed by the House Clerk",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://house.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "Clerkweb Tech Support",
+        "vcard:hasEmail": "mailto:techsupport.clerkweb@mail.house.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://docs.house.gov/committee"
+      },
+      "dcat:keyword": [
+        "committees",
+        "calendar"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Daily"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://docs.house.gov/committee"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://docs.house.gov/committee"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/text/html"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/16",
+      "dcterms:title": "House Member Information XML",
+      "dcterms:description": "House member phone, bioguide ID, webpage, official photo, social media account, and committee assignment information\n\nNotes: Based on Clerk and CAO data; updated after memberData.xml is updated",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://house.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "Clerkweb Tech Support",
+        "vcard:hasEmail": "mailto:techsupport.clerkweb@mail.house.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://member-info.house.gov/members.xml"
+      },
+      "dcat:keyword": [
+        "operations",
+        "members",
+        "IDs",
+        "microsite"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Daily"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://member-info.house.gov/members.xml"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/17",
+      "dcterms:title": "House Telephone Directory",
+      "dcterms:description": "Official directory of House staff and member contact information, available in exportable formats\n\nNotes: Exportable contact information for political and non-political House employees",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://house.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "Clerkweb Tech Support",
+        "vcard:hasEmail": "mailto:techsupport.clerkweb@mail.house.gov"
+      },
+      "dcat:landingPage": {
+        "@id": "https://directory.house.gov"
+      },
+      "dcat:keyword": [
+        "members",
+        "staff"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Irregular"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://directory.house.gov"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/text/html"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://directory.house.gov"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/text/csv"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/18",
+      "dcterms:title": "LegiDex",
+      "dcterms:description": "Comprehensive staff directory, including contact and policy role information for staff. It includes all House offices and is expanding to legislative branch agencies\n\nNotes: Managed by the CAO. It is intended to become a legislative-branch wide staff directory that includes contact information and policy roles.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://www.house.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact"
+      },
+      "dcat:landingPage": {
+        "@id": "https://legidex.house.gov"
+      },
+      "dcat:keyword": [
+        "members",
+        "staff"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Daily"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://legidex.house.gov"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/pdf"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://legidex.house.gov"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/text/html"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Non-Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/19",
+      "dcterms:title": "Senate Committee Information XML",
+      "dcterms:description": "Senator name, party, state, address, committee assignments (with unique IDs), seniority, bioguide ID, LIS ID, phone, and website. This allows a crosswalk between bioguide + LIS data.\n\nNotes: Provides a useful crosswalk for senator bioguide and LIS IDs. Also has committee assignments as structured data.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact"
+      },
+      "dcat:landingPage": {
+        "@id": "https://www.senate.gov/legislative/LIS_MEMBER/cvc_member_data.xml"
+      },
+      "dcat:keyword": [
+        "members",
+        "IDs",
+        "committees"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Daily"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.senate.gov/legislative/LIS_MEMBER/cvc_member_data.xml"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/20",
+      "dcterms:title": "Senate Contact Information XML",
+      "dcterms:description": "XML file with names, party, state, and bioguide IDs for all current Senators\n\nNotes: Basic structured data about senators. Published by the Secretary of the Senate",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact"
+      },
+      "dcat:landingPage": {
+        "@id": "https://www.senate.gov/general/contact_information/senators_cfm.xml"
+      },
+      "dcat:keyword": [
+        "members",
+        "IDs"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Biennial"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.senate.gov/general/contact_information/senators_cfm.xml"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/21",
+      "dcterms:title": "Senate Hearings XML",
+      "dcterms:description": "A unified senate committee calendar for upcoming hearings. It provides the name and date of each upcoming committee proceeding including the committee's unique ID. Note: it does not contain retrospective data.\n\nNotes: Does not contain retrospective information. Human readable version available at https://www.senate.gov/committees/hearings_meetings.htm",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact"
+      },
+      "dcat:landingPage": {
+        "@id": "https://www.senate.gov/general/committee_schedules/hearings.xml"
+      },
+      "dcat:keyword": [
+        "committees"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Daily"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.senate.gov/general/committee_schedules/hearings.xml"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.senate.gov/general/committee_schedules/hearings.xml"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/text/html"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://usgpo.github.io/innovation/datasets/22",
+      "dcterms:title": "Senate XML Resources",
+      "dcterms:description": "Senate XML webpage. Compilation of Senate resources for information available as XML and HTML. Includes committee, senator, floor, roll call vote, and nominations information\n\nNotes: A compilation of various Senate resources published in XML",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact"
+      },
+      "dcat:landingPage": {
+        "@id": "https://www.senate.gov/general/XML.htm"
+      },
+      "dcat:keyword": [
+        "data"
+      ],
+      "dcterms:accrualPeriodicity": {
+        "rdfs:label": "Irregular"
+      },
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.senate.gov/general/XML.htm"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/application/xml"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://www.senate.gov/general/XML.htm"
+          },
+          "dcterms:format": {
+            "@id": "https://www.iana.org/assignments/media-types/text/html"
+          }
+        }
+      ],
+      "dcat-us:AccessRights": {
+        "@id": "http://publications.europa.eu",
+        "rdfs:label": "Public"
+      }
+    }
+  ]
+}
