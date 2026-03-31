@@ -21,3 +21,8 @@ ARG CUSTOM_CA_PATH=ca
 COPY --chown=root:root ${CUSTOM_CA_PATH}/ /usr/local/share/ca-certificates/
 RUN ls -l /usr/local/share/ca-certificates/ \
     && update-ca-certificates
+
+RUN apt update \
+    && apt install --yes --no-install-recommends figlet make \
+    && apt clean \
+    && rm -rf /var/lib/apt/lists/*
