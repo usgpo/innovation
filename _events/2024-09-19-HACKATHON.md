@@ -1,6 +1,8 @@
 ---
 title: Congressional Hackathon 6.0
 event_date: '2024-09-19'
+hour_begin: 1300
+hour_end: 1800
 ---
 
 ## Congressional Hackathon 6.0
