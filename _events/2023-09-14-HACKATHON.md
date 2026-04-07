@@ -1,6 +1,8 @@
 ---
 title: Congressional Hackathon 5.0
 event_date: '2023-09-14'
+hour_begin: 1300
+hour_end: 1800
 ---
 
 ## Congressional Hackathon 5.0
