@@ -32,6 +32,6 @@ CLASS:PUBLIC
 DTSTART;TZID=America/New_York:{{ event.event_date | date: "%Y%m%d" }}T{{ event.hour_begin }}00
 DTEND;TZID=America/New_York:{{ event.event_date | date: "%Y%m%d" }}T{{ event.hour_end }}00
 DTSTAMP;TZID=America/New_York:{{ event.event_date | date: "%Y%m%d" }}T{{ event.hour_begin }}00
-URL:{{ site.baseurl }}{{ event.url }}
+URL:{{ site.url }}{{ site.baseurl }}{{ event.url }}
 END:VEVENT
 {% endfor %}END:VCALENDAR
