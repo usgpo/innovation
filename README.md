@@ -26,6 +26,14 @@ To run your copy, you need [the Ruby language on your machine][ruby-dl].
 
 [ruby-dl]: https://www.ruby-lang.org/en/documentation/installation/
 
+> A `flake.nix` is included for users of the [Nix package manager][nix] ([][nix-dl]).
+> This describes a [nix develop] shell, for any users who enable [nix command].
+
+[nix]: https://nixos.org/
+[nix-dl]: https://nixos.org/download/
+[nix develop]: https://nix.dev/manual/nix/2.26/command-ref/new-cli/nix3-develop
+[nix command]: https://nixos.wiki/wiki/Nix_command
+
 The procedure for rendering the app is as such;
 please [ask for guidance][issue] in case of errors on your machine.
 
