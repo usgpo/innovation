@@ -8,7 +8,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:https://usgpo.github.io/innovation
 METHOD:PUBLISH
-
 BEGIN:VTIMEZONE
 TZID:America/New_York
 BEGIN:STANDARD
@@ -26,15 +25,13 @@ TZOFFSETTO:-0400
 TZNAME:EDT
 END:DAYLIGHT
 END:VTIMEZONE
-
 {% for event in site.events %}BEGIN:VEVENT
 UID:{{ event.event_date | date: "%Y/%m/%d" }}@usgpo.github.io/innovation
 SUMMARY:{{ event.title }}
 CLASS:PUBLIC
-DTSTART;TZID=America/New_York:{{ event.event_date | date: "%Y%m%d" }}T{{ event.hour_begin }}
-DTEND;TZID=America/New_York:{{ event.event_date | date: "%Y%m%d" }}T{{ event.hour_end }}
-DTSTAMP;TZID=America/New_York:{{ event.event_date | date: "%Y%m%d" }}T{{ event.hour_begin }}
+DTSTART;TZID=America/New_York:{{ event.event_date | date: "%Y%m%d" }}T{{ event.hour_begin }}00
+DTEND;TZID=America/New_York:{{ event.event_date | date: "%Y%m%d" }}T{{ event.hour_end }}00
+DTSTAMP;TZID=America/New_York:{{ event.event_date | date: "%Y%m%d" }}T{{ event.hour_begin }}00
 URL:{{ site.baseurl }}{{ event.url }}
 END:VEVENT
-{% endfor %}
-END:VCALENDAR
+{% endfor %}END:VCALENDAR
