@@ -10,169 +10,536 @@
   "dcat:dataset": [
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/1",
-      "dcterms:title": "Bill Status XML Bulk Data ",
+      "dcterms:identifier": "CDTF-DATASET-1",
+      "dcterms:title": "Architect of the Capitol",
+      "dcterms:description": "This dataset provides descriptive information about the Capitol campus, including building histories, construction details, architectural features, artworks, narrative histories and associated facilities. It includes contextual notes, and documentation intended to support research, analysis, and public understanding of the Capitol campus environment.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Architect of the Capitol",
+        "@id": "https://www.aoc.gov"
+      },
+      "dcat:landingPage": "https://aoc.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-2",
+      "dcterms:title": "Congressional District Shapefiles",
+      "dcterms:description": "Shapefiles for Congressional Districts from the U.S. Census Bureau for the 118th Congress.\nNotes: Look on data.gov for more recent shapefiles. For example, see this for the 119th Congress https://catalog.data.gov/dataset/congressional-districts5",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Census Bureau",
+        "@id": "https://www.census.gov"
+      },
+      "dcat:landingPage": "https://www.census.gov/geographies/mapping-files/2023/geo/tiger-line-file.html",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-3",
+      "dcterms:title": "My Congressional District",
+      "dcterms:description": "Data about each congressional district, including demographic, employment, housing, socio-economic, education, and business\nNotes: A close look at data about each congressional district",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Census Bureau",
+        "@id": "https://census.gov"
+      },
+      "dcat:landingPage": "https://www.census.gov/mycd",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-4",
+      "dcterms:title": "EveryCRSReport.com",
+      "dcterms:description": "Contains Congressional Research Service Reports in PDF and HTML.\nNotes: This dataset of Congressional Research Service Reports is significantly broader than that made available by the Library of Congress. In addition, it allows comparisons of report versions and contains metadata about the reports",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Civil Society",
+        "@id": "https://americalabs.org"
+      },
+      "dcat:landingPage": "https://www.everycrsreport.com",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-5",
+      "dcterms:title": "United States Project",
+      "dcterms:description": "A GitHub Repository for many tools and data sets about Congress\nNotes: Maintained by volunteers",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Civil Society",
+        "@id": ""
+      },
+      "dcat:landingPage": "https://github.com/unitedstates",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-6",
+      "dcterms:title": "CBO.gov",
+      "dcterms:description": "This dataset provides authoritative information and analysis from the Congressional Budget Office (CBO), including budgetary projections, cost estimates, economic outlooks, and policy analyses related to the United States federal government. The content is intended to support policymakers, researchers, and the public in understanding the fiscal and economic impacts of proposed legislation and federal programs.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Congressional Budget Office",
+        "@id": "https://cbo.gov"
+      },
+      "dcat:landingPage": "https://cbo.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-7",
+      "dcterms:title": "Congressional Research Service Reports",
+      "dcterms:description": "An official source for current and some archived Congressional Research Service reports.\nNotes: The Library of Congress's official website for Congressional Research Service Reports. It includes all current CRS reports and a subset of archived reports. It does not include CRS congressional distribution reports or confidential memoranda. Some of these reports as also available through the Congress.gov API",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Congressional Research Service",
+        "@id": "https://loc.gov"
+      },
+      "dcat:landingPage": "https://www.congress.gov/crs-products",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-8",
+      "dcterms:title": "CRS.gov",
+      "dcterms:description": "Home page for the Congressional Research Service. Contains Congressional Research Service Reports. Non-public site.\nNotes: No public access",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Congressional Research Service",
+        "@id": "https://crs.gov"
+      },
+      "dcat:landingPage": "https://crs.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-9",
+      "dcterms:title": "Copyright Office",
+      "dcterms:description": "U.S. Copyright Office\nNotes: Copyright information",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Copyright Office",
+        "@id": "https://www.copyright.gov"
+      },
+      "dcat:landingPage": "https://www.copyright.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-10",
+      "dcterms:title": "Oversight.gov",
+      "dcterms:description": "Hub for inspectors general reports from across the federal government\nNotes: Inspectors general reports from across the federal government going back more than 20 years. There are some gaps in coverage. Scrapers for the IG websites, developed by civil society, are at https://github.com/konklone/oversight.garden.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Council of the Inspectors General on Integrity and Efficiency",
+        "@id": "https://www.oversight.gov"
+      },
+      "dcat:landingPage": "https://oversight.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-11",
+      "dcterms:title": "CISA DotGov data",
+      "dcterms:description": "This dataset contains authoritative information about .gov domains registered in the United States, as maintained by the Cybersecurity and Infrastructure Security Agency (CISA). It includes details such as domain names, registrant organizations, agency affiliations, and registration status. The resource is a github flat viewer tool for exploring flat data files.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Cybersecurity and Infrastructure Security Agency",
+        "@id": "https://www.cisa.gov"
+      },
+      "dcat:landingPage": "https://flatgithub.com/cisagov/dotgov-data",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-12",
+      "dcterms:title": "USAspending.gov",
+      "dcterms:description": "USAspending is the official open data source of federal spending information, including information about federal awards such as contracts, grants, and loans.\nNotes: Shows execution of enacted spending",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Department of Treasury",
+        "@id": "https://oversight.gov"
+      },
+      "dcat:landingPage": "https://www.usaspending.gov/",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-13",
+      "dcterms:title": "Congressional Justifications (CBJs)",
+      "dcterms:description": "An OMB managed website that links to each agency's budget request, known as a congressional budget justification, which explains in detail what funding levels an agency is requesting and why they request that funding.\nNotes: From FY 2024 forward. OMB is not in compliance with the law requiring the documents to be hosted on that website and to publish them in a structured data format.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Federal Agencies",
+        "@id": "https://www.treasury.gov"
+      },
+      "dcat:landingPage": "https://www.usaspending.gov/agency",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Annual"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-14",
+      "dcterms:title": "GAO appropriations decisions",
+      "dcterms:description": "GAO's Office of General Counsel issues decisions and opinions on appropriations law\nNotes: The GAO Counsel issues opinions to Members and Committees of Congress, decisions to certain agency officials on questions involving the use of, and accountability for, public funds and decisions to relieve accountable officers for certain losses of public funds",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Accountability Office",
+        "@id": "https://gao.gov"
+      },
+      "dcat:landingPage": "https://www.gao.gov/legal/appropriations-law/search",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-15",
+      "dcterms:title": "GAO bid protests",
+      "dcterms:description": "Decisions and docket for protests of government awards of contracts, run by the GAO",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Accountability Office",
+        "@id": "https://gao.gov"
+      },
+      "dcat:landingPage": "https://www.gao.gov/legal/bid-protests/search",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-16",
+      "dcterms:title": "GAO Innovation Lab",
+      "dcterms:description": "A microsite with information about projects of the GAO Innovation Lab\nNotes: Illustrates cutting-edge tools built by GAO",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Accountability Office",
+        "@id": "https://gao.gov"
+      },
+      "dcat:landingPage": "https://innovations.gao.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-17",
+      "dcterms:title": "GAO Legal Opinions",
+      "dcterms:description": "GAO legal decisions pursuant to statutory mandates, upon congressional request, or stemming from GAO's audit work. This is in additional to opinions rendered elsewhere\nNotes: Technical reference",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Accountability Office",
+        "@id": "https://gao.gov"
+      },
+      "dcat:landingPage": "https://www.gao.gov/legal/other-legal-work/decisions-and-faqs",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-18",
+      "dcterms:title": "GAO Restricted Reports",
+      "dcterms:description": "A tabular list of GAO restrict report titles from 2015-present.\nNotes: A list of these reports from the 1950s forward is publicly available elsehwere. Members of Congress can obtain these reports from GAO, the public may file a FOIA-like request. Titles of GAO reports and testimonies determined by audited agencies to contain classified or controlled unclassified information (CUI). The list informs Congress, federal agencies, and the public of the existence of such products; in some cases, public versions may be issued with sensitive content removed.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Accountability Office",
+        "@id": "https://gao.gov"
+      },
+      "dcat:landingPage": "https://www.gao.gov/reports-testimonies/restricted",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-19",
+      "dcterms:title": "GAO.gov",
+      "dcterms:description": "Home page for the Government Accountability Office, including thousands of their oversight and investigatory reports, interpretations of federal law, and resolution of bid protests\nNotes: Investigative and oversight reports, bid protests, analysis of government expenditures, recommendations, policy analysis.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Accountability Office",
+        "@id": "https://gao.gov"
+      },
+      "dcat:landingPage": "https://gao.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-20",
+      "dcterms:title": "Bill Status XML Bulk Data",
       "dcterms:description": "Bill status information compiled from the Congress.gov API.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Government Publishing Office",
         "@id": "https://www.gpo.gov"
       },
+      "dcat:landingPage": "https://www.govinfo.gov/bulkdata/BILLSTATUS",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
         "vcard:fn": "GovInfo Data",
-        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://www.govinfo.gov/bulkdata/BILLSTATUS"
-      },
-      "dcat:keyword": [
-        "bill status",
-        "XML Bulk Data",
-        "ZIP",
-        "Bill Status",
-        "BILLSTATUS",
-        "GovInfo"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Continuous"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata/BILLSTATUS"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata/BILLSTATUS"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/zip"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Daily"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/2",
-      "dcterms:title": "Bill Summary XML Bulk Data ",
+      "dcterms:identifier": "CDTF-DATASET-21",
+      "dcterms:title": "Bill Summary XML Bulk Data",
       "dcterms:description": "Bill summary information compiled from the Congress.gov API. The Congressional Research Service (CRS) within the Library of Congress is statutorily mandated under 2 U.S.C. 166 (d) to write and publish a nonpartisan, authoritative bill summary for each legislative measure introduced by Congress.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Government Publishing Office",
         "@id": "https://www.gpo.gov"
       },
+      "dcat:landingPage": "https://www.govinfo.gov/bulkdata/BILLSUM",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
         "vcard:fn": "GovInfo Data",
-        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://www.govinfo.gov/bulkdata/BILLSUM"
-      },
-      "dcat:keyword": [
-        "bill summaries",
-        "XML Bulk Data",
-        "ZIP",
-        "Bill Summary",
-        "BILLSUM",
-        "GovInfo"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Continuous"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata/BILLSUM"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata/BILLSUM"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/zip"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Daily"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/3",
-      "dcterms:title": "Bill Text XML Bulk Data ",
+      "dcterms:identifier": "CDTF-DATASET-22",
+      "dcterms:title": "Bill Summary XML Bulk Data",
+      "dcterms:description": "Bill summary information compiled from the Congress.gov API. The Congressional Research Service (CRS) within the Library of Congress is statutorily mandated under 2 U.S.C. 166 (d) to write and publish a nonpartisan, authoritative bill summary for each legislative measure introduced by Congress.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.govinfo.gov/bulkdata/BILLSUM",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-23",
+      "dcterms:title": "Bill Text XML Bulk Data",
       "dcterms:description": "Congressional bills are legislative proposals from the House of Representatives and Senate within the United States Congress.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Government Publishing Office",
         "@id": "https://www.gpo.gov"
       },
+      "dcat:landingPage": "https://www.govinfo.gov/bulkdata/BILLS",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
         "vcard:fn": "GovInfo Data",
-        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://www.govinfo.gov/bulkdata/BILLS"
-      },
-      "dcat:keyword": [
-        "bill texts",
-        "XML Bulk Data",
-        "ZIP",
-        "Congressional Bills",
-        "BILLS",
-        "GovInfo"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Continuous"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata/BILLS"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata/BILLS"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/zip"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Daily"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/4",
+      "dcterms:identifier": "CDTF-DATASET-24",
       "dcterms:title": "Catalog of U.S. Government Publications",
       "dcterms:description": "Finding tool for Federal publications that includes descriptive information for historical and current publications as well as direct links to the full document, when available.",
       "dcterms:publisher": {
@@ -180,41 +547,137 @@
         "foaf:name": "Government Publishing Office",
         "@id": "https://www.gpo.gov"
       },
+      "dcat:landingPage": "https://catalog.gpo.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
         "vcard:fn": "GovInfo Data",
-        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://catalog.gpo.gov"
-      },
-      "dcat:keyword": [
-        "catalog",
-        "bibliographic records",
-        "federal publications"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Daily"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://catalog.gpo.gov"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/text/html"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Daily"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/5",
+      "dcterms:identifier": "CDTF-DATASET-25",
+      "dcterms:title": "Code of Federal Regulations XML Bulk Data",
+      "dcterms:description": "The Code of Federal Regulations (CFR) annual edition is the codification of the general and permanent rules published in the Federal Register by the departments and agencies of the Federal Government. It is divided into 50 titles that represent broad areas subject to Federal regulation.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.govinfo.gov/bulkdata/CFR",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Annual"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-26",
+      "dcterms:title": "Congressionally Mandated Reports Submission Portal",
+      "dcterms:description": "Submission portal for Federal agencies. See GovInfo.gov for access to Congressionally Mandated Reports.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.gpo.gov/how-to-work-with-us/agency/congressionally-mandated-reports",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-27",
+      "dcterms:title": "eCFR XML Bulk Data",
+      "dcterms:description": "The Electronic Code of Federal Regulations (eCFR) is a continuously updated online version of the CFR. It is not an official legal edition of the CFR.\nNotes: Continuously updated Code of Federal Regulations; not the official version.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.govinfo.gov/bulkdata/ECFR",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-28",
+      "dcterms:title": "Federal Register XML Bulk Data",
+      "dcterms:description": "The Federal Register is the official daily publication for rules, proposed rules, and notices of Federal agencies and organizations, as well as executive orders and other presidential documents.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.govinfo.gov/bulkdata/FR",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-29",
+      "dcterms:title": "Government Manual XML Bulk Data",
+      "dcterms:description": "The Government Manual provides information on the organizations of the legislative, judicial, and executive branches. It also includes information on quasi-official agencies; international organizations in which the United States participates; and boards, commissions, and committees. The Government Manual is published as a special edition of the Federal Register.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.govinfo.gov/bulkdata/GOVMAN",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-30",
       "dcterms:title": "GovInfo API",
       "dcterms:description": "The GovInfo API provides services to access GovInfo content and metadata files. The API was built and documented using the Open API Specification and Swagger UI. More information is available on the GovInfo Developer Hub and on GPO's GovInfo API GitHub repository.",
       "dcterms:publisher": {
@@ -222,107 +685,344 @@
         "foaf:name": "Government Publishing Office",
         "@id": "https://www.gpo.gov"
       },
+      "dcat:landingPage": "https://api.govinfo.gov/docs/",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
         "vcard:fn": "GovInfo Data",
-        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://api.govinfo.gov/docs/"
-      },
-      "dcat:keyword": [
-        "API",
-        "documentation",
-        "GovInfo"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Continuous"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://api.govinfo.gov/docs/"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/json"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Daily"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/6",
-      "dcterms:title": "GovInfo XML Bulk Data Repository",
-      "dcterms:description": "Download XML files individually or in bulk as ZIP files for select GovInfo collections. This includes but is not limited to Congressional bill, bill status information, bill summaries, Statute Compilations, public and private laws, the Statutes at Large, the Government Manual, Privacy Act Issuances, the Code of Federal Regulations, and the Federal Register.\n\nNotes: The XML bulk data repository is useful for downloading an entire dataset.",
+      "dcterms:identifier": "CDTF-DATASET-31",
+      "dcterms:title": "GovInfo API GitHub Repository",
+      "dcterms:description": "GovInfo API GitHub repository includes API and MCP documentation, code samples, and issue tracking.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Government Publishing Office",
         "@id": "https://www.gpo.gov"
       },
+      "dcat:landingPage": "https://github.com/usgpo/api",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
         "vcard:fn": "GovInfo Data",
-        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://www.govinfo.gov/bulkdata"
-      },
-      "dcat:keyword": [
-        "GovInfo",
-        "Laws",
-        "Legislation",
-        "Regulations",
-        "XML Bulk Data",
-        "collections",
-        "research",
-        "USLM",
-        "XML"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Daily"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/text/html"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata/json"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/json"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata/xml"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Irregular"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/7",
+      "dcterms:identifier": "CDTF-DATASET-32",
+      "dcterms:title": "GovInfo Bill Status GitHub Repository",
+      "dcterms:description": "GovInfo Bill Status GitHub repository includes documentation and user guide.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://github.com/usgpo/bill-status",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-33",
+      "dcterms:title": "GovInfo Bulk Data GitHub Repository",
+      "dcterms:description": "GovInfo Bulk Data GitHub repository includes documentation and user guides.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://github.com/usgpo/bulk-data",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-34",
+      "dcterms:title": "GovInfo Developer Hub",
+      "dcterms:description": "GovInfo resources for developers.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.govinfo.gov/developers",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-35",
+      "dcterms:title": "GovInfo Link Service",
+      "dcterms:description": "Link service for GovInfo content and metadata.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.govinfo.gov/link-docs",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-36",
+      "dcterms:title": "GovInfo MCP Server",
+      "dcterms:description": "GovInfo Model Context Protocol (MCP) server information including documentation.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://github.com/usgpo/api/blob/main/docs/mcp.md",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-37",
+      "dcterms:title": "GovInfo RSS Feeds",
+      "dcterms:description": "RSS feeds for GovInfo collections.\nNotes: 100 most recent entries per collection.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.govinfo.gov/feeds",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-38",
+      "dcterms:title": "GovInfo Sitemaps",
+      "dcterms:description": "XML sitemaps for all GovInfo collections.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.govinfo.gov/sitemaps",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-39",
+      "dcterms:title": "GovInfo XML Bulk Data Repository",
+      "dcterms:description": "Download XML files individually or in bulk as ZIP files for select GovInfo collections. This includes but is not limited to Congressional bill, bill status information, bill summaries, Statute Compilations, public and private laws, the Statutes at Large, the Government Manual, Privacy Act Issuances, the Code of Federal Regulations, and the Federal Register.\nNotes: The XML bulk data repository is useful for downloading an entire dataset.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.govinfo.gov/bulkdata",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-40",
+      "dcterms:title": "GovInfo.gov",
+      "dcterms:description": "Free public access to official publications from all three branches of the Federal Government, provided by the Government Publishing Office\nNotes: See also the GovInfo API and GovInfo Bulk Data Repository",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.govinfo.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-41",
+      "dcterms:title": "GPO Cataloging Records GitHub Repository",
+      "dcterms:description": "Bibliographic cataloging records as machine readable data on GitHub includes MARC and MARC XML formats.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://github.com/usgpo/cataloging-records",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-42",
+      "dcterms:title": "GPO GitHub Organization",
+      "dcterms:description": "Various GitHub repositories maintained by the Government Publishing Office.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://github.com/usgpo",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-43",
+      "dcterms:title": "GPO.gov",
+      "dcterms:description": "Government Publishing Office (GPO) website. GPO is the Federal Government\u00e2\u20ac\u2122s resource for publishing trusted information for the Federal Government to the American people. The GPO is responsible for producing and distributing information products and services for all three branches of the Federal Government. GPO provides permanent public access to Federal Government information at no charge through GovInfo.gov.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.gpo.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-44",
+      "dcterms:title": "House Committee Activity Reports (GPO)",
+      "dcterms:description": "The House Committee Activity Reports are generated by each committee at the end of each Congress to describe the activities of the committee over the Congress. They provide a wealth of information about what the committee has done\nNotes: A surprisingly useful and detailed reported generated by most House committee on what they accomplished over the previous year/Congress. This includes votes taken, bill reports, hearings conducted, and so on.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.govinfo.gov/app/search/%7B%22query%22%3A%22doctype%3A(HRPT)%20AND%20title%3A(Activity%20Report)%22%2C%22offset%22%3A0%7D",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Biennial"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-45",
       "dcterms:title": "House Rules and Manual XML Bulk Data",
       "dcterms:description": "The House Rules and Manual, published by the House Parliamentarian's Office, is formally entitled Constitution, Jefferson's Manual, and Rules of the House of Representatives and contains the fundamental source material for parliamentary procedure used in the House of Representatives.",
       "dcterms:publisher": {
@@ -330,42 +1030,68 @@
         "foaf:name": "Government Publishing Office",
         "@id": "https://www.gpo.gov"
       },
+      "dcat:landingPage": "https://www.govinfo.gov/bulkdata/HMAN",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
         "vcard:fn": "GovInfo Data",
-        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://www.govinfo.gov/bulkdata/HMAN"
-      },
-      "dcat:keyword": [
-        "XML Bulk Data",
-        "House Rules and Manual",
-        "HMAN",
-        "GovInfo"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Biennial"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata/HMAN"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Biennial"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/8",
+      "dcterms:identifier": "CDTF-DATASET-46",
+      "dcterms:title": "Innovation Hub",
+      "dcterms:description": "The hub for information about the Congressional Data Task Force and efforts to structure Congressional data.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://usgpo.github.io/innovation/",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-47",
+      "dcterms:title": "Privacy Act Issuances XML Bulk Data",
+      "dcterms:description": "Privacy Act Issuances contains descriptions of systems of records maintained on individuals by Federal agencies and agency recordkeeping policies and practices as published in the Federal Register and Agency rules of procedure for individuals requesting information about their records, as codified in the Code of Federal Regulations.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.govinfo.gov/bulkdata/PAI",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Biennial"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-48",
       "dcterms:title": "Public and Private Laws XML Bulk Data",
       "dcterms:description": "Public and private laws are also known as slip laws. A slip law is an official publication of the law and is competent evidence admissible in all state and Federal courts and tribunals of the United States. After the President signs a bill into law, it is delivered to the Office of the Federal Register (OFR), National Archives and Records Administration (NARA) where it is prepared for publication as a slip law.",
       "dcterms:publisher": {
@@ -373,200 +1099,183 @@
         "foaf:name": "Government Publishing Office",
         "@id": "https://www.gpo.gov"
       },
+      "dcat:landingPage": "https://www.govinfo.gov/bulkdata/PLAW",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
         "vcard:fn": "GovInfo Data",
-        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://www.govinfo.gov/bulkdata/PLAW"
-      },
-      "dcat:keyword": [
-        "Public Laws",
-        "Slip Laws",
-        "Private Laws",
-        "USLM",
-        "XML Bulk Data",
-        "ZIP",
-        "Public and Private Laws",
-        "PLAW",
-        "GovInfo"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Irregular"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata/PLAW"
-          },
-          "dcterms:format": {
-            "@id": "https://github.com/usgpo/uslm"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata/PLAW"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/zip"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Irregular"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/9",
-      "dcterms:title": "Statute Compilations XML Bulk Data ",
+      "dcterms:identifier": "CDTF-DATASET-49",
+      "dcterms:title": "Statute Compilations XML Bulk Data",
       "dcterms:description": "The Office of the Legislative Counsel of the U.S. House of Representatives maintains a corpus of Statute Compilations of public laws that either do not appear in the U.S. Code or that have been classified to a title of the U.S. Code that has not been enacted into positive law. Each Statute Compilation incorporates the amendments made to the underlying statute since it was originally enacted. When legislation cites or amends a statutory provision that is not part of a positive law title of the U.S. Code, the citation or amendment must be to the underlying statute, not to the U.S. Code. Statute Compilations are a useful drafting aid in these circumstances; however, they are not official documents and should not be cited as evidence of the law. The official version of Federal law is found in the United States Statutes at Large and in the U.S. Code, the legal effect of which is established in sections 112 and 204, respectively, of title 1, United States Code.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Government Publishing Office",
         "@id": "https://www.gpo.gov"
       },
+      "dcat:landingPage": "https://www.govinfo.gov/bulkdata/COMPS",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
         "vcard:fn": "GovInfo Data",
-        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://www.govinfo.gov/bulkdata/COMPS"
-      },
-      "dcat:keyword": [
-        "comps",
-        "USLM",
-        "XML Bulk Data",
-        "ZIP",
-        "Statute Compilations",
-        "COMPS",
-        "GovInfo"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Weekly"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata/COMPS"
-          },
-          "dcterms:format": {
-            "@id": "https://github.com/usgpo/uslm"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata/COMPS"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/zip"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Weekly"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/10",
-      "dcterms:title": "Statutes at Large XML Bulk Data ",
+      "dcterms:identifier": "CDTF-DATASET-50",
+      "dcterms:title": "Statutes at Large XML Bulk Data",
       "dcterms:description": "The United States Statutes at Large, typically referred to as the Statutes at Large, is the permanent collection of all laws and resolutions enacted during each session of Congress. The Statutes at Large is prepared and published by the Office of the Federal Register (OFR), National Archives and Records Administration (NARA). Under the provisions of 1 U.S.C. 112, the printed edition of the Statutes at Large is legal evidence of the laws, concurrent resolutions, proclamations by the President, and proposed and ratified amendments to the Constitution.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Government Publishing Office",
         "@id": "https://www.gpo.gov"
       },
+      "dcat:landingPage": "https://www.govinfo.gov/bulkdata/STATUTE",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
         "vcard:fn": "GovInfo Data",
-        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://www.govinfo.gov/bulkdata/STATUTE"
-      },
-      "dcat:keyword": [
-        "Statutes",
-        "USLM",
-        "XML Bulk Data",
-        "Statutes at Large",
-        "STATUTES",
-        "GovInfo"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Irregular"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.govinfo.gov/bulkdata/STATUTE"
-          },
-          "dcterms:format": {
-            "@id": "https://github.com/usgpo/uslm"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Irregular"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/11",
+      "dcterms:identifier": "CDTF-DATASET-51",
       "dcterms:title": "USLM GitHub Repository",
-      "dcterms:description": "USLM GitHub repository includes schemas, css, sample files, and user guides for the legislative XML standard.\n\nNotes: United States Legislative Markup schemas.",
+      "dcterms:description": "USLM GitHub repository includes schemas, css, sample files, and user guides for the legislative XML standard.\nNotes: United States Legislative Markup schemas.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Government Publishing Office",
         "@id": "https://www.gpo.gov"
       },
+      "dcat:landingPage": "https://github.com/usgpo/uslm",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
         "vcard:fn": "GovInfo Data",
-        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov"
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://github.com/usgpo/uslm"
-      },
-      "dcat:keyword": [
-        "uslm",
-        "schema",
-        "XML",
-        "GitHub",
-        "standards"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Irregular"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://github.com/usgpo/uslm"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Irregular"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/12",
+      "dcterms:identifier": "CDTF-DATASET-52",
+      "dcterms:title": "Law Library of Congress",
+      "dcterms:description": "Home page for the Law Library of Congress. Notable for legal resources on foreign law\nNotes: Public access. Legal reports provide insights into foreign laws",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Law Library of Congress",
+        "@id": "https://www.loc.gov/research-centers/law-library-of-congress/"
+      },
+      "dcat:landingPage": "https://www.loc.gov/research-centers/law-library-of-congress/about-this-research-center/",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-53",
+      "dcterms:title": "Law Library of Congress Legal Reports",
+      "dcterms:description": "Research reports and other publications on a wide range of legal topics prepared by the Law Library of Congress in response to requests or recurring interest from Congress and other federal government entities on issues concerning foreign, comparative, and international law\nNotes: Law Library of Congress reports are published in multiple languages and concern foreign and comparative law. Note there was a project to create TXT versions of these files, but it unclear where those files may exist.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Law Library of Congress",
+        "@id": "https://loc.gov"
+      },
+      "dcat:landingPage": "https://www.loc.gov/research-centers/law-library-of-congress/legal-reports/",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-54",
+      "dcterms:title": "Appropriations Status Table",
+      "dcterms:description": "The Appropriations Status Table provides a continuously updated overview of the progress and legislative actions related to the twelve annual federal appropriations bills for the current fiscal year, with historical coverage extending back to 1999. This resource tracks each bill from introduction through enactment, offering direct links to primary legislative documents and official sources. The table is designed to support congressional staff, researchers, and the public in monitoring the appropriations process, understanding legislative timelines, and accessing authoritative information on federal funding measures. It is maintained by the Library of Congress and is intended to enhance transparency and facilitate analysis of the federal budget process.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Library of Congress",
+        "@id": "https://congress.gov"
+      },
+      "dcat:landingPage": "https://crsreports.congress.gov/AppropriationsStatusTable",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-55",
+      "dcterms:title": "Congress.gov",
+      "dcterms:description": "Library of Congress home page focused on tracking federal legislation\nNotes: Maintained by the Library of Congress",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Library of Congress",
+        "@id": "https://loc.gov"
+      },
+      "dcat:landingPage": "https://congress.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-56",
       "dcterms:title": "Congress.gov API",
       "dcterms:description": "The Congress.gov Application Programming Interface (API) provides a method for Congress and the public to view, retrieve, and re-use machine-readable data from collections available on Congress.gov.",
       "dcterms:publisher": {
@@ -574,506 +1283,1467 @@
         "foaf:name": "Library of Congress",
         "@id": "https://loc.gov"
       },
+      "dcat:landingPage": "https://api.congress.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
         "vcard:fn": "Library of Congress (GitHub)",
+        "vcard:hasEmail": "",
         "vcard:hasURL": "https://github.com/LibraryOfCongress/api.congress.gov/issues"
       },
-      "dcat:landingPage": {
-        "@id": "https://api.congress.gov"
-      },
-      "dcat:keyword": [
-        "legislation",
-        "committees",
-        "nominations",
-        "policy",
-        "IDs",
-        "oversight"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Continuous"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://api.congress.gov"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://api.congress.gov"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/json"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Continuous"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/13",
-      "dcterms:title": "Bioguide",
-      "dcterms:description": "Biographies of every member of Congress (past and present) with finding aides for additional research and a photograph or portfrait of the member. This website URL provides unique identifiers for every member of Congress\n\nNotes: Maintained by LOC & historians. A useful resource for non-copyrighted images of members and unique IDs to identify them",
+      "dcterms:identifier": "CDTF-DATASET-57",
+      "dcterms:title": "Executive Reports",
+      "dcterms:description": "Tabular list of committee reports accompanying executive branch matters in the House or Senate, as reported out by the committee\nNotes: Committee reports. This provides a crosswalk between the committee report and the relevant treaty",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
-        "foaf:name": "U.S. House of Representatives",
-        "@id": "https://house.gov"
+        "foaf:name": "Library of Congress",
+        "@id": "https://loc.gov"
+      },
+      "dcat:landingPage": "https://www.congress.gov/executive-reports",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "Clerkweb Tech Support",
-        "vcard:hasEmail": "mailto:techsupport.clerkweb@mail.house.gov"
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-58",
+      "dcterms:title": "House Committee Reports",
+      "dcterms:description": "Tabular list of committee reports accompanying legislation in the House, as reported out by the committee\nNotes: Committee reports. This provides a crosswalk between the committee report and accompanying legislation.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Library of Congress",
+        "@id": "https://loc.gov"
+      },
+      "dcat:landingPage": "https://www.congress.gov/house-reports",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-59",
+      "dcterms:title": "LOC.gov",
+      "dcterms:description": "Library of Congress. Best for: Research & collections.\nNotes: General webpage for the Library of Congress. Note hidden gem for the Law Library of Congress",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Library of Congress",
+        "@id": "https://loc.gov"
+      },
+      "dcat:landingPage": "https://loc.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-60",
+      "dcterms:title": "Senate Committee Reports",
+      "dcterms:description": "Tabular list of committee reports accompanying legislation in the Senate, as reported out by the committee\nNotes: Committee reports. This provides a crosswalk between the committee report and accompanying legislation.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Library of Congress",
+        "@id": "https://congress.gov"
+      },
+      "dcat:landingPage": "https://www.congress.gov/senate-reports",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-61",
+      "dcterms:title": "DomeWatch",
+      "dcterms:description": "House Democratic floor and vote information. App page\nNotes: An app from House Democrats with information about House floor activities",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Member of Congress",
+        "@id": "https://house.gov"
+      },
+      "dcat:landingPage": "https://domewatch.us",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-62",
+      "dcterms:title": "Office of Congressional Workplace Rights",
+      "dcterms:description": "Office of Congressional Workplace Rights, advancing workplace rights, safety and health, and accessibility in the legislative branch of the federal government\nNotes: Health and safety, accessibility, and ethics information",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Office of Congressional Workplace Rights",
+        "@id": "https://www.ocwr.gov"
+      },
+      "dcat:landingPage": "https://www.ocwr.gov/",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-63",
+      "dcterms:title": "United States Code",
+      "dcterms:description": "Most up-to-date source for the U.S. Code, both official and uncodified, maintained by the Office of Law Revision Counsel, which is responsible for codifying legislation. In addition to classification tables (showing a crosswalk between slip laws and codified laws), it contains a popular name tool that allows you to search by common names for legislation to find the official law.\nNotes: The official source for the U.S. Code. In addition to showing how slip laws are executed against the code, it also has a popular name tool.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Office of Law Revision Counsel",
+        "@id": "https://uscode.house.gov/about_office.xhtml"
+      },
+      "dcat:landingPage": "https://uscode.house.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-64",
+      "dcterms:title": "President's Budget Appendix",
+      "dcterms:description": "The president's budget, and notably it the budget appendix, contain appropriations request from across the federal government. It contains proposed funding levels and legislative language\nNotes: The budget appendix has detailed spending information",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Office of Management and Budget",
+        "@id": "https://www.whitehouse.gov"
+      },
+      "dcat:landingPage": "https://www.whitehouse.gov/omb/budget",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Annual"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-65",
+      "dcterms:title": "PLUM Reporting Website",
+      "dcterms:description": "Information on the leadership and organization of federal agencies and entities, including each Administration\u00e2\u20ac\u2122s top leaders, political appointees, and certain other senior positions in the federal civil service\nNotes: A list of thousands of senior executive branch positions, includign whether they are filled or vacant. Notable data elements include the agency and component and a unique identifier for the office-holder.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Office of Personnel Management",
+        "@id": "https://opm.gov"
+      },
+      "dcat:landingPage": "https://www.opm.gov/about-us/open-government/plum-reporting/",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Annual"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-66",
+      "dcterms:title": "U.S. Capitol Police",
+      "dcterms:description": "Home page for the U.S. Capitol Police\nNotes: Contains data on arrests",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Capitol Police",
+        "@id": "https://www.uscp.gov"
+      },
+      "dcat:landingPage": "https://www.uscp.gov/",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-67",
+      "dcterms:title": "U.S. Capitol Visitor Center",
+      "dcterms:description": "This dataset provides comprehensive information about visiting the United States Capitol, including details on tours, visitor services, historical exhibits, accessibility, and educational resources. The content is designed to assist individuals, educators, and organizations in planning visits, understanding the Capitol\u2019s history and operations, and accessing official guidance for public engagement. The resource supports civic education and promotes transparency by offering up-to-date schedules, policies, and multimedia materials related to the Capitol experience.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Capitol Visitor Center",
+        "@id": "https://www.aoc.gov/about-us/organizational-structure/office-chief-operations/capitol-visitor-center-jurisdiction"
+      },
+      "dcat:landingPage": "https://visitthecapitol.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-68",
+      "dcterms:title": "Bioguide",
+      "dcterms:description": "This dataset provides authoritative biographical information on members of the United States Congress, including both current and historical legislators. It contains details such as names, terms of service, party affiliations, state representation, and biographical summaries that may be downloaded in a bulk JSON file. The website provides faceted search.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
         "@id": "https://bioguide.congress.gov"
       },
-      "dcat:keyword": [
-        "members",
-        "IDs"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Irregular"
+      "dcat:landingPage": "https://bioguide.congress.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
       },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://bioguide.congress.gov"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://bioguide.congress.gov"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/json"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/14",
+      "dcterms:identifier": "CDTF-DATASET-69",
+      "dcterms:title": "Clerk.House.gov",
+      "dcterms:description": "Official House legislative resources including roll call votes, floor proceedings summaries, and member/committee information as published by the Office of the Clerk",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://clerk.house.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-70",
+      "dcterms:title": "Congressional district maps",
+      "dcterms:description": "Maps of congressional district as shapefiles\nNotes: KML files for each congressional district",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://house.gov"
+      },
+      "dcat:landingPage": "https://kml.house.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-71",
+      "dcterms:title": "House Clerk Financial Disclosure Reports",
+      "dcterms:description": "House Clerk microsite focused on representative and candidate financial disclosure reports\nNotes: Published by House Clerk. The search tool on the left-hand toolbar is an easily overlooked but powerful search engine",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-72",
+      "dcterms:title": "House Clerk Foreign Travel Reports",
+      "dcterms:description": "House Clerk microsite focused on member foreign travel reports\nNotes: Published by House Clerk",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://disclosures-clerk.house.gov/ForeignTravel",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-73",
       "dcterms:title": "House Clerk Member Data XML",
-      "dcterms:description": "Official XML listing of House members, unique identifiers (BioGuideID), party, district, address, phone number, committee assignments, committee code, subcommittee code\n\nNotes: Published by House Clerk, particularly useful for committee and subcommittee assignments",
+      "dcterms:description": "Official XML listing of House members, unique identifiers (BioGuideID), party, district, address, phone number, committee assignments, committee code, subcommittee code\nNotes: Published by House Clerk, particularly useful for committee and subcommittee assignments",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://clerk.house.gov/xml/lists/MemberData.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Monthly"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-74",
+      "dcterms:title": "House Clerk Private Sponsor Travel Filings",
+      "dcterms:description": "House Clerk microsite focused on disclosures for when Member travel is paid for by third parties\nNotes: Published by House Clerk",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://disclosures-clerk.house.gov/GiftTravelFilings",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Annual"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-75",
+      "dcterms:title": "House Clerk Unsolicited Mass Communications",
+      "dcterms:description": "House Franking Commission microsite disclosing member mass communications\nNotes: Published by House Franking Commission",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://masscommsdisclosure.house.gov/",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-76",
+      "dcterms:title": "House Committee Activity Reports (CHA)",
+      "dcterms:description": "A repository of monthly expenditures, activities, and staffing from each House committee, published by the House Administration Committee.\nNotes: A good view into committee staff hiring and expenditures, but published as PDFs.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "U.S. House of Representatives",
         "@id": "https://house.gov"
       },
+      "dcat:landingPage": "https://cha.house.gov/committee-reports",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "Clerkweb Tech Support",
-        "vcard:hasEmail": "mailto:techsupport.clerkweb@mail.house.gov"
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://clerk.house.gov/xml/lists/MemberData.xml"
-      },
-      "dcat:keyword": [
-        "members",
-        "IDs",
-        "committees",
-        "microsite"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Monthly"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://clerk.house.gov/xml/lists/MemberData.xml"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Monthly"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/15",
+      "dcterms:identifier": "CDTF-DATASET-77",
       "dcterms:title": "House Committee Repository",
-      "dcterms:description": "A central repository for all House committee proceedings that contains legislative text, testimony, and associated documents.\n\nNotes: The central source for official committee proceeding information, uploaded by each committee and managed by the House Clerk",
+      "dcterms:description": "A central repository for all House committee proceedings that contains legislative text, testimony, and associated documents.\nNotes: The central source for official committee proceeding information, uploaded by each committee and managed by the House Clerk",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "U.S. House of Representatives",
-        "@id": "https://house.gov"
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://docs.house.gov/committee",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "Clerkweb Tech Support",
-        "vcard:hasEmail": "mailto:techsupport.clerkweb@mail.house.gov"
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://docs.house.gov/committee"
-      },
-      "dcat:keyword": [
-        "committees",
-        "calendar"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Daily"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://docs.house.gov/committee"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://docs.house.gov/committee"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/text/html"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Daily"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/16",
+      "dcterms:identifier": "CDTF-DATASET-78",
+      "dcterms:title": "House Floor Bills Repository",
+      "dcterms:description": "Weekly floor calendar for the House of Representatives that contains the bill text and appropriate rules committee prints for legislation scheduled to be considered on the House floor. It's the official source to track the 72-hour rule.\nNotes: The central source for legislation scheduled to be considered on the House floor, with legislation published as PDF and at times as XML",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://docs.house.gov/floor",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-79",
+      "dcterms:title": "House Floor Summary",
+      "dcterms:description": "A chronology of actions on the House floor with timestamps. Current and previous days, with an RSS feed. Downloadable.\nNotes: Up-to-the-minute status information on what is happening on the House floor that day, with archives of previous activities.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://clerk.house.gov/floorsummary/floor-download.aspx",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-80",
+      "dcterms:title": "House History",
+      "dcterms:description": "Information on the history of the House. Many useful data tables ranging from party division in the House to Congress session dates to gold medal recipients to resumes of congressional activity, portraits, named rooms, and oral histories\nNotes: A truly eclectic collection of information about notable individuals and events in the House of Representatives, with many datasets going back to the founding.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://history.house.gov"
+      },
+      "dcat:landingPage": "https://history.house.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-81",
+      "dcterms:title": "House Live Video",
+      "dcterms:description": "Clerk of the House of Representatives home page that live streams video from the House floor\nNotes: Maintained by the Clerk of the House of Representatives",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://live.house.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-82",
+      "dcterms:title": "House Lobbying Disclosure",
+      "dcterms:description": "Regular filings by lobbyists about who they work for and what they lobby on as well as their campaign contributions\nNotes: Published by House Clerk",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://lobbyingdisclosure.house.gov/",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-83",
       "dcterms:title": "House Member Information XML",
-      "dcterms:description": "House member phone, bioguide ID, webpage, official photo, social media account, and committee assignment information\n\nNotes: Based on Clerk and CAO data; updated after memberData.xml is updated",
+      "dcterms:description": "House member phone, bioguide ID, webpage, official photo, social media account, and committee assignment information\nNotes: Based on Clerk and CAO data; updated after memberData.xml is updated",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "U.S. House of Representatives",
         "@id": "https://house.gov"
       },
+      "dcat:landingPage": "https://member-info.house.gov/members.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "Clerkweb Tech Support",
-        "vcard:hasEmail": "mailto:techsupport.clerkweb@mail.house.gov"
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://member-info.house.gov/members.xml"
-      },
-      "dcat:keyword": [
-        "operations",
-        "members",
-        "IDs",
-        "microsite"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Daily"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://member-info.house.gov/members.xml"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Daily"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/17",
+      "dcterms:identifier": "CDTF-DATASET-84",
+      "dcterms:title": "House Post-Employment Lobbying Disclosures",
+      "dcterms:description": "A listing of how long former House staff are prohibited from lobbying, downloadable from the Clerk\nNotes: Published by House Clerk",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://disclosures-clerk.house.gov/PostEmploymentNotification",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-85",
+      "dcterms:title": "House Roll Call Votes",
+      "dcterms:description": "All floor roll call votes in the House of Representatives with the vote results and how each member voted\nNotes: All roll call votes on the House floor. Note the XML contains the bioguide for each member so you can automate tracking of votes for individuals. Also note the URL follows a predictable pattern.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://clerk.house.gov/Votes",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-86",
+      "dcterms:title": "House Rules Committee",
+      "dcterms:description": "The House Rules Committee webpage contains detailed information about bills to be considered on the House floor, all amendents offered to those bills, the schedule for the House Rules committee, and committee reports and resolutions.\nNotes: Text of (virtually) all major legislation scheduled for the House floor, all amendments offered and adopted to that legislation, and the resolution to govern its consideration on the floor. This is the central, fastest place to understand what legislation is likely to move to the House floor.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://house.gov"
+      },
+      "dcat:landingPage": "https://rules.house.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-87",
+      "dcterms:title": "House Statement of Disbursements",
+      "dcterms:description": "Office expenditures in the House of Representatives for Members, Committees, Leadership, and Officers\nNotes: This official webpage goes back to 2009, although the reports go back decades. Published as a CSV since 2016. There is well-structured metadata. Pay data includes every employee, every contract.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://house.gov"
+      },
+      "dcat:landingPage": "https://www.house.gov/the-house-explained/open-government/statement-of-disbursements",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Quarterly"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-88",
       "dcterms:title": "House Telephone Directory",
-      "dcterms:description": "Official directory of House staff and member contact information, available in exportable formats\n\nNotes: Exportable contact information for political and non-political House employees",
+      "dcterms:description": "Official directory of House staff and member contact information, available in exportable formats\nNotes: Exportable contact information for political and non-political House employees",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://directory.house.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-89",
+      "dcterms:title": "House XML Resources",
+      "dcterms:description": "Data standards for use of XML in Congress, with document type definitions, presentations given on the use of XML, data resources, and more.\nNotes: A technical reference page with roots in the 1990s that provides information on the House's use and deployment of data standards to describe legislation",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "U.S. House of Representatives",
         "@id": "https://house.gov"
       },
+      "dcat:landingPage": "https://xml.house.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "Clerkweb Tech Support",
-        "vcard:hasEmail": "mailto:techsupport.clerkweb@mail.house.gov"
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://directory.house.gov"
-      },
-      "dcat:keyword": [
-        "members",
-        "staff"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Irregular"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://directory.house.gov"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/text/html"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://directory.house.gov"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/text/csv"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Irregular"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/18",
+      "dcterms:identifier": "CDTF-DATASET-90",
+      "dcterms:title": "House.gov",
+      "dcterms:description": "Home page for the U.S. House of Representatives\nNotes: Maintained by the House Chief Administrative Officer",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://house.gov"
+      },
+      "dcat:landingPage": "https://house.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-91",
+      "dcterms:title": "HouseCal",
+      "dcterms:description": "House central calendar that contains information about upcoming floor and committee activities. It allows users to see the proceedings members should attend for the purpose of planning.\nNotes: Internal central calendar feed",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://house.gov"
+      },
+      "dcat:landingPage": "https://calendar.house.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-92",
+      "dcterms:title": "HouseNet",
+      "dcterms:description": "HouseNet is the official internal intranet of the U.S. House of Representatives, used by Members, committees, and staff for day-to-day operations.\nNotes: The House's internal (non-public) website",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://house.gov"
+      },
+      "dcat:landingPage": "https://housenet.house.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-93",
       "dcterms:title": "LegiDex",
-      "dcterms:description": "Comprehensive staff directory, including contact and policy role information for staff. It includes all House offices and is expanding to legislative branch agencies\n\nNotes: Managed by the CAO. It is intended to become a legislative-branch wide staff directory that includes contact information and policy roles.",
+      "dcterms:description": "Comprehensive staff directory, including contact and policy role information for staff. It includes all House offices and is expanding to legislative branch agencies\nNotes: Managed by the CAO. It is intended to become a legislative-branch wide staff directory that includes contact information and policy roles.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "U.S. House of Representatives",
         "@id": "https://www.house.gov"
       },
+      "dcat:landingPage": "https://legidex.house.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
-        "@type": "vcard:Contact"
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://legidex.house.gov"
-      },
-      "dcat:keyword": [
-        "members",
-        "staff"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Daily"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://legidex.house.gov"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/pdf"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://legidex.house.gov"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/text/html"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Non-Public"
-      }
+      "dcterms:accrualPeriodicity": "Daily"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/19",
+      "dcterms:identifier": "CDTF-DATASET-94",
+      "dcterms:title": "MemRec",
+      "dcterms:description": "A digital flash card game for memorizing Members of Congress. Useful for obtaining photographs of members.\nNotes: Clerk-managed.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://clerk.house.gov"
+      },
+      "dcat:landingPage": "https://memrec.house.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-95",
+      "dcterms:title": "Office of Congressional Compliance",
+      "dcterms:description": "Home page for the Office of Congressional Compliance, the House's independent ethics watchdog.\nNotes: Contains a table on the status of all investigations as well as quarterly reports",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. House of Representatives",
+        "@id": "https://house.gov"
+      },
+      "dcat:landingPage": "https://conduct.house.gov/",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-96",
+      "dcterms:title": "Civilian Nomination Confirmed",
+      "dcterms:description": "Dataset of confirmed civilian nominations",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/legislative/LIS/nominations/NomCivilianConfirmed.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-97",
+      "dcterms:title": "Civilian Nomination Pending on Calendar",
+      "dcterms:description": "Nominations feed. Best for: Civilian pending on calendar.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/legislative/LIS/nominations/NomCivilianPendingCalendar.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-98",
+      "dcterms:title": "Civilian Pending in Committee",
+      "dcterms:description": "Presidential writings, addresses, and remarks of a public nature. This repository covers 2009-2016. The National Archives has a repository from 1929-2017, at which point it was discontinued.\nNotes: Published from 2009-2016. See the National Archives for more information https://www.archives.gov/federal-register/publications/presidential-papers.html",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/legislative/LIS/nominations/NomCivilianPendingCommittee.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-99",
+      "dcterms:title": "Failed and Returned Nominations",
+      "dcterms:description": "Nominations feed. Best for: Failed/returned nominations.\nNotes: Internal / Staff",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/legislative/LIS/nominations/NomFailedOrReturned.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-100",
+      "dcterms:title": "Military Nomination Confirmed",
+      "dcterms:description": "Nominations feed. Best for: Military confirmed.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/legislative/LIS/nominations/NomNonCivilianConfirmed.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-101",
+      "dcterms:title": "Military Nomination Pending in Committee",
+      "dcterms:description": "Nominations feed. Best for: Military pending in committee.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/legislative/LIS/nominations/NomNonCivilianPendingCommittee.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-102",
+      "dcterms:title": "Military Nomination Pending on Calendar",
+      "dcterms:description": "Nominations feed. Best for: Military pending on calendar.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/legislative/LIS/nominations/NomNonCivilianPendingCalendar.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-103",
+      "dcterms:title": "Pending Civilian Nominations",
+      "dcterms:description": "Dataset of pending civilian nominations in various Senate committees\nNotes: A dataset of pending civilian nominations in the various Senate committees. The Senate committees have unique identifiers, as do the nominees, and the referral date is included",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/legislative/LIS/nominations/NomCivilianPendingCommittee.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-104",
+      "dcterms:title": "Privileged Nominations",
+      "dcterms:description": "Dataset of privileged pending nominations in various Senate committees. Privileged nominations are a subset of presidentially appointed and Senate-confirmed positions that are eligible for consideration under procedures established by S.Res. 116. The vast majority of the 285 nominations designated as privileged are part-time positions to various boards and commissions, though some full-time positions are privileged as well.\nNotes: A dataset of pending privileged nominations in the various Senate committees. The Senate committees have unique identifiers, as do the nominees, and the referral date is included. The entity to which the nominee is nominated is included, but it does not have an entity ID.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/legislative/LIS/nominations/NomPrivileged.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-105",
+      "dcterms:title": "Report of the Secretary of the Senate",
+      "dcterms:description": "Office expenditures in the Senate for Members, Committees, Leadership, and Officers\nNotes: Published online as a PDF since 2011. Older reports likely exist elsewhere",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/legislative/common/generic/report_secsen.htm",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": ""
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-106",
+      "dcterms:title": "Senate Annual Calendar",
+      "dcterms:description": "The 2025 Senate annual calendar showing legislative session days, district work days, and federal holidays in XML\nNotes: This calendar shows when the Senate will be in session during 2025 in XML format. The data structure is a bit challenging.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/legislative/2025_schedule.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Annual"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-107",
       "dcterms:title": "Senate Committee Information XML",
-      "dcterms:description": "Senator name, party, state, address, committee assignments (with unique IDs), seniority, bioguide ID, LIS ID, phone, and website. This allows a crosswalk between bioguide + LIS data.\n\nNotes: Provides a useful crosswalk for senator bioguide and LIS IDs. Also has committee assignments as structured data.",
+      "dcterms:description": "Senator name, party, state, address, committee assignments (with unique IDs), seniority, bioguide ID, LIS ID, phone, and website. This allows a crosswalk between bioguide + LIS data.\nNotes: Provides a useful crosswalk for senator bioguide and LIS IDs. Also has committee assignments as structured data.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "U.S. Senate",
         "@id": "https://senate.gov"
       },
+      "dcat:landingPage": "https://www.senate.gov/legislative/LIS_MEMBER/cvc_member_data.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
-        "@type": "vcard:Contact"
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://www.senate.gov/legislative/LIS_MEMBER/cvc_member_data.xml"
-      },
-      "dcat:keyword": [
-        "members",
-        "IDs",
-        "committees"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Daily"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.senate.gov/legislative/LIS_MEMBER/cvc_member_data.xml"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Daily"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/20",
+      "dcterms:identifier": "CDTF-DATASET-108",
       "dcterms:title": "Senate Contact Information XML",
-      "dcterms:description": "XML file with names, party, state, and bioguide IDs for all current Senators\n\nNotes: Basic structured data about senators. Published by the Secretary of the Senate",
+      "dcterms:description": "XML file with names, party, state, and bioguide IDs for all current Senators\nNotes: Basic structured data about senators. Published by the Secretary of the Senate",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "U.S. Senate",
         "@id": "https://senate.gov"
       },
+      "dcat:landingPage": "https://www.senate.gov/general/contact_information/senators_cfm.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
-        "@type": "vcard:Contact"
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://www.senate.gov/general/contact_information/senators_cfm.xml"
-      },
-      "dcat:keyword": [
-        "members",
-        "IDs"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Biennial"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.senate.gov/general/contact_information/senators_cfm.xml"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Biennial"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/21",
+      "dcterms:identifier": "CDTF-DATASET-109",
+      "dcterms:title": "Senate Financial Disclosure Reports",
+      "dcterms:description": "Secretary of the Senate microsite focused on senator and candidate financial disclosure reports\nNotes: Published by the Secretary of the Senate",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://efdsearch.senate.gov/search/home/",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-110",
+      "dcterms:title": "Senate Floor Video",
+      "dcterms:description": "Streaming video from the Senate floor. No archival video\nNotes: A live video feed of the Senate floor. Note archives are not available on this site and this page does not contain a read-out of activity",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/legislative/floor_activity_pail.htm",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-111",
       "dcterms:title": "Senate Hearings XML",
-      "dcterms:description": "A unified senate committee calendar for upcoming hearings. It provides the name and date of each upcoming committee proceeding including the committee's unique ID. Note: it does not contain retrospective data.\n\nNotes: Does not contain retrospective information. Human readable version available at https://www.senate.gov/committees/hearings_meetings.htm",
+      "dcterms:description": "A unified senate committee calendar for upcoming hearings. It provides the name and date of each upcoming committee proceeding including the committee's unique ID. Note: it does not contain retrospective data.\nNotes: Does not contain retrospective information. Human readable version available at https://www.senate.gov/committees/hearings_meetings.htm",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "U.S. Senate",
         "@id": "https://senate.gov"
       },
+      "dcat:landingPage": "https://www.senate.gov/general/committee_schedules/hearings.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
-        "@type": "vcard:Contact"
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://www.senate.gov/general/committee_schedules/hearings.xml"
-      },
-      "dcat:keyword": [
-        "committees"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Daily"
-      },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.senate.gov/general/committee_schedules/hearings.xml"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.senate.gov/general/committee_schedules/hearings.xml"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/text/html"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcterms:accrualPeriodicity": "Daily"
     },
     {
       "@type": "dcat:Dataset",
-      "@id": "https://usgpo.github.io/innovation/datasets/22",
-      "dcterms:title": "Senate XML Resources",
-      "dcterms:description": "Senate XML webpage. Compilation of Senate resources for information available as XML and HTML. Includes committee, senator, floor, roll call vote, and nominations information\n\nNotes: A compilation of various Senate resources published in XML",
+      "dcterms:identifier": "CDTF-DATASET-112",
+      "dcterms:title": "Senate Lobbying Disclosure",
+      "dcterms:description": "Regular filings by lobbyists about who they work for and what they lobby on as well as their campaign contributions\nNotes: Published by the Secretary of the Senate, has structured and semi-structured lobbying information",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "U.S. Senate",
         "@id": "https://senate.gov"
       },
+      "dcat:landingPage": "https://lda.senate.gov/system/public/",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
       "dcat:contactPoint": {
-        "@type": "vcard:Contact"
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
       },
-      "dcat:landingPage": {
-        "@id": "https://www.senate.gov/general/XML.htm"
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-113",
+      "dcterms:title": "Senate Post Employment Lobbying Disclosure",
+      "dcterms:description": "A listing of how long former Senate staff are prohibited from lobbying, published as HTML by the Secretary of the Senate\nNotes: Published by the Secretary of the Senate. Publication format is a very large HTML table.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
       },
-      "dcat:keyword": [
-        "data"
-      ],
-      "dcterms:accrualPeriodicity": {
-        "rdfs:label": "Irregular"
+      "dcat:landingPage": "https://www.senate.gov/pagelayout/legislative/g_three_sections_with_teasers/lobbyingdisc.htm",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
       },
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.senate.gov/general/XML.htm"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/application/xml"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://www.senate.gov/general/XML.htm"
-          },
-          "dcterms:format": {
-            "@id": "https://www.iana.org/assignments/media-types/text/html"
-          }
-        }
-      ],
-      "dcat-us:AccessRights": {
-        "@id": "http://publications.europa.eu",
-        "rdfs:label": "Public"
-      }
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Annual"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-114",
+      "dcterms:title": "Senate Private Sponsor Travel Filings",
+      "dcterms:description": "Secretary of the Senate microsite focused on disclosure for when Senator or staff travel is paid for by third parties\nNotes: Published by the Secretary of the Senate",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://giftrule-disclosure.senate.gov/",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-115",
+      "dcterms:title": "Senate Roll Call Votes",
+      "dcterms:description": "All floor roll call votes in the Senate with the vote results and how each member voted, as well as the vote result\nNotes: All roll call votes on the Senate floor. Note the XML contains the LIS identifier (not the bioguide!) for each member so you can automate tracking of votes for individuals. Also note the URL follows a predictable pattern.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/legislative/votes_new.htm",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-116",
+      "dcterms:title": "Senate XML Resources",
+      "dcterms:description": "Senate XML webpage. Compilation of Senate resources for information available as XML and HTML. Includes committee, senator, floor, roll call vote, and nominations information\nNotes: A compilation of various Senate resources published in XML",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/general/XML.htm",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-117",
+      "dcterms:title": "Senate.gov",
+      "dcterms:description": "Home page for the U.S. Senate\nNotes: Mantained by the Senate Secretary of the Senate",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://senate.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Continuous"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-118",
+      "dcterms:title": "Webster",
+      "dcterms:description": "The Senate's intranet. It contains technology services and guidance, human resources information, administrative resources such as payroll, legislative support tools, forms and workflow support.\nNotes: The Senate's internal (non-public) website",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://webster.senate.gov",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Irregular"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-119",
+      "dcterms:title": "Withdrawn Nominations",
+      "dcterms:description": "Nominations feed. Best for: Withdrawn nominations.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "U.S. Senate",
+        "@id": "https://senate.gov"
+      },
+      "dcat:landingPage": "https://www.senate.gov/legislative/LIS/nominations/NomWithdrawn.xml",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "",
+        "vcard:hasEmail": "",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Daily"
     }
   ]
 }
