@@ -2,6 +2,9 @@
 title: Events
 permalink: /events/
 ---
+
+[Subscribe to our calendar.](/innovation/calendar.ics)
+
 ## Upcoming Events
 
 {% assign _today = site.time | date: '%Y-%m-%d' %}
@@ -18,7 +21,6 @@ permalink: /events/
   <em>No upcoming events. Check back soon!</em>
 </p>
 {% endif %}
-
 
 ## Previous Events
 
