@@ -51,7 +51,7 @@ permalink: /data
     <tbody>
         {% for dataset in site.data.data["dcat:dataset"] %}
             <tr>
-                <th scope="row" data-label="Title">{{ dataset["dcterms:title"] }}</th>
+                <th scope="row" data-label="Title"><a href="{{ dataset['dcat:landingPage'] }}">{{ dataset["dcterms:title"] }}</a></th>
                 <td data-label="Description">{{ dataset["dcterms:description"] | newline_to_br }}</td>
                 <td data-label="Publisher">
                     {% if dataset["dcterms:publisher"]["@id"] and dataset["dcterms:publisher"]["@id"] != "" %}
