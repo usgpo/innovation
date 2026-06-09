@@ -37,15 +37,27 @@ permalink: /data
                     <span></span>
                 </button>
             </th>
-            <th scope="col">Description</th>
+            <th scope="col">
+                <button>
+                    Description
+                    <span></span>
+                </button></th>
             <th scope="col">
                 <button>
                     Publisher
                     <span></span>
                 </button>
             </th>
-            <th scope="col">Frequency</th>
-            <th scope="col">JSON</th>
+            <th scope="col">
+                <button>
+                    Frequency
+                    <span></span>
+                </button></th>
+            <th scope="col">
+                <button>
+                    JSON
+                    <span></span>
+                </button></th>
         </tr>
     </thead>
     <tbody>
