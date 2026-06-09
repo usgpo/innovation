@@ -978,7 +978,7 @@
       "@type": "dcat:Dataset",
       "dcterms:identifier": "CDTF-DATASET-43",
       "dcterms:title": "GPO.gov",
-      "dcterms:description": "Government Publishing Office (GPO) website. GPO is the Federal Government\u00e2\u20ac\u2122s resource for publishing trusted information for the Federal Government to the American people. The GPO is responsible for producing and distributing information products and services for all three branches of the Federal Government. GPO provides permanent public access to Federal Government information at no charge through GovInfo.gov.",
+      "dcterms:description": "Government Publishing Office (GPO) website. GPO is the Federal Government's resource for publishing trusted information for the Federal Government to the American people. The GPO is responsible for producing and distributing information products and services for all three branches of the Federal Government. GPO provides permanent public access to Federal Government information at no charge through GovInfo.gov.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Government Publishing Office",
@@ -1484,7 +1484,7 @@
       "@type": "dcat:Dataset",
       "dcterms:identifier": "CDTF-DATASET-65",
       "dcterms:title": "PLUM Reporting Website",
-      "dcterms:description": "Information on the leadership and organization of federal agencies and entities, including each Administration\u00e2\u20ac\u2122s top leaders, political appointees, and certain other senior positions in the federal civil service\nNotes: A list of thousands of senior executive branch positions, includign whether they are filled or vacant. Notable data elements include the agency and component and a unique identifier for the office-holder.",
+      "dcterms:description": "Information on the leadership and organization of federal agencies and entities, including each Administration's top leaders, political appointees, and certain other senior positions in the federal civil service\nNotes: A list of thousands of senior executive branch positions, includign whether they are filled or vacant. Notable data elements include the agency and component and a unique identifier for the office-holder.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Office of Personnel Management",
@@ -1530,7 +1530,7 @@
       "@type": "dcat:Dataset",
       "dcterms:identifier": "CDTF-DATASET-67",
       "dcterms:title": "U.S. Capitol Visitor Center",
-      "dcterms:description": "This dataset provides comprehensive information about visiting the United States Capitol, including details on tours, visitor services, historical exhibits, accessibility, and educational resources. The content is designed to assist individuals, educators, and organizations in planning visits, understanding the Capitol\u2019s history and operations, and accessing official guidance for public engagement. The resource supports civic education and promotes transparency by offering up-to-date schedules, policies, and multimedia materials related to the Capitol experience.",
+      "dcterms:description": "This dataset provides comprehensive information about visiting the United States Capitol, including details on tours, visitor services, historical exhibits, accessibility, and educational resources. The content is designed to assist individuals, educators, and organizations in planning visits, understanding the Capitol's history and operations, and accessing official guidance for public engagement. The resource supports civic education and promotes transparency by offering up-to-date schedules, policies, and multimedia materials related to the Capitol experience.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "U.S. Capitol Visitor Center",
