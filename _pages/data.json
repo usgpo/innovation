@@ -1,0 +1,7 @@
+---
+title: data.json
+permalink: /data.json
+layout: none
+---
+
+{{ site.data.data["dcat:dataset"] | jsonify }}

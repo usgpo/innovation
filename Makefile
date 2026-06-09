@@ -53,4 +53,4 @@ deps: Gemfile  ## Install dependencies
 .PHONY: dev
 dev: deps  ## Run a local development server
 	@$(SAY) + $@
-	bundle exec jekyll serve
+	bundle exec jekyll serve --watch --force_polling

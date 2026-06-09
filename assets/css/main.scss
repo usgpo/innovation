@@ -17,6 +17,19 @@ $color-secondary-darkest: $color-primary-alt-darkest;
 
 @import 'uswds/all';
 
+// Override -------------- //
+
+@media screen and (min-width: 600px) {
+  .usa-section {
+    padding-top: 2rem;
+  }
+}
+
+select {
+  max-width: 100%;
+}
+
+
 // Header -------------- //
 
 .usa-nav-primary {
@@ -56,3 +69,177 @@ $color-secondary-darkest: $color-primary-alt-darkest;
   text-align: left;
 }
 
+// DCAT Data Table -------------- //
+
+table.dcat-data {
+  table-layout: fixed;
+
+  tbody {
+    tr {
+      vertical-align: top;
+    }
+  }
+}
+
+.data-page__nav ul {
+  display: inline;
+  padding-left: 0;
+}
+
+.data-page__nav li {
+  display: inline;
+}
+
+.data-page__nav li + li::before {
+  content: " | ";
+  padding: 0 0.3em;
+}
+
+.data-page__nav img {
+  width: 1em;
+  vertical-align: center;
+  margin-right: 0.3em;
+}
+
+// Table Styles -------------- //
+
+// Make sortable column buttons interactive
+table.dcat-data thead th button {
+  background: none;
+  border: none;
+  border-radius: 0; // Override theme since the theme rounds out the button border
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  // Hover effect for visual feedback
+  &:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+  
+  // Sort indicator span
+  span {
+    display: inline-block;
+    min-width: 1.2em;
+    text-align: right;
+    color: $color-primary;
+    font-size: 0.8em;
+    margin-left: 0.5em;
+  }
+  
+  // Active sort state
+  &.sorted-asc,
+  &.sorted-desc {
+    font-weight: bold;
+    
+    span {
+      font-weight: bold;
+    }
+  }
+}
+
+// Responsive Table Styles -------------- //
+
+// Mobile sort controls (hidden on desktop)
+.mobile-sort-controls {
+  display: none; // Hidden by default (desktop)
+  margin-top: 1rem;
+  background-color: #f1f1f1;
+  border: 1px solid $color-primary;
+  border-radius: 0px;
+  padding: 1rem;
+  flex-direction: row;
+  
+  label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+    color: $color-primary;
+    margin-top: auto;
+    margin-bottom: auto;
+    flex: 1 1 auto;
+  }
+  
+  select {
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+  }
+}
+
+// Breakpoint for mobile devices
+@media screen and (max-width: 951px) {
+  // Show mobile sort controls
+  .mobile-sort-controls {
+    display: flex;
+  }
+  
+  table.dcat-data {
+    // Remove fixed layout on mobile
+    table-layout: auto;
+    
+    // Hide the table header
+    thead {
+      display: none;
+    }
+    
+    // Make each row a card
+    tbody tr {
+      display: block;
+      margin-bottom: 1.5rem;
+      border: 1px solid $color-primary;
+      border-radius: 0px;
+      padding: 1rem;
+      background-color: #f9f9f9;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    // Stack all cells vertically
+    tbody td,
+    tbody th {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      text-align: left;
+      padding: 0.75rem 0;
+      border: none;
+      border-bottom: 1px solid #ddd;
+      
+      // Remove border from last item
+      &:last-child {
+        border-bottom: none;
+      }
+      
+      // Show label before content using data-label attribute
+      &::before {
+        content: attr(data-label) ": ";
+        font-weight: bold;
+        color: $color-primary;
+        margin-right: 1rem;
+        flex-shrink: 0;
+        min-width: 6em;
+      }
+      
+      // Make the content area take remaining space
+      > * {
+        flex: 1;
+        text-align: left;
+      }
+    }
+    
+    // Title cell special styling (it's a th, not td)
+    tbody th[data-label] {
+      font-weight: normal;
+      
+      &::before {
+        font-weight: bold;
+      }
+    }
+  }
+}
