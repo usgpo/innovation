@@ -45,6 +45,7 @@ intro: |
         <em>No upcoming events. Check back soon!</em>
       </p>
       {% endif %}
+    <a href="/innovation/calendar.ics">Subscribe to our calendar.</a>
   </div>
 </section>
 {% endif %}
