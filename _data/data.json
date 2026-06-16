@@ -25,8 +25,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov ",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -48,8 +48,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -71,8 +71,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -94,8 +94,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -117,8 +117,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -140,8 +140,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -150,7 +150,7 @@
       "@type": "dcat:Dataset",
       "dcterms:identifier": "CDTF-DATASET-7",
       "dcterms:title": "Congressional Research Service Reports",
-      "dcterms:description": "An official source for current and some archived Congressional Research Service reports.\nNotes: The Library of Congress's official website for Congressional Research Service Reports. It includes all current CRS reports and a subset of archived reports. It does not include CRS congressional distribution reports or confidential memoranda. Some of these reports as also available through the Congress.gov API",
+      "dcterms:description": "The\u00a0CRS\u00a0products\u00a0collection includes\u00a0CRS\u00a0reports and other research\u00a0products\u00a0produced by the Congressional Research Service (CRS) for the United States Congress. New products are regularly produced to anticipate and respond to issues of interest to Congress on a timely basis. As these issues develop, CRS products may be updated to reflect new information, developments, and emergent needs of Congress. Active and archived CRS products are available on Congress.gov.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Congressional Research Service",
@@ -163,9 +163,9 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
+        "vcard:fn": "Library of Congress (GitHub)",
         "vcard:hasEmail": "",
-        "vcard:hasURL": ""
+        "vcard:hasURL": "https://github.com/LibraryOfCongress/api.congress.gov/issues"
       },
       "dcterms:accrualPeriodicity": "Irregular"
     },
@@ -173,7 +173,7 @@
       "@type": "dcat:Dataset",
       "dcterms:identifier": "CDTF-DATASET-8",
       "dcterms:title": "CRS.gov",
-      "dcterms:description": "Home page for the Congressional Research Service. Contains Congressional Research Service Reports. Non-public site.\nNotes: No public access",
+      "dcterms:description": "Website for the Congressional Research Service.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Congressional Research Service",
@@ -186,9 +186,9 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
+        "vcard:fn": "Library of Congress (GitHub)",
         "vcard:hasEmail": "",
-        "vcard:hasURL": ""
+        "vcard:hasURL": "https://github.com/LibraryOfCongress/api.congress.gov/issues"
       },
       "dcterms:accrualPeriodicity": "Irregular"
     },
@@ -196,7 +196,7 @@
       "@type": "dcat:Dataset",
       "dcterms:identifier": "CDTF-DATASET-9",
       "dcterms:title": "Copyright Office",
-      "dcterms:description": "U.S. Copyright Office\nNotes: Copyright information",
+      "dcterms:description": "Website for the U.S. Copyright Office.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Copyright Office",
@@ -209,9 +209,9 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
+        "vcard:fn": "Library of Congress (GitHub)",
         "vcard:hasEmail": "",
-        "vcard:hasURL": ""
+        "vcard:hasURL": "https://github.com/LibraryOfCongress/api.congress.gov/issues"
       },
       "dcterms:accrualPeriodicity": "Irregular"
     },
@@ -232,8 +232,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -255,8 +255,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -278,8 +278,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -301,8 +301,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Annual"
@@ -324,8 +324,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -347,8 +347,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -370,8 +370,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -393,8 +393,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -416,8 +416,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -439,8 +439,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -1014,8 +1014,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Biennial"
@@ -1185,7 +1185,7 @@
       "@type": "dcat:Dataset",
       "dcterms:identifier": "CDTF-DATASET-52",
       "dcterms:title": "Law Library of Congress",
-      "dcterms:description": "Home page for the Law Library of Congress. Notable for legal resources on foreign law\nNotes: Public access. Legal reports provide insights into foreign laws",
+      "dcterms:description": "The mission of the Law Library of Congress is to provide authoritative legal research, reference and instruction services, and access to an unrivaled collection of U.S., foreign, comparative, and international law.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Law Library of Congress",
@@ -1198,9 +1198,9 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
+        "vcard:fn": "Library of Congress (GitHub)",
         "vcard:hasEmail": "",
-        "vcard:hasURL": ""
+        "vcard:hasURL": "https://github.com/LibraryOfCongress/api.congress.gov/issues"
       },
       "dcterms:accrualPeriodicity": "Irregular"
     },
@@ -1208,7 +1208,7 @@
       "@type": "dcat:Dataset",
       "dcterms:identifier": "CDTF-DATASET-53",
       "dcterms:title": "Law Library of Congress Legal Reports",
-      "dcterms:description": "Research reports and other publications on a wide range of legal topics prepared by the Law Library of Congress in response to requests or recurring interest from Congress and other federal government entities on issues concerning foreign, comparative, and international law\nNotes: Law Library of Congress reports are published in multiple languages and concern foreign and comparative law. Note there was a project to create TXT versions of these files, but it unclear where those files may exist.",
+      "dcterms:description": "The Law Library of Congress produces reports on foreign, comparative, and international law in response to requests from Members of Congress, Congressional staff and committees, the federal courts, executive branch agencies, and others. Selected reports are provided for the public for reference purposes only and do not constitute legal advice. The information provided reflects research undertaken as of the date of writing, which has not updated unless specifically noted.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Law Library of Congress",
@@ -1221,9 +1221,9 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
+        "vcard:fn": "Library of Congress (GitHub)",
         "vcard:hasEmail": "",
-        "vcard:hasURL": ""
+        "vcard:hasURL": "https://github.com/LibraryOfCongress/api.congress.gov/issues"
       },
       "dcterms:accrualPeriodicity": "Irregular"
     },
@@ -1231,7 +1231,7 @@
       "@type": "dcat:Dataset",
       "dcterms:identifier": "CDTF-DATASET-54",
       "dcterms:title": "Appropriations Status Table",
-      "dcterms:description": "The Appropriations Status Table provides a continuously updated overview of the progress and legislative actions related to the twelve annual federal appropriations bills for the current fiscal year, with historical coverage extending back to 1999. This resource tracks each bill from introduction through enactment, offering direct links to primary legislative documents and official sources. The table is designed to support congressional staff, researchers, and the public in monitoring the appropriations process, understanding legislative timelines, and accessing authoritative information on federal funding measures. It is maintained by the Library of Congress and is intended to enhance transparency and facilitate analysis of the federal budget process.",
+      "dcterms:description": "Timely information on legislative activity related to the\u00a0appropriations\u00a0and budget process. Includes updates on the status of regular\u00a0appropriations\u00a0bills, continuing resolutions, supplemental\u00a0appropriations\u00a0bills, omnibus\u00a0appropriations\u00a0measures and budget resolutions. Provides links to related resources, such as legislative text, committee prints, and press releases.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Library of Congress",
@@ -1244,9 +1244,9 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
+        "vcard:fn": "Library of Congress (GitHub)",
         "vcard:hasEmail": "",
-        "vcard:hasURL": ""
+        "vcard:hasURL": "https://github.com/LibraryOfCongress/api.congress.gov/issues"
       },
       "dcterms:accrualPeriodicity": "Irregular"
     },
@@ -1254,7 +1254,7 @@
       "@type": "dcat:Dataset",
       "dcterms:identifier": "CDTF-DATASET-55",
       "dcterms:title": "Congress.gov",
-      "dcterms:description": "Library of Congress home page focused on tracking federal legislation\nNotes: Maintained by the Library of Congress",
+      "dcterms:description": "Congress.gov is the official website for U.S. federal legislative information. Congress.gov is developed and maintained by the Library of Congress using data originated and owned by the United States Senate and the United States House of Representatives.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Library of Congress",
@@ -1267,9 +1267,9 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
+        "vcard:fn": "Library of Congress (GitHub)",
         "vcard:hasEmail": "",
-        "vcard:hasURL": ""
+        "vcard:hasURL": "https://github.com/LibraryOfCongress/api.congress.gov/issues"
       },
       "dcterms:accrualPeriodicity": "Continuous"
     },
@@ -1300,7 +1300,7 @@
       "@type": "dcat:Dataset",
       "dcterms:identifier": "CDTF-DATASET-57",
       "dcterms:title": "Executive Reports",
-      "dcterms:description": "Tabular list of committee reports accompanying executive branch matters in the House or Senate, as reported out by the committee\nNotes: Committee reports. This provides a crosswalk between the committee report and the relevant treaty",
+      "dcterms:description": "Collection of written committee reports accompanying matters of executive business (treaty or nomination) reported by the committee.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Library of Congress",
@@ -1313,9 +1313,9 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
+        "vcard:fn": "Library of Congress (GitHub)",
         "vcard:hasEmail": "",
-        "vcard:hasURL": ""
+        "vcard:hasURL": "https://github.com/LibraryOfCongress/api.congress.gov/issues"
       },
       "dcterms:accrualPeriodicity": "Continuous"
     },
@@ -1323,7 +1323,7 @@
       "@type": "dcat:Dataset",
       "dcterms:identifier": "CDTF-DATASET-58",
       "dcterms:title": "House Committee Reports",
-      "dcterms:description": "Tabular list of committee reports accompanying legislation in the House, as reported out by the committee\nNotes: Committee reports. This provides a crosswalk between the committee report and accompanying legislation.",
+      "dcterms:description": "Collection of reports from House committees. Committee reports are produced by House and Senate committees and address legislative and other policy issues, investigations, and internal committee matters.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Library of Congress",
@@ -1336,9 +1336,9 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
+        "vcard:fn": "Library of Congress (GitHub)",
         "vcard:hasEmail": "",
-        "vcard:hasURL": ""
+        "vcard:hasURL": "https://github.com/LibraryOfCongress/api.congress.gov/issues"
       },
       "dcterms:accrualPeriodicity": "Continuous"
     },
@@ -1346,7 +1346,7 @@
       "@type": "dcat:Dataset",
       "dcterms:identifier": "CDTF-DATASET-59",
       "dcterms:title": "LOC.gov",
-      "dcterms:description": "Library of Congress. Best for: Research & collections.\nNotes: General webpage for the Library of Congress. Note hidden gem for the Law Library of Congress",
+      "dcterms:description": "Website for the Library of Congress.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Library of Congress",
@@ -1359,9 +1359,9 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
+        "vcard:fn": "Library of Congress (GitHub)",
         "vcard:hasEmail": "",
-        "vcard:hasURL": ""
+        "vcard:hasURL": "https://github.com/LibraryOfCongress/api.congress.gov/issues"
       },
       "dcterms:accrualPeriodicity": "Continuous"
     },
@@ -1369,7 +1369,7 @@
       "@type": "dcat:Dataset",
       "dcterms:identifier": "CDTF-DATASET-60",
       "dcterms:title": "Senate Committee Reports",
-      "dcterms:description": "Tabular list of committee reports accompanying legislation in the Senate, as reported out by the committee\nNotes: Committee reports. This provides a crosswalk between the committee report and accompanying legislation.",
+      "dcterms:description": "Collection of reports from Senate committees. Committee reports are produced by House and Senate committees and address legislative and other policy issues, investigations, and internal committee matters.",
       "dcterms:publisher": {
         "@type": "foaf:Organization",
         "foaf:name": "Library of Congress",
@@ -1382,9 +1382,9 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
+        "vcard:fn": "Library of Congress (GitHub)",
         "vcard:hasEmail": "",
-        "vcard:hasURL": ""
+        "vcard:hasURL": "https://github.com/LibraryOfCongress/api.congress.gov/issues"
       },
       "dcterms:accrualPeriodicity": "Continuous"
     },
@@ -1405,8 +1405,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -1428,8 +1428,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -1451,8 +1451,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -1474,8 +1474,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Annual"
@@ -1497,8 +1497,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Annual"
@@ -1520,8 +1520,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -1543,8 +1543,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -1566,8 +1566,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -1589,8 +1589,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -1612,8 +1612,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -1635,8 +1635,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -1658,8 +1658,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -1681,8 +1681,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Monthly"
@@ -1704,8 +1704,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Annual"
@@ -1727,8 +1727,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -1750,8 +1750,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Monthly"
@@ -1773,8 +1773,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -1796,8 +1796,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -1819,8 +1819,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -1842,8 +1842,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -1865,8 +1865,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -1888,8 +1888,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -1911,8 +1911,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -1934,8 +1934,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -1957,8 +1957,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -1980,8 +1980,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -2003,8 +2003,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Quarterly"
@@ -2026,8 +2026,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -2049,8 +2049,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -2072,8 +2072,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -2095,8 +2095,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -2118,8 +2118,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -2141,8 +2141,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2164,8 +2164,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -2187,8 +2187,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "Congressional Data Task Force",
+        "vcard:hasEmail": "mailto:datataskforce@mail.house.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -2210,8 +2210,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2233,8 +2233,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2256,8 +2256,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2279,8 +2279,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2302,8 +2302,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2325,8 +2325,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2348,8 +2348,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2371,8 +2371,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2394,8 +2394,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2417,11 +2417,11 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
-      "dcterms:accrualPeriodicity": ""
+      "dcterms:accrualPeriodicity": "Semiannual"
     },
     {
       "@type": "dcat:Dataset",
@@ -2440,8 +2440,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Annual"
@@ -2463,8 +2463,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2486,8 +2486,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Biennial"
@@ -2509,8 +2509,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2532,8 +2532,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -2555,8 +2555,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2578,8 +2578,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2601,8 +2601,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Annual"
@@ -2624,8 +2624,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
@@ -2647,8 +2647,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -2670,8 +2670,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -2693,8 +2693,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Continuous"
@@ -2716,8 +2716,8 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Irregular"
@@ -2739,11 +2739,34 @@
       },
       "dcat:contactPoint": {
         "@type": "vcard:Contact",
-        "vcard:fn": "",
-        "vcard:hasEmail": "",
+        "vcard:fn": "U.S. Senate",
+        "vcard:hasEmail": "mailto:webmaster@sec.senate.gov",
         "vcard:hasURL": ""
       },
       "dcterms:accrualPeriodicity": "Daily"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "dcterms:identifier": "CDTF-DATASET-120",
+      "dcterms:title": "Congressional Pictorial Directory",
+      "dcterms:description": "The Congressional Pictorial Directory provides a photograph of each Member of Congress as well as certain officers and officials. The directory is published by the U.S. Government Publishing Office and updated for each Congress.",
+      "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "Government Publishing Office",
+        "@id": "https://www.gpo.gov"
+      },
+      "dcat:landingPage": "https://www.govinfo.gov/collection/congressional-pictorial-directory",
+      "dcat:distribution": {
+        "@type": "dcat:Distribution",
+        "dcat:accessURL": ""
+      },
+      "dcat:contactPoint": {
+        "@type": "vcard:Contact",
+        "vcard:fn": "GovInfo Data",
+        "vcard:hasEmail": "mailto:govinfo-data@gpo.gov",
+        "vcard:hasURL": ""
+      },
+      "dcterms:accrualPeriodicity": "Biennial"
     }
   ]
 }
