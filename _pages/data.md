@@ -61,20 +61,20 @@ permalink: /data
         </tr>
     </thead>
     <tbody>
-        {% for dataset in site.data.data["dcat:dataset"] %}
+        {% for dataset in site.data.data["dataset"] %}
             <tr>
-                <th scope="row" data-label="Title"><a href="{{ dataset['dcat:landingPage'] }}">{{ dataset["dcterms:title"] }}</a></th>
-                <td data-label="Description">{{ dataset["dcterms:description"] | newline_to_br }}</td>
+                <th scope="row" data-label="Title"><a href="{{ dataset['landingPage']['accessURL'] }}">{{ dataset["title"] }}</a></th>
+                <td data-label="Description">{{ dataset["description"] | newline_to_br }}</td>
                 <td data-label="Publisher">
-                    {% if dataset["dcterms:publisher"]["@id"] and dataset["dcterms:publisher"]["@id"] != "" %}
-                        <a href="{{ dataset["dcterms:publisher"]["@id"] }}">{{ dataset["dcterms:publisher"]["foaf:name"] }}</a>
+                    {% if dataset["publisher"]["homepage"] and dataset["publisher"]["homepage"] != "" %}
+                        <a href="{{ dataset["publisher"]["homepage"] }}">{{ dataset["publisher"]["name"] }}</a>
                     {% else %}
-                        {{ dataset["dcterms:publisher"]["foaf:name"] }}
+                        {{ dataset["publisher"]["name"] }}
                     {% endif %}
                 </td>
-                <td data-label="Frequency">{{ dataset["dcterms:accrualPeriodicity"] }}</td>
+                <td data-label="Frequency">{{ dataset["accrualPeriodicity"] | capitalize }}</td>
                 <td data-label="JSON">
-                    <pre style="display: none">{{dataset | jsonify}}</pre>
+                    <pre style="display: none">{{ dataset | jsonify }}</pre>
                     <a href="javascript:void(0)" onClick="navigator.clipboard.writeText(this.parentNode.getElementsByTagName('pre')[0].innerText)">📋&#8288;Copy&nbsp;DCAT</a>
                 </td>
             </tr>
