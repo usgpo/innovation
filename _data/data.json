@@ -308,7 +308,7 @@
       "description": "This dataset contains authoritative information about .gov domains registered in the United States, as maintained by the Cybersecurity and Infrastructure Security Agency (CISA). It includes details such as domain names, registrant organizations, agency affiliations, and registration status. The resource is a github flat viewer tool for exploring flat data files.",
       "landingPage": {
         "@type": "Document",
-        "accessURL": "https://flatgithub.com/cisagov/dotgov-data",
+        "accessURL": "https://github.com/cisagov/dotgov-data",
         "title": "CISA DotGov data"
       },
       "accrualPeriodicity": "continuous",
