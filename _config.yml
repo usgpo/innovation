@@ -37,3 +37,6 @@ exclude:
   - assets/*.md
   - Gemfile
   - Gemfile.lock
+  - vendor
+
+repository: usgpo/innovation
