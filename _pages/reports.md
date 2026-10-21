@@ -8,7 +8,7 @@ permalink: /reports/
 ## Reports
 
 
-### Standardized Formats for Legislative Documents, [USLM](https://github.com/usgpo/uslm)  
+### Standardized Formats for Legislative Documents, [USLM](https://github.com/usgpo/uslm)
 * Initial Report - Required by Section 501 of House Resolution 756 of the 116th Congress - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Initial-Standardized-Formats.pdf)  
 * Quarterly Report 1 - October 15, 2020 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR1-Standardized-Formats.pdf)  
 * Quarterly Report 2 - January 15, 2021 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR2-Standardized-Formats.pdf)  
@@ -24,7 +24,9 @@ permalink: /reports/
 * Quarterly Report 12 - April 15, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR12-Standardized-Formats.pdf)   
 * Quarterly Report 13 - September 16, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR13-Standardized-Formats.pdf)  
 * Quarterly Report 14 - December 30, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR14-Standardized-Formats.pdf)  
-* Biannual Report 15 - July 15, 2025 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR15-Standardized-Formats.pdf)   
+* Report 15 - July 15, 2025 - [PDF](/innovation/resources/reports/Clerk-QR15-Standardized-Formats.pdf)
+* Report 16 – December 15, 2025 - [PDF](/innovation/resources/reports/Clerk-QR16-Standardized-Formats.pdf)
+* Report 17 - July 17, 2026 - [PDF](/innovation/resources/reports/Clerk-QR17-Standardized-Formats.pdf)
 
 ### Comparative Print Suite  
 * Initial Report - Required by Section 502 of House Resolution 756 of the 116th Congress - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Initial-Comparative-Print-Project.pdf)  
@@ -43,7 +45,9 @@ permalink: /reports/
 * Quarterly Report 13 - April 15, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR13-Comparative-Print-Project.pdf)   
 * Quarterly Report 14 - September 16, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR14-Comparative-Print-Project.pdf)  
 * Quarterly Report 15 - December 30, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR15-Comparative-Print-Project.pdf)  
-* Biannual Report 16 - July 15, 2025 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR16-Comparative-Print-Project.pdf)    
+* Report 16 - July 15, 2025 - [PDF](/innovation/resources/reports/Clerk-QR16-Comparative-Print-Project.pdf)
+* Report 17 – December 15, 2025 - [PDF](/innovation/resources/reports/Clerk-QR17-Comparative-Print-Project.pdf)
+* Report 18 - July 17, 2026 - [PDF](/innovation/resources/reports/Clerk-QR18-Comparative-Print-Project.pdf)
   
 ### Committee Votes and Tools  
 * Initial Report - Required by Section 504 of House Resolution 756 of the 116th Congress - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Initial-Committee-Votes.pdf)  
@@ -61,7 +65,9 @@ permalink: /reports/
 * Quarterly Report 12 - April 15, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR12-Committee-Votes.pdf)  
 * Quarterly Report 13 - September 16, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR13-Committee-Votes.pdf)  
 * Quarterly Report 14 - December 30, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR14-Committee-Votes.pdf)    
-* Biannual Report 15 - July 15, 2025 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR15-Committee-Votes.pdf)  
+* Report 15 - July 15, 2025 - [PDF](/innovation/resources/reports/Clerk-QR15-Committee-Votes.pdf)
+* Report 16 - December 15, 2025 - [PDF](/innovation/resources/reports/Clerk-QR16-Committee-Votes.pdf)
+* Report 17 - July 17, 2026 - [PDF](/innovation/resources/reports/Clerk-QR17-Committee-Votes.pdf)
   
 ### Unique IDs for Reports Filed by Registered Lobbyists  
 * Initial Report - Required by Section 505 of House Resolution 756 of the 116th Congress - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Initial-Unique-ID.pdf)  
@@ -79,7 +85,9 @@ permalink: /reports/
 * Quarterly Report 12 - January 12, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR12-Unique-ID.pdf)  
 * Quarterly Report 13 - July 15, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR13-Unique-ID.pdf)  
 * Quarterly Report 14 - December 30, 2024 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR14-Unique-ID.pdf)   
-* Biannual Report 15 - July 15, 2025 - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-QR15-Unique-ID.pdf)   
+* Report 15 - July 15, 2025 - [PDF](/innovation/resources/reports/Clerk-QR15-Unique-ID.pdf)
+* Report 16 - December 15, 2025 - [PDF](/innovation/resources/reports/Clerk-QR16-Unique-ID.pdf)
+* Report 17 - July 17, 2026 - [PDF](/innovation/resources/reports/Clerk-QR17-Unique-ID.pdf)
 
 ### Database on Expiration Dates for Authorized Federal Programs  
 * Initial Report - Required by Section 503 of House Resolution 756 of the 116th Congress - [PDF](https://usgpo.github.io/innovation/resources/reports/Clerk-Initial-Program-Authorization.pdf)  
